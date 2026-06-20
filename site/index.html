@@ -219,6 +219,14 @@
   .alertline .meta{ color:var(--ink-2); }
 
   /* ── Inventory: مخزون قطع طايا ── */
+  .inv-head{ cursor:pointer; user-select:none; align-items:center; border-radius:var(--r-sm);
+    transition:background .15s; padding:4px 6px; margin-inline:-6px; }
+  .inv-head:hover{ background:var(--surface-2); }
+  .inv-head:focus-visible{ outline:none; box-shadow:0 0 0 2px var(--teal); }
+  .inv-chev{ margin-inline-start:auto; color:var(--muted); font-size:15px; transition:transform .2s var(--ease); }
+  .inv-section-collapsed .inv-chev, .inv-head[aria-expanded="false"] .inv-chev{ transform:rotate(-90deg); }
+  .inv-body{ overflow:hidden; }
+  .inv-body.collapsed{ display:none; }
   a.ext{ color:var(--teal-d); font-weight:600; text-decoration:none; }
   a.ext:hover{ text-decoration:underline; }
   .inv-top{ display:flex; flex-wrap:wrap; align-items:flex-end; gap:8px 24px; }
@@ -422,37 +430,6 @@
     </div>
   </section>
 
-  <!-- مخزون قطع طايا (كوكبيت البيع) -->
-  <section class="section" id="invSection" style="display:none">
-    <div class="head">
-      <h2><span class="marker"></span>مخزون قطع طايا</h2>
-      <span class="sub">ما نملكه ونبيعه على الخريطة · <a class="ext" href="https://taya-industrial-city.voom.cc/master-plan" target="_blank" rel="noopener">الخريطة ثلاثيّة الأبعاد ↗</a></span>
-    </div>
-    <div class="panel position">
-      <div id="invHero"></div>
-      <div id="invSectors" class="inv-sectors"></div>
-    </div>
-    <div class="panel" style="margin-top:14px">
-      <div class="toolbar">
-        <div class="fgroup"><label for="invFsector">القطاع</label>
-          <select id="invFsector"><option value="">الكل</option></select></div>
-        <div class="fgroup"><label for="invFstatus">الحالة</label>
-          <select id="invFstatus"><option value="">الكل</option><option value="available">متاح</option><option value="reserved">محجوز</option><option value="sold">مباع</option></select></div>
-        <span class="fcount" id="invFcount"></span>
-      </div>
-      <div class="tablewrap">
-        <table id="invTable">
-          <thead><tr>
-            <th data-k="plot_no">القطعة</th><th data-k="sector_name">التصنيف</th>
-            <th data-k="area">المساحة</th><th data-k="status">الحالة</th>
-            <th data-k="price">ر.س/م²</th>
-          </tr></thead>
-          <tbody id="invTbody"></tbody>
-        </table>
-      </div>
-      <div class="note">المخزون من بيانات عيّنة مُعلَّمة، ويُربط آليًّا لاحقًا بخريطة طايا/النظام الداخلي. قيمة خط الأنابيب = مساحة المتاح × سعر السوق الحالي لكل قطاع.</div>
-    </div>
-  </section>
 
   <!-- (١+٣) بطاقات الأسعار + الزخم -->
   <section class="section">
@@ -540,6 +517,42 @@
       <div class="riskcard">
         <div class="t">صفقات لافتة قريبة (آخر 30 يومًا)</div>
         <div id="notable" style="margin-top:6px"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- مخزون قطع طايا (كوكبيت البيع) — قابل للطيّ -->
+  <section class="section" id="invSection" style="display:none">
+    <div class="head inv-head" id="invToggle" role="button" tabindex="0" aria-expanded="true" aria-controls="invBody">
+      <h2><span class="marker"></span>مخزون قطع طايا</h2>
+      <span class="sub">ما نملكه ونبيعه على الخريطة · <a class="ext" href="https://taya-industrial-city.voom.cc/master-plan" target="_blank" rel="noopener" onclick="event.stopPropagation()">الخريطة ثلاثيّة الأبعاد ↗</a></span>
+      <span class="inv-chev" aria-hidden="true">▾</span>
+    </div>
+    <div id="invBody" class="inv-body">
+      <div class="panel position">
+        <div id="invHero"></div>
+        <div id="invSectors" class="inv-sectors"></div>
+      </div>
+      <div class="panel" style="margin-top:14px">
+        <div class="toolbar">
+          <div class="fgroup"><label for="invFsector">القطاع</label>
+            <select id="invFsector"><option value="">الكل</option></select></div>
+          <div class="fgroup"><label for="invFstatus">الحالة</label>
+            <select id="invFstatus"><option value="">الكل</option><option value="available">متاح</option><option value="reserved">محجوز</option><option value="sold">مباع</option></select></div>
+          <span class="fcount" id="invFcount"></span>
+        </div>
+        <div class="tablewrap">
+          <table id="invTable">
+            <thead><tr>
+              <th data-k="plot_no">القطعة</th><th data-k="sector_name">التصنيف</th>
+              <th data-k="area">المساحة</th><th data-k="status">الحالة</th>
+              <th data-k="price">ر.س/م²</th>
+            </tr></thead>
+            <tbody id="invTbody"></tbody>
+          </table>
+        </div>
+        <button type="button" class="morebtn" id="invMore" style="display:none"></button>
+        <div class="note">المخزون من بيانات عيّنة مُعلَّمة، ويُربط آليًّا لاحقًا بخريطة طايا/النظام الداخلي. قيمة خط الأنابيب = مساحة المتاح × سعر السوق الحالي لكل قطاع.</div>
       </div>
     </div>
   </section>
@@ -868,7 +881,8 @@ function buildInventory(M){
   if(fSector && fSector.options.length<=1){ order.forEach(function(k){ if(agg[k]&&agg[k].total){
     var o=document.createElement("option"); o.value=k; o.textContent=names[k]||k; fSector.appendChild(o); } }); }
   function priceOf(p){ return p.status==="sold" ? (p.sold_price||0) : (p.asking_price||0); }
-  var sortKey = "area", sortDir = -1;
+  var sortKey = "area", sortDir = -1, INV_PAGE = 15, invLimit = INV_PAGE;
+  var moreBtn = document.getElementById("invMore");
   function renderRows(){
     var fs = fSector?fSector.value:"", st = fStatus?fStatus.value:"";
     var rows = plots.filter(function(p){ return (!fs||p.sector===fs) && (!st||p.status===st); });
@@ -882,23 +896,50 @@ function buildInventory(M){
       if(va<vb) return -1*sortDir; if(va>vb) return 1*sortDir; return 0;
     });
     var body = document.getElementById("invTbody");
+    var shown = rows.slice(0, invLimit);
     if(!rows.length){ body.innerHTML = '<tr><td colspan="5" class="empty">لا قطع مطابقة.</td></tr>'; }
-    else body.innerHTML = rows.map(function(p){
+    else body.innerHTML = shown.map(function(p){
       return '<tr><td class="p">'+p.plot_no+'</td><td>'+(names[p.sector]||p.sector_name||p.sector)+'</td>'+
         '<td class="num">'+nf(p.area)+' م²</td>'+
         '<td><span class="st '+p.status+'">'+(INV_STATUS[p.status]||p.status)+'</span></td>'+
         '<td class="num">'+nf(priceOf(p))+'</td></tr>';
     }).join("");
     var fc = document.getElementById("invFcount"); if(fc) fc.textContent = "النتائج: "+nf(rows.length)+" قطعة";
+    if(moreBtn){
+      if(rows.length > INV_PAGE){
+        moreBtn.style.display = "";
+        moreBtn.textContent = invLimit < rows.length
+          ? ("عرض الكل (" + nf(rows.length) + ")") : "عرض أقل";
+      } else { moreBtn.style.display = "none"; }
+    }
   }
-  if(fSector) fSector.onchange = renderRows;
-  if(fStatus) fStatus.onchange = renderRows;
+  function resetAndRender(){ invLimit = INV_PAGE; renderRows(); }
+  if(fSector) fSector.onchange = resetAndRender;
+  if(fStatus) fStatus.onchange = resetAndRender;
+  if(moreBtn) moreBtn.onclick = function(){
+    var fs = fSector?fSector.value:"", st = fStatus?fStatus.value:"";
+    var n = plots.filter(function(p){ return (!fs||p.sector===fs) && (!st||p.status===st); }).length;
+    invLimit = (invLimit < n) ? n : INV_PAGE; renderRows();
+  };
   document.querySelectorAll("#invTable thead th").forEach(function(th){
     th.onclick = function(){ var k = th.getAttribute("data-k");
       if(sortKey===k) sortDir = -sortDir; else { sortKey=k; sortDir=(k==="area"||k==="price")?-1:1; }
       renderRows(); };
   });
   renderRows();
+
+  // طيّ/فتح القسم (لتقصير الصفحة)
+  var head = document.getElementById("invToggle"), bodyEl = document.getElementById("invBody");
+  if(head && bodyEl && !head.dataset.bound){
+    head.dataset.bound = "1";
+    function toggle(){
+      var open = !bodyEl.classList.contains("collapsed");
+      bodyEl.classList.toggle("collapsed", open);
+      head.setAttribute("aria-expanded", String(!open));
+    }
+    head.addEventListener("click", toggle);
+    head.addEventListener("keydown", function(e){ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); toggle(); } });
+  }
 }
 
 // ── (١+٣) بطاقات KPI ──
@@ -1074,15 +1115,17 @@ function buildMap(M){
   ]);
   baseStreets.addTo(MAP);
 
-  // طبقة قطع طايا (مخزوننا): لون حسب الحالة + حدّ navy ليتمايز عن صفقات السوق
+  // طبقة قطع طايا (مخزوننا): لون حسب الحالة + حدّ navy ليتمايز عن صفقات السوق.
+  // عارض canvas لأداء سلس مع مئات القطع.
   TIC_PLOTS_LAYER = L.layerGroup();
+  var invRenderer = L.canvas({ padding:0.5 });
   var STC = {available:"#5EC2C9", reserved:"#BA7517", sold:"#B4B2A9"};
   var STN = {available:"متاح", reserved:"محجوز", sold:"مباع"};
   if(INVENTORY && INVENTORY.plots){
     INVENTORY.plots.forEach(function(p){
       if(p.lat==null || p.lng==null) return;
-      L.circleMarker([p.lat, p.lng], {radius:6, color:"#28285D", weight:1.5,
-        fillColor:STC[p.status]||"#888", fillOpacity:0.95})
+      L.circleMarker([p.lat, p.lng], {renderer:invRenderer, radius:4, color:"#28285D", weight:1,
+        fillColor:STC[p.status]||"#888", fillOpacity:0.9})
         .addTo(TIC_PLOTS_LAYER)
         .bindPopup("<b>قطعة "+p.plot_no+"</b><br>التصنيف: "+(p.sector_name||p.sector)+
           "<br>المساحة: "+nf(p.area)+" م²<br>الحالة: "+(STN[p.status]||p.status)+
