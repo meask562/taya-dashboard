@@ -36,10 +36,28 @@
 
   /* ── Header ── */
   .app-header{
-    background:linear-gradient(180deg,var(--navy) 0%,var(--navy-2) 100%);
+    position:relative; overflow:hidden;
+    background:linear-gradient(135deg,#2f2f6c 0%,var(--navy) 42%,var(--navy-2) 100%);
     border-radius:var(--r-lg); padding:18px 22px; display:flex; align-items:center;
-    justify-content:space-between; gap:16px; flex-wrap:wrap;
+    justify-content:space-between; gap:16px; flex-wrap:wrap; box-shadow:0 10px 30px rgba(15,27,60,.18);
   }
+  .app-header::before{ content:""; position:absolute; inset:0; pointer-events:none;
+    background:radial-gradient(circle at 16% 130%, rgba(94,194,201,.18), transparent 44%); }
+  .app-header .brand, .app-header .h-upd{ position:relative; z-index:1; }
+  .h-contour{ position:absolute; inset:0; width:100%; height:100%; pointer-events:none;
+    opacity:.15; color:#9fb0e0; animation:hdrift 28s linear infinite; }
+  @keyframes hdrift{ from{ transform:translateX(0); } to{ transform:translateX(-60px); } }
+  .h-sheen{ position:absolute; top:0; bottom:0; width:42%; pointer-events:none; z-index:0;
+    background:linear-gradient(105deg, transparent, rgba(255,255,255,.10), transparent);
+    transform:skewX(-18deg); inset-inline-start:-60%; animation:hsweep 5.5s var(--ease) .5s; }
+  @keyframes hsweep{ 0%{ inset-inline-start:-60%; } 65%,100%{ inset-inline-start:150%; } }
+  .live-dot{ display:inline-block; width:7px; height:7px; border-radius:50%; background:var(--teal);
+    margin-inline-end:6px; vertical-align:1px; animation:livepulse 2.2s ease-out infinite; }
+  @keyframes livepulse{ 0%{ box-shadow:0 0 0 0 rgba(94,194,201,.55);} 70%{ box-shadow:0 0 0 7px rgba(94,194,201,0);} 100%{ box-shadow:0 0 0 0 rgba(94,194,201,0);} }
+  /* ظهور متدرّج عند وصول البيانات — الأساس ظاهر (backwards)، فلا تختفي لو تعطّلت الحركة */
+  .wrap.reveal-on .app-header{ animation:rise .5s var(--ease) backwards; }
+  .wrap.reveal-on .section{ animation:rise .55s var(--ease) backwards; }
+  @keyframes rise{ from{ opacity:0; transform:translateY(14px); } to{ opacity:1; transform:none; } }
   .brand{ display:flex; align-items:center; gap:12px; min-width:0; }
   .logo{
     width:42px; height:42px; border-radius:10px; background:var(--teal); color:var(--navy-2);
@@ -69,7 +87,9 @@
   .panel{
     background:var(--surface); border:1px solid var(--line); border-radius:var(--r-md);
     padding:18px 20px; box-shadow:var(--shadow-1); min-width:0;
+    transition:box-shadow .22s var(--ease), border-color .22s var(--ease);
   }
+  .panel:hover{ box-shadow:var(--shadow-2); border-color:var(--line-strong); }
 
   /* ── Hero: موقعك من السوق ── */
   .position{ border:1px solid var(--line-strong); box-shadow:var(--shadow-1); }
@@ -113,6 +133,13 @@
   .kpi-foot{ display:flex; align-items:center; justify-content:space-between; gap:8px; margin-top:12px;
              padding-top:10px; border-top:1px solid var(--line); font-size:11.5px; color:var(--muted); }
   .kpi.insuff .kpi-value{ color:var(--muted); }
+  .spark{ margin-top:11px; width:100%; height:34px; display:block; overflow:visible; }
+  .spark path.sline{ fill:none; stroke-width:2; stroke-linecap:round; stroke-linejoin:round;
+    stroke-dasharray:var(--len); stroke-dashoffset:var(--len); animation:sparkdraw 1.2s var(--ease) .35s forwards; }
+  .spark path.sarea{ opacity:.18; }
+  .spark circle.sdot{ animation:sparkdot .4s ease 1.4s backwards; }
+  @keyframes sparkdraw{ from{ stroke-dashoffset:var(--len); } to{ stroke-dashoffset:0; } }
+  @keyframes sparkdot{ from{ opacity:0; } to{ opacity:1; } }
 
   .badge{ font-size:11px; font-weight:600; padding:2px 9px; border-radius:6px; white-space:nowrap; }
   .badge.ok{ background:var(--teal-l); color:var(--teal-d); }
@@ -295,6 +322,16 @@
 <div class="wrap app-loading">
 
   <header class="app-header">
+    <svg class="h-contour" viewBox="0 0 1200 200" preserveAspectRatio="none" aria-hidden="true">
+      <g fill="none" stroke="currentColor" stroke-width="1">
+        <path d="M-20,150 C150,110 320,170 520,130 720,90 900,160 1220,120"/>
+        <path d="M-20,120 C150,80 320,140 520,100 720,60 900,130 1220,90"/>
+        <path d="M-20,180 C150,150 320,200 520,160 720,120 900,190 1220,150"/>
+        <path d="M-20,90 C160,55 340,110 540,70 740,30 920,100 1220,60"/>
+        <path d="M-20,60 C160,30 340,80 540,45 740,8 920,72 1220,34"/>
+      </g>
+    </svg>
+    <span class="h-sheen" aria-hidden="true"></span>
     <div class="brand">
       <div class="logo">TIC</div>
       <div class="brand-txt">
@@ -302,7 +339,7 @@
         <div class="h-sub" id="hSub">المصدر: السجل العقاري عبر بسيطة</div>
       </div>
     </div>
-    <div class="h-upd"><div class="l">آخر تحديث</div><div class="v num" id="hUpd">—</div><div class="h-age" id="hAge"></div></div>
+    <div class="h-upd"><div class="l">آخر تحديث</div><div class="v num"><span class="live-dot"></span><span id="hUpd">—</span></div><div class="h-age" id="hAge"></div></div>
   </header>
 
   <div class="strip sample" id="sampleBanner">⚠️ بيانات توضيحية (نموذج): ليست صفقات حقيقية، وتُستبدل بعد أول تشغيل فعلي للجلب.</div>
@@ -628,6 +665,15 @@ function render(M){
   buildFilters(M);
   animateNumbers();
 
+  // ظهور متدرّج لطيف للأقسام (يُحترَم prefers-reduced-motion عبر تعطيل الحركة)
+  var wrap = document.querySelector(".wrap");
+  if(!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches)){
+    [].forEach.call(document.querySelectorAll(".section"), function(s,i){
+      s.style.animationDelay = (0.05 + i*0.06).toFixed(2)+"s";
+    });
+    wrap.classList.add("reveal-on");
+  }
+
   document.getElementById("footNote").textContent =
     (M.source_note||"") + " · صفوف: " + nf(M.row_count) + " · بسعر: " + nf(M.priced_count) +
     " · مستبعدة (شواذ): " + nf(M.excluded_outliers) +
@@ -688,13 +734,44 @@ function buildKpis(M){
     }
     var medHtml = s.median!==null ? '<span class="num cnum" data-count="'+s.median+'">'+nf(s.median)+'</span><span class="u">ر.س/م²</span>' : '<span class="u">—</span>';
     var color = PLAN_COLORS[p] || "#888";
+    var pts = (s.monthly||[]).slice(-12).map(function(m){ return m.median; }).filter(function(v){ return v!=null; });
+    var sparkHtml = pts.length>=3
+      ? '<svg class="spark" data-color="'+color+'" data-pts="'+pts.join(",")+'" viewBox="0 0 220 34" preserveAspectRatio="none" aria-hidden="true"></svg>'
+      : '';
     html += '<div class="kpi'+(insuff?" insuff":"")+'">'+
       '<div class="kpi-head"><span class="kpi-dot" style="background:'+color+'"></span><span class="kpi-label">'+s.label+'</span></div>'+
-      '<div class="kpi-value">'+medHtml+'</div>'+ momHtml +
+      '<div class="kpi-value">'+medHtml+'</div>'+ momHtml + sparkHtml +
       '<div class="kpi-foot"><span><span class="num">'+nf(s.count)+'</span> صفقة'+(s.last_deal?' · آخرها <span class="num">'+shortDate(s.last_deal)+'</span>':'')+'</span>'+
       '<span class="badge '+fi.cls+'">'+fi.txt+'</span></div></div>';
   });
   el.innerHTML = html;
+  drawSparks(el);
+}
+
+// رسم خطوط الاتجاه المصغّرة (sparklines) داخل بطاقات KPI
+function drawSparks(root){
+  [].forEach.call((root||document).querySelectorAll(".spark[data-pts]"), function(svg){
+    var pts = svg.getAttribute("data-pts").split(",").map(Number);
+    if(pts.length<2) return;
+    var color = svg.getAttribute("data-color") || "var(--navy)";
+    var w=220, h=34, pad=4;
+    var min=Math.min.apply(null,pts), max=Math.max.apply(null,pts), rng=(max-min)||1;
+    var step=w/(pts.length-1);
+    var xy=pts.map(function(v,i){ return [i*step, h-pad-((v-min)/rng)*(h-2*pad)]; });
+    var line="M"+xy.map(function(p){ return p[0].toFixed(1)+","+p[1].toFixed(1); }).join(" L");
+    var area=line+" L"+w+","+h+" L0,"+h+" Z";
+    var last=xy[xy.length-1];
+    svg.innerHTML =
+      '<path class="sarea" d="'+area+'" fill="'+color+'"/>'+
+      '<path class="sline" d="'+line+'" stroke="'+color+'"/>'+
+      '<circle class="sdot" cx="'+last[0].toFixed(1)+'" cy="'+last[1].toFixed(1)+'" r="2.6" fill="'+color+'"/>';
+    var path=svg.querySelector("path.sline");
+    if(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches){
+      path.style.strokeDasharray="none"; return;
+    }
+    var len=path.getTotalLength();
+    path.style.setProperty("--len", len);
+  });
 }
 
 // ── (٤) حجم السوق المتداول ──
@@ -741,10 +818,12 @@ function buildLiquidity(M){
     trendTxt = ' <span class="sub">صفقة هذا الشهر · '+arrow+' مقابل متوسط '+nf(L.avg_prior_3m)+' في آخر 3 أشهر</span>';
   } else { trendTxt = ' <span class="sub">صفقة هذا الشهر</span>'; }
   document.getElementById("liqBig").innerHTML = nf(L.this_month) + trendTxt;
+  var liqReduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   charts.liq = new Chart(document.getElementById("liq"), {
     type:"bar",
     data:{labels:labels, datasets:[{label:"صفقات", data:data, backgroundColor:"#5EC2C9", borderRadius:4, maxBarThickness:34}]},
     options:{responsive:true, maintainAspectRatio:false,
+      animation: liqReduce ? false : {duration:900, easing:"easeOutQuart", delay:function(c){ return c.type==="data"&&c.mode==="default" ? 300 + c.dataIndex*45 : 0; }},
       scales:{y:{beginAtZero:true, border:{display:false}, grid:{color:"rgba(100,100,110,0.10)"}},
               x:{border:{display:false}, grid:{display:false}}}}
   });
@@ -757,6 +836,7 @@ function buildDemand(M){
     showChartEmpty("dem", "ستظهر هنا أكثر أحجام القطع تداولًا عند توفّر بيانات.");
     return;
   }
+  var demReduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   charts.dem = new Chart(document.getElementById("dem"), {
     type:"bar",
     data:{labels:D.map(function(b){return b.label;}),
@@ -764,6 +844,7 @@ function buildDemand(M){
         backgroundColor:D.map(function(b,i){ return DEM_RAMP[i] || DEM_RAMP[DEM_RAMP.length-1]; }),
         borderRadius:4, maxBarThickness:26}]},
     options:{indexAxis:"y", responsive:true, maintainAspectRatio:false,
+      animation: demReduce ? false : {duration:900, easing:"easeOutQuart", delay:function(c){ return c.type==="data"&&c.mode==="default" ? 300 + c.dataIndex*70 : 0; }},
       scales:{x:{beginAtZero:true, border:{display:false}, grid:{color:"rgba(100,100,110,0.10)"}},
               y:{border:{display:false}, grid:{display:false}}}}
   });
@@ -855,10 +936,12 @@ function buildTrend(M){
   var legEl = document.getElementById("trendLegend");
   legEl.className = "legend toggle";
   legEl.innerHTML = legend;
+  var trendReduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   charts.trend = new Chart(document.getElementById("trend"), {
     type:"line",
     data:{labels:labels, datasets:datasets},
     options:{responsive:true, maintainAspectRatio:false, interaction:{mode:"index", intersect:false},
+      animation: trendReduce ? false : {duration:1100, easing:"easeOutQuart"},
       scales:{y:{ticks:{callback:function(v){return Number(v).toLocaleString("en-US");}},
         border:{display:false}, grid:{color:"rgba(100,100,110,0.10)"}},
         x:{border:{display:false}, grid:{display:false}}}}
