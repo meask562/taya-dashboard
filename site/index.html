@@ -714,11 +714,21 @@ function buildTotals(M){
     '<div class="stat"><div class="l">الوسيط العام</div><div class="v"><span class="num cnum" data-count="'+(t.median||0)+'">'+nf(t.median)+'</span><span class="u">ر.س/م²</span></div></div>';
 }
 
+// تسمية شهر واضحة (تمنع التباس «2024-07» بيوم/شهر): "يوليو 24"
+var AR_MONTHS = ["يناير","فبراير","مارس","أبريل","مايو","يونيو",
+                 "يوليو","أغسطس","سبتمبر","أكتوبر","نوفمبر","ديسمبر"];
+function monthLabel(ym){
+  var p = String(ym).split("-");
+  var mi = parseInt(p[1], 10);
+  if(!p[0] || isNaN(mi)) return String(ym);
+  return AR_MONTHS[mi-1] + " " + p[0].slice(2);
+}
+
 // ── (٣) السيولة ──
 function buildLiquidity(M){
   var L = M.liquidity || {months:[], this_month:0};
   var months = (L.months||[]).slice(-12);
-  var labels = months.map(function(m){ return m.month.slice(2); });
+  var labels = months.map(function(m){ return monthLabel(m.month); });
   var data = months.map(function(m){ return m.count; });
   if(!months.length || data.every(function(x){ return !x; })){
     document.getElementById("liqBig").innerHTML = '<span class="sub">لا صفقات مرصودة بعد في هذه النافذة</span>';
@@ -823,7 +833,7 @@ function buildTrend(M){
   var order = ["2377","3880/1","3796","3200"];
   var base = (M.plans && M.plans["2377"] && M.plans["2377"].monthly) || [];
   var months = base.slice(-12).map(function(m){ return m.month; });
-  var labels = months.map(function(m){ return m.slice(2); });
+  var labels = months.map(function(m){ return monthLabel(m); });
   var dashes = {"2377":[], "3880/1":[6,3], "3796":[2,2], "3200":[8,4]};
   var datasets = [], legend = "";
   order.forEach(function(p){
