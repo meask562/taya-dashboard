@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>لوحة قرار مالك — صفقات محيط مدينة طايا الصناعية — TIC</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+  :root{ --navy:#28285D; --navy2:#0F1B3C; --teal:#5EC2C9; --teal-d:#0F6E56; --teal-l:#E1F5EE;
+         --ink:#1c1c1c; --muted:#6b6b72; --line:#e7e7ea; --bg:#f6f7f9; --card:#ffffff;
+         --amber-l:#FAEEDA; --amber-d:#854F0B; --green-d:#3B6D11; --red-d:#A32D2D; --red-l:#FCEBEB; }
+  *{ box-sizing:border-box; }
+  body{ font-family:"Segoe UI","Helvetica Neue",Arial,"Tahoma",sans-serif; margin:0; background:var(--bg);
+        color:var(--ink); padding:18px; }
+  .wrap{ max-width:1100px; margin:0 auto; }
+  .header{ background:var(--navy); border-radius:14px; padding:18px 20px; display:flex; align-items:center;
+           justify-content:space-between; gap:12px; border-top:3px solid var(--teal); flex-wrap:wrap; }
+  .brand{ display:flex; align-items:center; gap:10px; }
+  .logo{ width:38px; height:38px; border-radius:9px; background:var(--teal); color:var(--navy2);
+         display:flex; align-items:center; justify-content:center; font-weight:700; font-size:13px; }
+  .h-title{ color:#fff; font-size:19px; font-weight:600; }
+  .h-sub{ color:#9FE1CB; font-size:12px; margin-top:6px; }
+  .h-upd{ text-align:left; } .h-upd .l{ color:#fff; font-size:12px; } .h-upd .v{ color:var(--teal); font-size:13px; font-weight:600; }
+
+  .position{ background:var(--card); border:1px solid var(--line); border-right:4px solid var(--navy);
+             border-radius:14px; padding:16px 20px; margin-top:16px; }
+  .position .top{ display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; }
+  .position h3{ font-size:15px; font-weight:600; margin:0; }
+  .postable{ margin-top:12px; }
+  .prow{ display:grid; grid-template-columns:1.3fr 1fr 1.2fr 0.8fr; gap:8px; align-items:center; padding:9px 0; border-bottom:1px solid var(--line); font-size:13px; }
+  .prow.head{ color:var(--muted); font-size:12px; }
+  .prow input{ width:100%; max-width:130px; padding:6px 8px; border:1px solid var(--line); border-radius:8px; font-size:13px; text-align:center; }
+  .pname{ font-weight:600; } .pgap{ font-weight:600; }
+  .up{ color:var(--green-d); } .down{ color:var(--red-d); }
+
+  .kpis{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:12px; margin-top:16px; }
+  .kpi{ background:var(--card); border-radius:10px; padding:14px; border-right:3px solid var(--teal-d); }
+  .kpi.warn{ border-right-color:#BA7517; }
+  .kpi .t{ font-size:13px; color:var(--muted); }
+  .kpi .n{ font-size:24px; font-weight:600; margin-top:4px; } .kpi .n span{ font-size:12px; color:var(--muted); }
+  .kpi .mom{ font-size:12px; font-weight:600; margin-top:3px; }
+  .kpi .r{ display:flex; justify-content:space-between; align-items:center; margin-top:8px; font-size:12px; color:var(--muted); }
+  .flag{ background:var(--teal-l); color:var(--teal-d); padding:2px 8px; border-radius:6px; }
+  .flag.warn{ background:var(--amber-l); color:var(--amber-d); }
+
+  .row2{ display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:16px; }
+  @media(max-width:760px){ .row2{ grid-template-columns:1fr; } }
+  .panel{ background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px 20px; margin-top:16px; }
+  .panel.m0{ margin-top:0; }
+  .panel h3{ font-size:14px; font-weight:600; margin:0 0 4px; }
+  .panel .hint{ font-size:12px; color:var(--muted); margin-bottom:10px; }
+  .metric-big{ font-size:26px; font-weight:600; } .metric-big span{ font-size:13px; color:var(--muted); }
+  .legend{ display:flex; flex-wrap:wrap; gap:14px; margin-bottom:10px; font-size:12px; color:var(--muted); }
+  .legend span{ display:flex; align-items:center; gap:5px; } .legend i{ display:inline-block; }
+  .chart-box{ position:relative; width:100%; height:200px; }
+  .chart-box.tall{ height:280px; }
+  #map{ width:100%; height:360px; border-radius:10px; border:1px solid var(--line); z-index:0; }
+
+  .risk{ display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  @media(max-width:760px){ .risk{ grid-template-columns:1fr; } }
+  .riskcard{ background:var(--bg); border-radius:10px; padding:14px; border-right:3px solid #BA7517; }
+  .riskcard .t{ font-size:13px; color:var(--muted); } .riskcard .v{ font-size:15px; font-weight:600; margin-top:4px; }
+  .alertline{ font-size:13px; padding:7px 0; border-bottom:1px dashed var(--line); }
+  .alertline:last-child{ border-bottom:0; }
+  .badge-hi{ background:var(--amber-l); color:var(--amber-d); padding:1px 7px; border-radius:5px; font-size:11px; }
+  .badge-lo{ background:var(--red-l); color:var(--red-d); padding:1px 7px; border-radius:5px; font-size:11px; }
+
+  table{ width:100%; border-collapse:collapse; font-size:13px; }
+  th{ color:var(--muted); font-weight:400; text-align:right; padding:7px 4px; border-bottom:1px solid var(--line); }
+  td{ padding:8px 4px; border-bottom:1px solid var(--line); } td.p{ font-weight:600; }
+  .note{ font-size:11px; color:#9a9aa0; margin-top:12px; line-height:1.7; }
+  .alert{ display:none; background:var(--amber-l); color:var(--amber-d); border-radius:8px; padding:8px 12px; font-size:12px; margin-top:12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="header">
+    <div>
+      <div class="brand"><div class="logo">TIC</div><div class="h-title">لوحة متابعة صفقات محيط مدينة طايا الصناعية</div></div>
+      <div class="h-sub">المصدر: السجل العقاري عبر بسيطة · نافذة البيانات: آخر 24 شهراً</div>
+    </div>
+    <div class="h-upd"><div class="l">آخر تحديث</div><div class="v">2026-06-20 · 07:30</div></div>
+  </div>
+
+  <div class="alert" id="staleAlert">التحديث متوقف منذ أكثر من 48 ساعة — يلزم تجديد جلسة بسيطة.</div>
+
+  <!-- (٢) موقعك من السوق — أسعار طايا تُدخل يدوياً وتُحفظ -->
+  <div class="position">
+    <div class="top">
+      <h3>موقعك من السوق</h3>
+      <span class="note" style="margin:0">أدخل سعر طرح طايا يدوياً لكل فئة — يُحفظ تلقائياً ويُحدّث الفرق فوراً</span>
+    </div>
+    <div class="postable" id="postable"></div>
+    <div class="note" style="margin-top:8px;">الفرق محسوب مقابل وسيط الصفقات المسجّلة للمخطط المنافس لكل فئة. الفئات بلا مقارنة مباشرة تُعرض كسياق. القيم تُحفظ في متصفحك.</div>
+  </div>
+
+  <!-- (١+٣) بطاقات الأسعار مع الزخم -->
+  <div class="kpis">
+    <div class="kpi"><div class="t">صناعي المصفاة · 2377</div><div class="n">1,820 <span>ر.س/م²</span></div><div class="mom up">▲ +0.6% شهرياً · +3.4% ربعياً</div><div class="r"><span>28 صفقة · آخرها 06-18</span><span class="flag">ضمن النطاق</span></div></div>
+    <div class="kpi"><div class="t">الفوزان · 3880/1</div><div class="n">1,540 <span>ر.س/م²</span></div><div class="mom up">▲ +0.7% شهرياً · +3.9% ربعياً</div><div class="r"><span>12 صفقة · آخرها 06-15</span><span class="flag">ضمن النطاق</span></div></div>
+    <div class="kpi warn"><div class="t">مستودعات · 3796</div><div class="n">1,880 <span>ر.س/م²</span></div><div class="mom up">▲ +0.5% شهرياً · +2.8% ربعياً</div><div class="r"><span>9 صفقات · آخرها 06-12</span><span class="flag warn">فوق النطاق</span></div></div>
+    <div class="kpi"><div class="t">سكن عمالة · 3200</div><div class="n">1,050 <span>ر.س/م²</span></div><div class="mom down">▼ −0.3% شهرياً · +0.5% ربعياً</div><div class="r"><span>15 صفقة · آخرها 06-17</span><span class="flag">ضمن النطاق</span></div></div>
+  </div>
+
+  <!-- (٣ سيولة) + (٤ الطلب) -->
+  <div class="row2">
+    <div class="panel m0">
+      <h3>سيولة السوق</h3>
+      <div class="hint">عدد الصفقات شهرياً — هل الطلب يسخن؟</div>
+      <div class="metric-big">66 <span>صفقة هذا الشهر · ▲ مقابل 48 قبل 8 أشهر</span></div>
+      <div class="chart-box"><canvas id="liq" role="img" aria-label="أعمدة عدد الصفقات الشهرية تُظهر ارتفاعاً مطّرداً"></canvas></div>
+    </div>
+    <div class="panel m0">
+      <h3>أين الطلب — توزيع حسب المساحة</h3>
+      <div class="hint">أي شريحة قطع تتحرك أكثر — يحدد ماذا تطرح</div>
+      <div class="chart-box"><canvas id="dem" role="img" aria-label="أعمدة أفقية لعدد الصفقات حسب شريحة المساحة"></canvas></div>
+    </div>
+  </div>
+
+  <!-- الخريطة -->
+  <div class="panel">
+    <h3>مواقع الصفقات حول مدينة طايا الصناعية</h3>
+    <div class="legend">
+      <span><i style="background:#28285D; width:10px; height:10px; border-radius:50%"></i>المصفاة 2377</span>
+      <span><i style="background:#1D9E75; width:10px; height:10px; border-radius:50%"></i>الفوزان 3880/1</span>
+      <span><i style="background:#BA7517; width:10px; height:10px; border-radius:50%"></i>مستودعات 3796</span>
+      <span><i style="background:#888780; width:10px; height:10px; border-radius:50%"></i>سكن عمالة 3200</span>
+      <span><i style="background:#5EC2C9; width:10px; height:10px; border-radius:50%"></i>مدينة طايا TIC</span>
+    </div>
+    <div id="map"></div>
+  </div>
+
+  <!-- الاتجاه -->
+  <div class="panel">
+    <h3>اتجاه وسيط السعر الشهري (ر.س/م²)</h3>
+    <div class="legend">
+      <span><i style="background:#28285D; width:14px; height:3px"></i>المصفاة 2377</span>
+      <span><i style="background:#1D9E75; width:14px; height:3px"></i>الفوزان 3880/1</span>
+      <span><i style="background:#BA7517; width:14px; height:3px"></i>مستودعات 3796</span>
+      <span><i style="background:#888780; width:14px; height:3px"></i>سكن عمالة 3200</span>
+    </div>
+    <div class="chart-box tall"><canvas id="trend" role="img" aria-label="اتجاه وسيط السعر الشهري للمخططات الأربعة"></canvas></div>
+  </div>
+
+  <!-- (٥) المخاطر والفرص -->
+  <div class="panel">
+    <h3>المخاطر والفرص</h3>
+    <div class="risk">
+      <div class="riskcard">
+        <div class="t">رسوم الأراضي البيضاء — أرض طايا</div>
+        <div class="v">الشريحة 1 · 10% سنوياً · الحالة: مطبّقة</div>
+        <div class="note" style="margin-top:6px;">ساعة تكلفة الاحتفاظ على المساحة غير المطوّرة — ضغط مباشر على قرار التوقيت. (يتحقّق من طبقة بسيطة)</div>
+      </div>
+      <div class="riskcard" style="border-right-color:var(--navy);">
+        <div class="t">صفقات لافتة قريبة (آخر 30 يوماً)</div>
+        <div class="alertline">5,100م² · 1,510 ر.س/م² · الفوزان <span class="badge-lo">أدنى من السائد −2%</span></div>
+        <div class="alertline">710م² · 1,880 ر.س/م² · المصفاة <span class="badge-hi">أعلى من السائد +3%</span></div>
+        <div class="alertline">1,200م² · 1,880 ر.س/م² · مستودعات 3796 <span class="badge-hi">صفقة كبيرة</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- الجدول -->
+  <div class="panel">
+    <h3>أحدث الصفقات المسجّلة</h3>
+    <table>
+      <thead><tr><th>التاريخ</th><th>المخطط</th><th>المساحة</th><th>ر.س/م²</th><th>النوع</th></tr></thead>
+      <tbody>
+        <tr><td>06-18</td><td>2377</td><td>625 م²</td><td class="p">1,840</td><td>صناعي</td></tr>
+        <tr><td>06-17</td><td>3200</td><td>600 م²</td><td class="p">1,067</td><td>سكن عمالة</td></tr>
+        <tr><td>06-15</td><td>3880/1</td><td>5,100 م²</td><td class="p">1,510</td><td>صناعي</td></tr>
+        <tr><td>06-12</td><td>3796</td><td>1,200 م²</td><td class="p">1,880</td><td>مستودع</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note">بيانات توضيحية (نموذج) — ليست صفقات حقيقية. الإعلانات سياق فقط؛ المرجع: صفقات السجل العقاري/عدل عبر بسيطة. لوحة قرار مالك TIC — مرجع تصميمي لإعادة بنائه في Claude Code.</div>
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  // (٢) موقعك من السوق — أسعار طايا يدوية محفوظة + الفرق مقابل السوق
+  var cats=[
+    {key:'light',  name:'صناعي خفيف',  bench:1820, benchLabel:'المصفاة 2377'},
+    {key:'medium', name:'صناعي متوسط', bench:1700, benchLabel:'صناعي مرجّح'},
+    {key:'wh',     name:'مستودعات',    bench:1880, benchLabel:'مستودعات 3796'},
+    {key:'factory',name:'مصانع جاهزة', bench:3075, benchLabel:'مبانٍ السلي (سياق)'},
+    {key:'comm',   name:'تجاري',       bench:null, benchLabel:'لا مقارنة مباشرة'},
+    {key:'res',    name:'سكني',        bench:1050, benchLabel:'سكن عمالة 3200'}
+  ];
+  var saved={}; try{ saved=JSON.parse(localStorage.getItem('tic_prices')||'{}'); }catch(e){}
+  function updateGap(c){
+    var cell=document.getElementById('gap-'+c.key); if(!cell) return;
+    var v=saved[c.key];
+    if(v && c.bench){ var g=Math.round((Number(v)-c.bench)/c.bench*1000)/10;
+      cell.innerHTML='<span class="pgap '+(g>=0?'up':'down')+'">'+(g>=0?'+':'')+g+'%</span>'; }
+    else { cell.textContent='—'; }
+  }
+  (function buildPos(){
+    var el=document.getElementById('postable');
+    var html='<div class="prow head"><span>الفئة</span><span>سعر طرحك</span><span>السوق المنافس</span><span>الفرق</span></div>';
+    cats.forEach(function(c){
+      var v=saved[c.key]||'';
+      var benchTxt=c.bench? c.bench.toLocaleString('en-US')+' · '+c.benchLabel : c.benchLabel;
+      html+='<div class="prow"><span class="pname">'+c.name+'</span>'+
+        '<span><input type="number" data-k="'+c.key+'" value="'+v+'" placeholder="أدخل ر.س/م²" step="10"></span>'+
+        '<span>'+benchTxt+'</span><span id="gap-'+c.key+'"></span></div>';
+    });
+    el.innerHTML=html;
+    cats.forEach(updateGap);
+    el.querySelectorAll('input').forEach(function(inp){
+      inp.addEventListener('input', function(){
+        var k=this.getAttribute('data-k'); saved[k]=this.value;
+        try{ localStorage.setItem('tic_prices', JSON.stringify(saved)); }catch(e){}
+        updateGap(cats.filter(function(x){return x.key===k;})[0]);
+      });
+    });
+  })();
+
+  // الخريطة
+  var TIC=[24.4887,46.8813];
+  var map=L.map('map',{scrollWheelZoom:false}).setView(TIC,13);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap'}).addTo(map);
+  L.circle(TIC,{radius:1100,color:'#5EC2C9',weight:2,fillColor:'#5EC2C9',fillOpacity:0.12}).addTo(map).bindPopup('<b>مدينة طايا الصناعية (TIC)</b><br>حي المصفاة');
+  L.marker(TIC).addTo(map).bindPopup('<b>مدينة طايا الصناعية (TIC)</b>');
+  var colors={'2377':'#28285D','3880/1':'#1D9E75','3796':'#BA7517','3200':'#888780'};
+  var deals=[
+    {plan:'2377',lat:24.4925,lng:46.8760,area:625,price:1840,type:'صناعي'},
+    {plan:'2377',lat:24.4940,lng:46.8745,area:480,price:1790,type:'صناعي'},
+    {plan:'2377',lat:24.4908,lng:46.8788,area:710,price:1880,type:'صناعي'},
+    {plan:'3880/1',lat:24.5005,lng:46.9010,area:5100,price:1510,type:'صناعي'},
+    {plan:'3880/1',lat:24.4978,lng:46.8972,area:5000,price:1450,type:'صناعي'},
+    {plan:'3880/1',lat:24.5032,lng:46.9045,area:4800,price:1560,type:'صناعي'},
+    {plan:'3796',lat:24.4762,lng:46.8602,area:1200,price:1880,type:'مستودع'},
+    {plan:'3796',lat:24.4788,lng:46.8636,area:1500,price:1720,type:'مستودع'},
+    {plan:'3200',lat:24.4850,lng:46.8902,area:600,price:1067,type:'سكن عمالة'},
+    {plan:'3200',lat:24.4836,lng:46.8881,area:620,price:1040,type:'سكن عمالة'}
+  ];
+  deals.forEach(function(d){
+    L.circleMarker([d.lat,d.lng],{radius:7,color:'#fff',weight:1.5,fillColor:colors[d.plan],fillOpacity:0.95}).addTo(map)
+      .bindPopup('<b>مخطط '+d.plan+'</b><br>المساحة: '+d.area.toLocaleString('en-US')+' م²<br>السعر: '+d.price.toLocaleString('en-US')+' ر.س/م²<br>النوع: '+d.type);
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+  var months=['نوفمبر','ديسمبر','يناير','فبراير','مارس','أبريل','مايو','يونيو'];
+  new Chart(document.getElementById('trend'),{type:'line',
+    data:{labels:months,datasets:[
+      {label:'المصفاة 2377',data:[1700,1720,1745,1760,1775,1795,1810,1820],borderColor:'#28285D',tension:0.3,borderWidth:2,pointRadius:2},
+      {label:'الفوزان 3880/1',data:[1430,1455,1470,1480,1500,1515,1530,1540],borderColor:'#1D9E75',borderDash:[6,3],tension:0.3,borderWidth:2,pointRadius:2},
+      {label:'مستودعات 3796',data:[1760,1780,1800,1815,1835,1850,1870,1880],borderColor:'#BA7517',borderDash:[2,2],tension:0.3,borderWidth:2,pointRadius:2},
+      {label:'سكن عمالة 3200',data:[980,995,1010,1020,1030,1040,1045,1050],borderColor:'#888780',borderDash:[8,4],tension:0.3,borderWidth:2,pointRadius:2}
+    ]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
+      scales:{y:{ticks:{callback:v=>v.toLocaleString('en-US')},grid:{color:'rgba(128,128,128,0.12)'}},x:{grid:{display:false}}}}});
+
+  new Chart(document.getElementById('liq'),{type:'bar',
+    data:{labels:months,datasets:[{label:'صفقات',data:[48,52,55,58,60,62,64,66],backgroundColor:'#5EC2C9'}]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
+      scales:{y:{grid:{color:'rgba(128,128,128,0.12)'}},x:{grid:{display:false}}}}});
+
+  new Chart(document.getElementById('dem'),{type:'bar',
+    data:{labels:['أقل من 500م²','500–1000م²','1000–5000م²','أكثر من 5000م²'],
+      datasets:[{label:'صفقات',data:[22,38,14,6],backgroundColor:['#28285D','#1D9E75','#BA7517','#888780']}]},
+    options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
+      scales:{x:{grid:{color:'rgba(128,128,128,0.12)'}},y:{grid:{display:false}}}}});
+</script>
+</body>
+</html>

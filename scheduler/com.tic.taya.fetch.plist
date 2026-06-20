@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  launchd: يشغّل الروتين اليومي 07:30 على ماك المالك.
+  التثبيت/الإلغاء: انظر scheduler/install.sh و scheduler/uninstall.sh.
+  ملاحظة: عدّل المسارات أدناه إن نقلت المشروع. الجهاز يجب أن يكون مستيقظاً وقت التشغيل
+  (أو اضبط إيقاظاً عبر:  sudo pmset repeat wakeorpoweron MTWRFSU 07:25:00 ).
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.tic.taya.fetch</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/abuturki/Library/CloudStorage/OneDrive-Personal/Claude Code/Taya Dashboaerd/scheduler/run.sh</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/abuturki/Library/CloudStorage/OneDrive-Personal/Claude Code/Taya Dashboaerd</string>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key><integer>7</integer>
+    <key>Minute</key><integer>30</integer>
+  </dict>
+
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/abuturki/Library/CloudStorage/OneDrive-Personal/Claude Code/Taya Dashboaerd/scheduler/logs/launchd.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/abuturki/Library/CloudStorage/OneDrive-Personal/Claude Code/Taya Dashboaerd/scheduler/logs/launchd.err.log</string>
+
+  <key>ProcessType</key>
+  <string>Background</string>
+</dict>
+</plist>

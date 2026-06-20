@@ -1,0 +1,11 @@
+# Taya Dashboard — اعتماديّات الجلب المحلي فقط (لا backend سحابي)
+# التثبيت:
+#   python3 -m venv .venv && source .venv/bin/activate
+#   pip install -r requirements.txt
+#   playwright install chromium
+
+playwright>=1.44,<2.0      # تشغيل Chrome profile المسجَّل + استدعاء same-origin لبسيطة
+python-dotenv>=1.0,<2.0    # قراءة إعدادات .env (مسار الـ profile، نطاق الجلب…)
+pytest>=8.0,<9.0           # اختبارات الوحدة (تطبيع الأرقام، إعادة حساب median)
+
+# ملاحظة: SQLite و smtplib و osascript جزء من المكتبة القياسية/النظام — لا تحتاج تثبيتاً.

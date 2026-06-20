@@ -1,0 +1,40 @@
+# ── أسرار وجلسة بسيطة — لا تُدفع إلى git أبداً ──
+.env
+.env.local
+*.env.local
+
+# ملف Chrome profile المسجَّل دخوله (يحوي كوكيز/جلسة بسيطة الحيّة)
+taya-chrome-profile/
+*chrome-profile*/
+profiles/
+
+# كوكيز / حالة جلسة / توكنات
+cookies.json
+*.cookies
+storage_state.json
+
+# ── قاعدة البيانات المحلية ──
+# taya.db حالة عمل محلية تُعاد بناؤها من بسيطة؛ المنشور هو snapshots + site/data/metrics.json فقط.
+data/taya.db
+data/taya.db-shm
+data/taya.db-wal
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+*.egg-info/
+
+# ── نظام / محرّر / سجلّات ──
+.DS_Store
+*.log
+scheduler/logs/*
+!scheduler/logs/.gitkeep
+node_modules/
+.vercel/
+
+# ── أدوات Claude Code المحلية (إعدادات/معاينة/سكِلز — خاصة بالجهاز، لا تُنشر) ──
+.claude/
