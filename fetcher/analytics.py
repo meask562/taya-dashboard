@@ -359,18 +359,23 @@ def sample_deals():
     out = []
     today = date.today()
     counts = {"2377": 28, "3880/1": 12, "3796": 9, "3200": 15}
+    # مسار شهري مميّز لكل مخطط (ميل سنوي · سعة موسميّة · طور) كي تختلف خطوط
+    # الاتجاه ونِسب التغيّر فعليًّا بدل أن تتطابق صورتها بعد التطبيع.
+    traj = {"2377": (0.009, 0.045, 0.0), "3880/1": (-0.004, 0.110, 1.7),
+            "3796": (0.013, 0.030, 3.1), "3200": (-0.006, 0.050, 4.6)}
     lng_scale = 1.0 / math.cos(math.radians(24.49))   # تعويض انضغاط درجات الطول لتبدو الدائرة دائرة
     for pi, (plan, (center, _ref, lat0, lng0)) in enumerate(base.items()):
+        slope, amp, phase = traj[plan]
         for i in range(counts[plan]):
-            months_ago = i % 10
+            months_ago = i % 12
             y, m = today.year, today.month - months_ago
             while m <= 0:
                 m += 12
                 y -= 1
             day = 1 + (i * 3) % 27
-            drift = -months_ago * 0.004                     # ميل بسيط صعودي عبر الزمن
-            wobble = ((i % 5) - 2) * 0.03                    # تشتّت ±6%
-            price = round(center * (1 + drift + wobble))
+            seasonal = amp * math.sin(0.55 * months_ago + phase)   # موجة موسميّة بطور مختلف
+            noise = ((i % 5) - 2) * 0.010                          # تشتّت بسيط داخل الشهر
+            price = round(center * (1 - slope * months_ago + seasonal + noise))
             area = areas[plan][i % 3]
             # تشتّت طبيعي حتميّ داخل قرص حول مركز المخطط (لا حلقات): زاوية عشوائيّة + نصف قطر
             # بجذر تربيعي لتوزيع متجانس على المساحة بدل التكدّس في المركز.

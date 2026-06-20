@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-20T20:37:34",
+  "generated_at": "2026-06-20T22:18:37",
   "sample": true,
   "source_note": "بيانات توضيحية (نموذج): ليست صفقات حقيقية",
   "data_window": {
     "months": 24,
-    "last_date": "2026-06-07"
+    "last_date": "2026-06-19"
   },
   "row_count": 64,
   "priced_count": 64,
-  "excluded_outliers": 0,
+  "excluded_outliers": 1,
   "plans": {
     "2377": {
       "plan": "2377",
@@ -19,17 +19,17 @@
         1600,
         2000
       ],
-      "median": 1769,
-      "p25": 1722,
-      "p75": 1853,
+      "median": 1776,
+      "p25": 1636,
+      "p75": 1845,
       "count": 28,
       "priced_count": 28,
       "removed_outliers": 0,
       "total_area": 16815,
-      "total_value": 29979240,
-      "last_deal": "2026-06-07",
-      "mom_pct": -2.7,
-      "qoq_pct": -7.7,
+      "total_value": 29285680,
+      "last_deal": "2026-06-19",
+      "mom_pct": -0.4,
+      "qoq_pct": -1.8,
       "flag": "in",
       "insufficient": false,
       "monthly": [
@@ -95,43 +95,43 @@
         },
         {
           "month": "2025-07",
-          "median": null,
-          "count": 0
+          "median": 1621,
+          "count": 2
         },
         {
           "month": "2025-08",
-          "median": null,
-          "count": 0
+          "median": 1580,
+          "count": 2
         },
         {
           "month": "2025-09",
-          "median": 1864,
+          "median": 1602,
           "count": 2
         },
         {
           "month": "2025-10",
-          "median": 1816,
+          "median": 1602,
           "count": 2
         },
         {
           "month": "2025-11",
-          "median": 1769,
-          "count": 3
+          "median": 1670,
+          "count": 2
         },
         {
           "month": "2025-12",
-          "median": 1722,
-          "count": 3
+          "median": 1709,
+          "count": 2
         },
         {
           "month": "2026-01",
-          "median": 1674,
-          "count": 3
+          "median": 1751,
+          "count": 2
         },
         {
           "month": "2026-02",
-          "median": 1900,
-          "count": 3
+          "median": 1830,
+          "count": 2
         },
         {
           "month": "2026-03",
@@ -140,17 +140,17 @@
         },
         {
           "month": "2026-04",
-          "median": 1805,
+          "median": 1860,
           "count": 3
         },
         {
           "month": "2026-05",
-          "median": 1758,
+          "median": 1828,
           "count": 3
         },
         {
           "month": "2026-06",
-          "median": 1711,
+          "median": 1820,
           "count": 3
         }
       ]
@@ -164,17 +164,17 @@
         1100,
         2400
       ],
-      "median": 1492,
-      "p25": 1455,
-      "p75": 1545,
+      "median": 1592,
+      "p25": 1477,
+      "p75": 1680,
       "count": 12,
       "priced_count": 12,
       "removed_outliers": 0,
       "total_area": 59600,
-      "total_value": 89692000,
-      "last_deal": "2026-06-04",
-      "mom_pct": -2.7,
-      "qoq_pct": -7.7,
+      "total_value": 94066600,
+      "last_deal": "2026-06-01",
+      "mom_pct": 0.8,
+      "qoq_pct": 9.0,
       "flag": "in",
       "insufficient": false,
       "monthly": [
@@ -240,63 +240,63 @@
         },
         {
           "month": "2025-07",
-          "median": null,
-          "count": 0
+          "median": 1761,
+          "count": 1
         },
         {
           "month": "2025-08",
-          "median": null,
-          "count": 0
+          "median": 1705,
+          "count": 1
         },
         {
           "month": "2025-09",
-          "median": 1577,
+          "median": 1687,
           "count": 1
         },
         {
           "month": "2025-10",
-          "median": 1537,
+          "median": 1574,
           "count": 1
         },
         {
           "month": "2025-11",
-          "median": 1497,
+          "median": 1470,
           "count": 1
         },
         {
           "month": "2025-12",
-          "median": 1457,
+          "median": 1399,
           "count": 1
         },
         {
           "month": "2026-01",
-          "median": 1417,
+          "median": 1376,
           "count": 1
         },
         {
           "month": "2026-02",
-          "median": 1608,
+          "median": 1479,
           "count": 1
         },
         {
           "month": "2026-03",
-          "median": 1568,
+          "median": 1539,
           "count": 1
         },
         {
           "month": "2026-04",
-          "median": 1528,
+          "median": 1609,
           "count": 1
         },
         {
           "month": "2026-05",
-          "median": 1488,
-          "count": 2
+          "median": 1663,
+          "count": 1
         },
         {
           "month": "2026-06",
-          "median": 1448,
-          "count": 2
+          "median": 1677,
+          "count": 1
         }
       ]
     },
@@ -309,17 +309,17 @@
         1200,
         1900
       ],
-      "median": 1827,
-      "p25": 1778,
-      "p75": 1876,
+      "median": 1762,
+      "p25": 1738,
+      "p75": 1775,
       "count": 9,
       "priced_count": 9,
-      "removed_outliers": 0,
+      "removed_outliers": 1,
       "total_area": 13500,
-      "total_value": 24807600,
+      "total_value": 23814000,
       "last_deal": "2026-06-01",
-      "mom_pct": -2.7,
-      "qoq_pct": -7.7,
+      "mom_pct": 2.0,
+      "qoq_pct": 4.3,
       "flag": "in",
       "insufficient": false,
       "monthly": [
@@ -400,47 +400,47 @@
         },
         {
           "month": "2025-10",
-          "median": 1876,
+          "median": 1756,
           "count": 1
         },
         {
           "month": "2025-11",
-          "median": 1827,
+          "median": 1744,
           "count": 1
         },
         {
           "month": "2025-12",
-          "median": 1778,
+          "median": 1721,
           "count": 1
         },
         {
           "month": "2026-01",
-          "median": 1730,
+          "median": 1697,
           "count": 1
         },
         {
           "month": "2026-02",
-          "median": 1963,
+          "median": 1773,
           "count": 1
         },
         {
           "month": "2026-03",
-          "median": 1914,
+          "median": 1769,
           "count": 1
         },
         {
           "month": "2026-04",
-          "median": 1865,
+          "median": 1782,
           "count": 1
         },
         {
           "month": "2026-05",
-          "median": 1816,
+          "median": 1809,
           "count": 1
         },
         {
           "month": "2026-06",
-          "median": 1767,
+          "median": 1845,
           "count": 1
         }
       ]
@@ -454,17 +454,17 @@
         833,
         1200
       ],
-      "median": 1042,
-      "p25": 1004,
-      "p75": 1069,
+      "median": 1059,
+      "p25": 1026,
+      "p75": 1122,
       "count": 15,
       "priced_count": 15,
       "removed_outliers": 0,
       "total_area": 9350,
-      "total_value": 9673440,
-      "last_deal": "2026-06-04",
-      "mom_pct": -2.7,
-      "qoq_pct": -7.7,
+      "total_value": 9992270,
+      "last_deal": "2026-06-10",
+      "mom_pct": -2.0,
+      "qoq_pct": -8.3,
       "flag": "in",
       "insufficient": false,
       "monthly": [
@@ -530,75 +530,75 @@
         },
         {
           "month": "2025-07",
-          "median": null,
-          "count": 0
+          "median": 1059,
+          "count": 1
         },
         {
           "month": "2025-08",
-          "median": null,
-          "count": 0
+          "median": 1059,
+          "count": 1
         },
         {
           "month": "2025-09",
-          "median": 1075,
+          "median": 1121,
           "count": 1
         },
         {
           "month": "2025-10",
-          "median": 1048,
+          "median": 1133,
           "count": 1
         },
         {
           "month": "2025-11",
-          "median": 1021,
+          "median": 1138,
           "count": 1
         },
         {
           "month": "2025-12",
-          "median": 993,
+          "median": 1130,
           "count": 1
         },
         {
           "month": "2026-01",
-          "median": 966,
+          "median": 1106,
           "count": 1
         },
         {
           "month": "2026-02",
-          "median": 1096,
-          "count": 2
+          "median": 1122,
+          "count": 1
         },
         {
           "month": "2026-03",
-          "median": 1069,
-          "count": 2
+          "median": 1078,
+          "count": 1
         },
         {
           "month": "2026-04",
-          "median": 1042,
+          "median": 1044,
           "count": 2
         },
         {
           "month": "2026-05",
-          "median": 1014,
+          "median": 1008,
           "count": 2
         },
         {
           "month": "2026-06",
-          "median": 987,
+          "median": 988,
           "count": 2
         }
       ]
     }
   },
   "totals": {
-    "median": 1711,
+    "median": 1670,
     "count": 64,
     "total_area": 99265,
-    "total_value": 154152280
+    "total_value": 157158550
   },
   "liquidity": {
-    "this_month": 8,
+    "this_month": 7,
     "avg_prior_3m": 7,
     "trend": "up",
     "months": [
@@ -652,11 +652,11 @@
       },
       {
         "month": "2025-07",
-        "count": 0
+        "count": 4
       },
       {
         "month": "2025-08",
-        "count": 0
+        "count": 4
       },
       {
         "month": "2025-09",
@@ -668,23 +668,23 @@
       },
       {
         "month": "2025-11",
-        "count": 6
+        "count": 5
       },
       {
         "month": "2025-12",
-        "count": 6
+        "count": 5
       },
       {
         "month": "2026-01",
-        "count": 6
+        "count": 5
       },
       {
         "month": "2026-02",
-        "count": 7
+        "count": 5
       },
       {
         "month": "2026-03",
-        "count": 7
+        "count": 6
       },
       {
         "month": "2026-04",
@@ -692,11 +692,11 @@
       },
       {
         "month": "2026-05",
-        "count": 8
+        "count": 7
       },
       {
         "month": "2026-06",
-        "count": 8
+        "count": 7
       }
     ]
   },
@@ -738,19 +738,19 @@
     {
       "key": "light",
       "name": "صناعي خفيف",
-      "bench": 1769,
+      "bench": 1776,
       "bench_label": "المصفاة 2377"
     },
     {
       "key": "medium",
       "name": "صناعي متوسط",
-      "bench": 1630,
+      "bench": 1684,
       "bench_label": "صناعي مرجّح"
     },
     {
       "key": "wh",
       "name": "مستودعات",
-      "bench": 1827,
+      "bench": 1762,
       "bench_label": "مستودعات 3796"
     },
     {
@@ -768,74 +768,52 @@
     {
       "key": "res",
       "name": "سكني",
-      "bench": 1042,
+      "bench": 1059,
       "bench_label": "سكن عمالة 3200"
     }
   ],
-  "notable_deals": [
-    {
-      "date": "2026-06-04",
-      "plan": "3880/1",
-      "plan_short": "الفوزان 3880/1",
-      "area": 5000,
-      "meter_price": 1448,
-      "type": "صناعي",
-      "kind": "large",
-      "delta_pct": -2.9
-    }
-  ],
+  "notable_deals": [],
   "white_land_fee": null,
   "deals": [
     {
-      "transaction_date": "2026-06-07",
+      "transaction_date": "2026-06-19",
       "plan": "2377",
-      "parcel": "120",
-      "area": 710,
-      "meter_price": 1711,
+      "parcel": "124",
+      "area": 480,
+      "meter_price": 1856,
       "type": "صناعي",
       "usage": "صناعي",
-      "lat": 24.487675,
-      "lng": 46.875657
+      "lat": 24.492326,
+      "lng": 46.874922
     },
     {
-      "transaction_date": "2026-06-04",
+      "transaction_date": "2026-06-10",
       "plan": "2377",
-      "parcel": "110",
-      "area": 625,
-      "meter_price": 1711,
+      "parcel": "112",
+      "area": 480,
+      "meter_price": 1820,
       "type": "صناعي",
       "usage": "صناعي",
-      "lat": 24.493304,
-      "lng": 46.876919
+      "lat": 24.490917,
+      "lng": 46.870565
     },
     {
-      "transaction_date": "2026-06-04",
-      "plan": "3880/1",
-      "parcel": "110",
-      "area": 5000,
-      "meter_price": 1448,
-      "type": "صناعي",
-      "usage": "صناعي",
-      "lat": 24.497806,
-      "lng": 46.902147
-    },
-    {
-      "transaction_date": "2026-06-04",
+      "transaction_date": "2026-06-10",
       "plan": "3200",
-      "parcel": "110",
-      "area": 620,
-      "meter_price": 987,
+      "parcel": "112",
+      "area": 600,
+      "meter_price": 998,
       "type": "سكن عمالة",
       "usage": "سكن عمالة",
-      "lat": 24.485334,
-      "lng": 46.894972
+      "lat": 24.488765,
+      "lng": 46.888059
     },
     {
       "transaction_date": "2026-06-01",
       "plan": "2377",
       "parcel": "100",
       "area": 480,
-      "meter_price": 1711,
+      "meter_price": 1784,
       "type": "صناعي",
       "usage": "صناعي",
       "lat": 24.487014,
@@ -846,7 +824,7 @@
       "plan": "3880/1",
       "parcel": "100",
       "area": 4800,
-      "meter_price": 1448,
+      "meter_price": 1677,
       "type": "صناعي",
       "usage": "صناعي",
       "lat": 24.50348,
@@ -857,7 +835,7 @@
       "plan": "3796",
       "parcel": "100",
       "area": 1200,
-      "meter_price": 1767,
+      "meter_price": 1845,
       "type": "مستودع",
       "usage": "مستودع",
       "lat": 24.473471,
@@ -868,62 +846,51 @@
       "plan": "3200",
       "parcel": "100",
       "area": 600,
-      "meter_price": 987,
+      "meter_price": 977,
       "type": "سكن عمالة",
       "usage": "سكن عمالة",
       "lat": 24.485724,
       "lng": 46.885652
     },
     {
-      "transaction_date": "2026-05-10",
+      "transaction_date": "2026-05-22",
       "plan": "2377",
-      "parcel": "121",
-      "area": 480,
-      "meter_price": 1758,
+      "parcel": "125",
+      "area": 625,
+      "meter_price": 1810,
       "type": "صناعي",
       "usage": "صناعي",
-      "lat": 24.492958,
-      "lng": 46.873427
+      "lat": 24.491165,
+      "lng": 46.881374
     },
     {
-      "transaction_date": "2026-05-07",
+      "transaction_date": "2026-05-13",
       "plan": "2377",
-      "parcel": "111",
-      "area": 710,
-      "meter_price": 1758,
+      "parcel": "113",
+      "area": 625,
+      "meter_price": 1865,
       "type": "صناعي",
       "usage": "صناعي",
-      "lat": 24.48944,
-      "lng": 46.877223
+      "lat": 24.494986,
+      "lng": 46.878907
     },
     {
-      "transaction_date": "2026-05-07",
-      "plan": "3880/1",
-      "parcel": "111",
-      "area": 5100,
-      "meter_price": 1488,
-      "type": "صناعي",
-      "usage": "صناعي",
-      "lat": 24.50187,
-      "lng": 46.897758
-    },
-    {
-      "transaction_date": "2026-05-07",
+      "transaction_date": "2026-05-13",
       "plan": "3200",
-      "parcel": "111",
-      "area": 650,
-      "meter_price": 1014,
+      "parcel": "113",
+      "area": 620,
+      "meter_price": 1019,
       "type": "سكن عمالة",
       "usage": "سكن عمالة",
-      "lat": 24.481243,
-      "lng": 46.887585
+      "lat": 24.484354,
+      "lng": 46.894284
     },
     {
       "transaction_date": "2026-05-04",
       "plan": "2377",
       "parcel": "101",
       "area": 625,
-      "meter_price": 1758,
+      "meter_price": 1828,
       "type": "صناعي",
       "usage": "صناعي",
       "lat": 24.495363,
@@ -934,7 +901,7 @@
       "plan": "3880/1",
       "parcel": "101",
       "area": 5000,
-      "meter_price": 1488,
+      "meter_price": 1663,
       "type": "صناعي",
       "usage": "صناعي",
       "lat": 24.499986,
@@ -945,7 +912,7 @@
       "plan": "3796",
       "parcel": "101",
       "area": 1500,
-      "meter_price": 1816,
+      "meter_price": 1809,
       "type": "مستودع",
       "usage": "مستودع",
       "lat": 24.475621,
@@ -956,51 +923,51 @@
       "plan": "3200",
       "parcel": "101",
       "area": 620,
-      "meter_price": 1014,
+      "meter_price": 998,
       "type": "سكن عمالة",
       "usage": "سكن عمالة",
       "lat": 24.487696,
       "lng": 46.892953
     },
     {
-      "transaction_date": "2026-04-13",
+      "transaction_date": "2026-04-25",
       "plan": "2377",
-      "parcel": "122",
-      "area": 625,
-      "meter_price": 1805,
+      "parcel": "126",
+      "area": 710,
+      "meter_price": 1842,
       "type": "صناعي",
       "usage": "صناعي",
-      "lat": 24.491729,
-      "lng": 46.878877
+      "lat": 24.487018,
+      "lng": 46.873201
     },
     {
-      "transaction_date": "2026-04-10",
+      "transaction_date": "2026-04-16",
       "plan": "2377",
-      "parcel": "112",
-      "area": 480,
-      "meter_price": 1805,
+      "parcel": "114",
+      "area": 710,
+      "meter_price": 1897,
       "type": "صناعي",
       "usage": "صناعي",
-      "lat": 24.490917,
-      "lng": 46.870565
+      "lat": 24.48672,
+      "lng": 46.877889
     },
     {
-      "transaction_date": "2026-04-10",
+      "transaction_date": "2026-04-16",
       "plan": "3200",
-      "parcel": "112",
-      "area": 600,
-      "meter_price": 1042,
+      "parcel": "114",
+      "area": 650,
+      "meter_price": 1055,
       "type": "سكن عمالة",
       "usage": "سكن عمالة",
-      "lat": 24.488765,
-      "lng": 46.888059
+      "lat": 24.482314,
+      "lng": 46.887156
     },
     {
       "transaction_date": "2026-04-07",
       "plan": "2377",
       "parcel": "102",
       "area": 710,
-      "meter_price": 1805,
+      "meter_price": 1860,
       "type": "صناعي",
       "usage": "صناعي",
       "lat": 24.489942,
@@ -1011,7 +978,7 @@
       "plan": "3880/1",
       "parcel": "102",
       "area": 5100,
-      "meter_price": 1528,
+      "meter_price": 1609,
       "type": "صناعي",
       "usage": "صناعي",
       "lat": 24.498949,
@@ -1022,7 +989,7 @@
       "plan": "3796",
       "parcel": "102",
       "area": 1800,
-      "meter_price": 1865,
+      "meter_price": 1782,
       "type": "مستودع",
       "usage": "مستودع",
       "lat": 24.47846,
@@ -1033,51 +1000,29 @@
       "plan": "3200",
       "parcel": "102",
       "area": 650,
-      "meter_price": 1042,
+      "meter_price": 1034,
       "type": "سكن عمالة",
       "usage": "سكن عمالة",
       "lat": 24.481489,
       "lng": 46.890718
     },
     {
-      "transaction_date": "2026-03-16",
+      "transaction_date": "2026-03-19",
       "plan": "2377",
-      "parcel": "123",
-      "area": 710,
-      "meter_price": 1853,
+      "parcel": "115",
+      "area": 480,
+      "meter_price": 1816,
       "type": "صناعي",
       "usage": "صناعي",
-      "lat": 24.488827,
-      "lng": 46.875179
-    },
-    {
-      "transaction_date": "2026-03-13",
-      "plan": "2377",
-      "parcel": "113",
-      "area": 625,
-      "meter_price": 1853,
-      "type": "صناعي",
-      "usage": "صناعي",
-      "lat": 24.494986,
-      "lng": 46.878907
-    },
-    {
-      "transaction_date": "2026-03-13",
-      "plan": "3200",
-      "parcel": "113",
-      "area": 620,
-      "meter_price": 1069,
-      "type": "سكن عمالة",
-      "usage": "سكن عمالة",
-      "lat": 24.484354,
-      "lng": 46.894284
+      "lat": 24.491971,
+      "lng": 46.871247
     },
     {
       "transaction_date": "2026-03-10",
       "plan": "2377",
       "parcel": "103",
       "area": 480,
-      "meter_price": 1853,
+      "meter_price": 1871,
       "type": "صناعي",
       "usage": "صناعي",
       "lat": 24.488126,
@@ -1088,7 +1033,7 @@
       "plan": "3880/1",
       "parcel": "103",
       "area": 4800,
-      "meter_price": 1568,
+      "meter_price": 1539,
       "type": "صناعي",
       "usage": "صناعي",
       "lat": 24.505722,
@@ -1099,7 +1044,7 @@
       "plan": "3796",
       "parcel": "103",
       "area": 1200,
-      "meter_price": 1914,
+      "meter_price": 1769,
       "type": "مستودع",
       "usage": "مستودع",
       "lat": 24.473906,
@@ -1110,51 +1055,40 @@
       "plan": "3200",
       "parcel": "103",
       "area": 600,
-      "meter_price": 1069,
+      "meter_price": 1078,
       "type": "سكن عمالة",
       "usage": "سكن عمالة",
       "lat": 24.486347,
       "lng": 46.886675
     },
     {
-      "transaction_date": "2026-02-19",
+      "transaction_date": "2026-03-01",
       "plan": "2377",
-      "parcel": "124",
+      "parcel": "127",
       "area": 480,
-      "meter_price": 1900,
+      "meter_price": 1853,
       "type": "صناعي",
       "usage": "صناعي",
-      "lat": 24.492326,
-      "lng": 46.874922
+      "lat": 24.495197,
+      "lng": 46.874057
     },
     {
-      "transaction_date": "2026-02-16",
+      "transaction_date": "2026-02-22",
       "plan": "2377",
-      "parcel": "114",
-      "area": 710,
-      "meter_price": 1900,
+      "parcel": "116",
+      "area": 625,
+      "meter_price": 1802,
       "type": "صناعي",
       "usage": "صناعي",
-      "lat": 24.48672,
-      "lng": 46.877889
-    },
-    {
-      "transaction_date": "2026-02-16",
-      "plan": "3200",
-      "parcel": "114",
-      "area": 650,
-      "meter_price": 1096,
-      "type": "سكن عمالة",
-      "usage": "سكن عمالة",
-      "lat": 24.482314,
-      "lng": 46.887156
+      "lat": 24.493884,
+      "lng": 46.879422
     },
     {
       "transaction_date": "2026-02-13",
       "plan": "2377",
       "parcel": "104",
       "area": 625,
-      "meter_price": 1900,
+      "meter_price": 1857,
       "type": "صناعي",
       "usage": "صناعي",
       "lat": 24.495079,
@@ -1165,7 +1099,7 @@
       "plan": "3880/1",
       "parcel": "104",
       "area": 5000,
-      "meter_price": 1608,
+      "meter_price": 1479,
       "type": "صناعي",
       "usage": "صناعي",
       "lat": 24.497749,
@@ -1176,7 +1110,7 @@
       "plan": "3796",
       "parcel": "104",
       "area": 1500,
-      "meter_price": 1963,
+      "meter_price": 1773,
       "type": "مستودع",
       "usage": "مستودع",
       "lat": 24.476205,
@@ -1187,146 +1121,14 @@
       "plan": "3200",
       "parcel": "104",
       "area": 620,
-      "meter_price": 1096,
+      "meter_price": 1122,
       "type": "سكن عمالة",
       "usage": "سكن عمالة",
       "lat": 24.486577,
       "lng": 46.892832
     },
     {
-      "transaction_date": "2026-01-22",
-      "plan": "2377",
-      "parcel": "125",
-      "area": 625,
-      "meter_price": 1674,
-      "type": "صناعي",
-      "usage": "صناعي",
-      "lat": 24.491165,
-      "lng": 46.881374
-    },
-    {
-      "transaction_date": "2026-01-19",
-      "plan": "2377",
-      "parcel": "115",
-      "area": 480,
-      "meter_price": 1674,
-      "type": "صناعي",
-      "usage": "صناعي",
-      "lat": 24.491971,
-      "lng": 46.871247
-    },
-    {
-      "transaction_date": "2026-01-16",
-      "plan": "2377",
-      "parcel": "105",
-      "area": 710,
-      "meter_price": 1674,
-      "type": "صناعي",
-      "usage": "صناعي",
-      "lat": 24.489214,
-      "lng": 46.879811
-    },
-    {
-      "transaction_date": "2026-01-16",
-      "plan": "3880/1",
-      "parcel": "105",
-      "area": 5100,
-      "meter_price": 1417,
-      "type": "صناعي",
-      "usage": "صناعي",
-      "lat": 24.500166,
-      "lng": 46.896199
-    },
-    {
-      "transaction_date": "2026-01-16",
-      "plan": "3796",
-      "parcel": "105",
-      "area": 1800,
-      "meter_price": 1730,
-      "type": "مستودع",
-      "usage": "مستودع",
-      "lat": 24.479705,
-      "lng": 46.863555
-    },
-    {
-      "transaction_date": "2026-01-16",
-      "plan": "3200",
-      "parcel": "105",
-      "area": 650,
-      "meter_price": 966,
-      "type": "سكن عمالة",
-      "usage": "سكن عمالة",
-      "lat": 24.482324,
-      "lng": 46.889842
-    },
-    {
-      "transaction_date": "2025-12-25",
-      "plan": "2377",
-      "parcel": "126",
-      "area": 710,
-      "meter_price": 1722,
-      "type": "صناعي",
-      "usage": "صناعي",
-      "lat": 24.487018,
-      "lng": 46.873201
-    },
-    {
-      "transaction_date": "2025-12-22",
-      "plan": "2377",
-      "parcel": "116",
-      "area": 625,
-      "meter_price": 1722,
-      "type": "صناعي",
-      "usage": "صناعي",
-      "lat": 24.493884,
-      "lng": 46.879422
-    },
-    {
-      "transaction_date": "2025-12-19",
-      "plan": "2377",
-      "parcel": "106",
-      "area": 480,
-      "meter_price": 1722,
-      "type": "صناعي",
-      "usage": "صناعي",
-      "lat": 24.489263,
-      "lng": 46.872441
-    },
-    {
-      "transaction_date": "2025-12-19",
-      "plan": "3880/1",
-      "parcel": "106",
-      "area": 4800,
-      "meter_price": 1457,
-      "type": "صناعي",
-      "usage": "صناعي",
-      "lat": 24.504899,
-      "lng": 46.902884
-    },
-    {
-      "transaction_date": "2025-12-19",
-      "plan": "3796",
-      "parcel": "106",
-      "area": 1200,
-      "meter_price": 1778,
-      "type": "مستودع",
-      "usage": "مستودع",
-      "lat": 24.471394,
-      "lng": 46.861293
-    },
-    {
-      "transaction_date": "2025-12-19",
-      "plan": "3200",
-      "parcel": "106",
-      "area": 600,
-      "meter_price": 993,
-      "type": "سكن عمالة",
-      "usage": "سكن عمالة",
-      "lat": 24.486372,
-      "lng": 46.888043
-    },
-    {
-      "transaction_date": "2025-11-25",
+      "transaction_date": "2026-01-25",
       "plan": "2377",
       "parcel": "117",
       "area": 710,
@@ -1337,11 +1139,110 @@
       "lng": 46.876638
     },
     {
+      "transaction_date": "2026-01-16",
+      "plan": "2377",
+      "parcel": "105",
+      "area": 710,
+      "meter_price": 1733,
+      "type": "صناعي",
+      "usage": "صناعي",
+      "lat": 24.489214,
+      "lng": 46.879811
+    },
+    {
+      "transaction_date": "2026-01-16",
+      "plan": "3880/1",
+      "parcel": "105",
+      "area": 5100,
+      "meter_price": 1376,
+      "type": "صناعي",
+      "usage": "صناعي",
+      "lat": 24.500166,
+      "lng": 46.896199
+    },
+    {
+      "transaction_date": "2026-01-16",
+      "plan": "3796",
+      "parcel": "105",
+      "area": 1800,
+      "meter_price": 1697,
+      "type": "مستودع",
+      "usage": "مستودع",
+      "lat": 24.479705,
+      "lng": 46.863555
+    },
+    {
+      "transaction_date": "2026-01-16",
+      "plan": "3200",
+      "parcel": "105",
+      "area": 650,
+      "meter_price": 1106,
+      "type": "سكن عمالة",
+      "usage": "سكن عمالة",
+      "lat": 24.482324,
+      "lng": 46.889842
+    },
+    {
+      "transaction_date": "2025-12-19",
+      "plan": "2377",
+      "parcel": "106",
+      "area": 480,
+      "meter_price": 1691,
+      "type": "صناعي",
+      "usage": "صناعي",
+      "lat": 24.489263,
+      "lng": 46.872441
+    },
+    {
+      "transaction_date": "2025-12-19",
+      "plan": "3880/1",
+      "parcel": "106",
+      "area": 4800,
+      "meter_price": 1399,
+      "type": "صناعي",
+      "usage": "صناعي",
+      "lat": 24.504899,
+      "lng": 46.902884
+    },
+    {
+      "transaction_date": "2025-12-19",
+      "plan": "3796",
+      "parcel": "106",
+      "area": 1200,
+      "meter_price": 1721,
+      "type": "مستودع",
+      "usage": "مستودع",
+      "lat": 24.471394,
+      "lng": 46.861293
+    },
+    {
+      "transaction_date": "2025-12-19",
+      "plan": "3200",
+      "parcel": "106",
+      "area": 600,
+      "meter_price": 1130,
+      "type": "سكن عمالة",
+      "usage": "سكن عمالة",
+      "lat": 24.486372,
+      "lng": 46.888043
+    },
+    {
+      "transaction_date": "2025-12-01",
+      "plan": "2377",
+      "parcel": "118",
+      "area": 480,
+      "meter_price": 1727,
+      "type": "صناعي",
+      "usage": "صناعي",
+      "lat": 24.492695,
+      "lng": 46.872228
+    },
+    {
       "transaction_date": "2025-11-22",
       "plan": "2377",
       "parcel": "107",
       "area": 625,
-      "meter_price": 1769,
+      "meter_price": 1652,
       "type": "صناعي",
       "usage": "صناعي",
       "lat": 24.494407,
@@ -1352,7 +1253,7 @@
       "plan": "3880/1",
       "parcel": "107",
       "area": 5000,
-      "meter_price": 1497,
+      "meter_price": 1470,
       "type": "صناعي",
       "usage": "صناعي",
       "lat": 24.497547,
@@ -1363,7 +1264,7 @@
       "plan": "3796",
       "parcel": "107",
       "area": 1500,
-      "meter_price": 1827,
+      "meter_price": 1744,
       "type": "مستودع",
       "usage": "مستودع",
       "lat": 24.477583,
@@ -1374,29 +1275,29 @@
       "plan": "3200",
       "parcel": "107",
       "area": 620,
-      "meter_price": 1021,
+      "meter_price": 1138,
       "type": "سكن عمالة",
       "usage": "سكن عمالة",
       "lat": 24.485473,
       "lng": 46.891616
     },
     {
-      "transaction_date": "2025-11-01",
+      "transaction_date": "2025-11-04",
       "plan": "2377",
-      "parcel": "127",
-      "area": 480,
-      "meter_price": 1769,
+      "parcel": "119",
+      "area": 625,
+      "meter_price": 1688,
       "type": "صناعي",
       "usage": "صناعي",
-      "lat": 24.495197,
-      "lng": 46.874057
+      "lat": 24.492753,
+      "lng": 46.87945
     },
     {
       "transaction_date": "2025-10-25",
       "plan": "2377",
       "parcel": "108",
       "area": 710,
-      "meter_price": 1816,
+      "meter_price": 1629,
       "type": "صناعي",
       "usage": "صناعي",
       "lat": 24.488938,
@@ -1407,7 +1308,7 @@
       "plan": "3880/1",
       "parcel": "108",
       "area": 5100,
-      "meter_price": 1537,
+      "meter_price": 1574,
       "type": "صناعي",
       "usage": "صناعي",
       "lat": 24.501189,
@@ -1418,7 +1319,7 @@
       "plan": "3796",
       "parcel": "108",
       "area": 1800,
-      "meter_price": 1876,
+      "meter_price": 1756,
       "type": "مستودع",
       "usage": "مستودع",
       "lat": 24.47854,
@@ -1429,40 +1330,40 @@
       "plan": "3200",
       "parcel": "108",
       "area": 650,
-      "meter_price": 1048,
+      "meter_price": 1133,
       "type": "سكن عمالة",
       "usage": "سكن عمالة",
       "lat": 24.480329,
       "lng": 46.88846
     },
     {
-      "transaction_date": "2025-10-01",
+      "transaction_date": "2025-10-07",
       "plan": "2377",
-      "parcel": "118",
-      "area": 480,
-      "meter_price": 1816,
+      "parcel": "120",
+      "area": 710,
+      "meter_price": 1575,
       "type": "صناعي",
       "usage": "صناعي",
-      "lat": 24.492695,
-      "lng": 46.872228
+      "lat": 24.487675,
+      "lng": 46.875657
     },
     {
-      "transaction_date": "2025-09-04",
+      "transaction_date": "2025-09-10",
       "plan": "2377",
-      "parcel": "119",
-      "area": 625,
-      "meter_price": 1864,
+      "parcel": "121",
+      "area": 480,
+      "meter_price": 1575,
       "type": "صناعي",
       "usage": "صناعي",
-      "lat": 24.492753,
-      "lng": 46.87945
+      "lat": 24.492958,
+      "lng": 46.873427
     },
     {
       "transaction_date": "2025-09-01",
       "plan": "2377",
       "parcel": "109",
       "area": 480,
-      "meter_price": 1864,
+      "meter_price": 1629,
       "type": "صناعي",
       "usage": "صناعي",
       "lat": 24.490286,
@@ -1473,7 +1374,7 @@
       "plan": "3880/1",
       "parcel": "109",
       "area": 4800,
-      "meter_price": 1577,
+      "meter_price": 1687,
       "type": "صناعي",
       "usage": "صناعي",
       "lat": 24.503873,
@@ -1484,11 +1385,99 @@
       "plan": "3200",
       "parcel": "109",
       "area": 600,
-      "meter_price": 1075,
+      "meter_price": 1121,
       "type": "سكن عمالة",
       "usage": "سكن عمالة",
       "lat": 24.488673,
       "lng": 46.886759
+    },
+    {
+      "transaction_date": "2025-08-13",
+      "plan": "2377",
+      "parcel": "122",
+      "area": 625,
+      "meter_price": 1598,
+      "type": "صناعي",
+      "usage": "صناعي",
+      "lat": 24.491729,
+      "lng": 46.878877
+    },
+    {
+      "transaction_date": "2025-08-04",
+      "plan": "2377",
+      "parcel": "110",
+      "area": 625,
+      "meter_price": 1562,
+      "type": "صناعي",
+      "usage": "صناعي",
+      "lat": 24.493304,
+      "lng": 46.876919
+    },
+    {
+      "transaction_date": "2025-08-04",
+      "plan": "3880/1",
+      "parcel": "110",
+      "area": 5000,
+      "meter_price": 1705,
+      "type": "صناعي",
+      "usage": "صناعي",
+      "lat": 24.497806,
+      "lng": 46.902147
+    },
+    {
+      "transaction_date": "2025-08-04",
+      "plan": "3200",
+      "parcel": "110",
+      "area": 620,
+      "meter_price": 1059,
+      "type": "سكن عمالة",
+      "usage": "سكن عمالة",
+      "lat": 24.485334,
+      "lng": 46.894972
+    },
+    {
+      "transaction_date": "2025-07-16",
+      "plan": "2377",
+      "parcel": "123",
+      "area": 710,
+      "meter_price": 1639,
+      "type": "صناعي",
+      "usage": "صناعي",
+      "lat": 24.488827,
+      "lng": 46.875179
+    },
+    {
+      "transaction_date": "2025-07-07",
+      "plan": "2377",
+      "parcel": "111",
+      "area": 710,
+      "meter_price": 1603,
+      "type": "صناعي",
+      "usage": "صناعي",
+      "lat": 24.48944,
+      "lng": 46.877223
+    },
+    {
+      "transaction_date": "2025-07-07",
+      "plan": "3880/1",
+      "parcel": "111",
+      "area": 5100,
+      "meter_price": 1761,
+      "type": "صناعي",
+      "usage": "صناعي",
+      "lat": 24.50187,
+      "lng": 46.897758
+    },
+    {
+      "transaction_date": "2025-07-07",
+      "plan": "3200",
+      "parcel": "111",
+      "area": 650,
+      "meter_price": 1059,
+      "type": "سكن عمالة",
+      "usage": "سكن عمالة",
+      "lat": 24.481243,
+      "lng": 46.887585
     }
   ]
 }
