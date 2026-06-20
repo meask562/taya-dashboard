@@ -780,7 +780,7 @@ function buildMap(M){
     }
   });
 
-  MAP = L.map("map", {scrollWheelZoom:false}).setView(TIC, 13);
+  MAP = L.map("map", {scrollWheelZoom:true}).setView(TIC, 13);
   var baseStreets = L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
     {maxZoom:19, subdomains:"abcd", attribution:"© OpenStreetMap © CARTO"});
   // قمر صناعي: صور Esri عالية الدقّة + طبقة أسماء الطرق فوقها (هجين)
