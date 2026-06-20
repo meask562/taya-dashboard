@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-20T22:18:37",
+  "generated_at": "2026-06-20T22:26:06",
   "sample": true,
   "source_note": "بيانات توضيحية (نموذج): ليست صفقات حقيقية",
   "data_window": {
     "months": 24,
     "last_date": "2026-06-19"
   },
-  "row_count": 64,
-  "priced_count": 64,
+  "row_count": 67,
+  "priced_count": 67,
   "excluded_outliers": 1,
   "plans": {
     "2377": {
@@ -19,17 +19,17 @@
         1600,
         2000
       ],
-      "median": 1776,
-      "p25": 1636,
-      "p75": 1845,
-      "count": 28,
-      "priced_count": 28,
+      "median": 1784,
+      "p25": 1639,
+      "p75": 1853,
+      "count": 29,
+      "priced_count": 29,
       "removed_outliers": 0,
-      "total_area": 16815,
-      "total_value": 29285680,
+      "total_area": 17525,
+      "total_value": 30762480,
       "last_deal": "2026-06-19",
-      "mom_pct": -0.4,
-      "qoq_pct": -1.8,
+      "mom_pct": 0.5,
+      "qoq_pct": -0.8,
       "flag": "in",
       "insufficient": false,
       "monthly": [
@@ -150,8 +150,8 @@
         },
         {
           "month": "2026-06",
-          "median": 1820,
-          "count": 3
+          "median": 1838,
+          "count": 4
         }
       ]
     },
@@ -164,17 +164,17 @@
         1100,
         2400
       ],
-      "median": 1592,
-      "p25": 1477,
-      "p75": 1680,
-      "count": 12,
-      "priced_count": 12,
+      "median": 1609,
+      "p25": 1479,
+      "p75": 1677,
+      "count": 13,
+      "priced_count": 13,
       "removed_outliers": 0,
-      "total_area": 59600,
-      "total_value": 94066600,
-      "last_deal": "2026-06-01",
-      "mom_pct": 0.8,
-      "qoq_pct": 9.0,
+      "total_area": 64800,
+      "total_value": 102568600,
+      "last_deal": "2026-06-15",
+      "mom_pct": -0.4,
+      "qoq_pct": 7.6,
       "flag": "in",
       "insufficient": false,
       "monthly": [
@@ -295,8 +295,8 @@
         },
         {
           "month": "2026-06",
-          "median": 1677,
-          "count": 1
+          "median": 1656,
+          "count": 2
         }
       ]
     },
@@ -455,16 +455,16 @@
         1200
       ],
       "median": 1059,
-      "p25": 1026,
-      "p75": 1122,
-      "count": 15,
-      "priced_count": 15,
+      "p25": 1014,
+      "p75": 1121,
+      "count": 16,
+      "priced_count": 16,
       "removed_outliers": 0,
-      "total_area": 9350,
-      "total_value": 9992270,
+      "total_area": 10000,
+      "total_value": 10580520,
       "last_deal": "2026-06-10",
-      "mom_pct": -2.0,
-      "qoq_pct": -8.3,
+      "mom_pct": -3.1,
+      "qoq_pct": -9.4,
       "flag": "in",
       "insufficient": false,
       "monthly": [
@@ -585,21 +585,21 @@
         },
         {
           "month": "2026-06",
-          "median": 988,
-          "count": 2
+          "median": 977,
+          "count": 3
         }
       ]
     }
   },
   "totals": {
-    "median": 1670,
-    "count": 64,
-    "total_area": 99265,
-    "total_value": 157158550
+    "median": 1663,
+    "count": 67,
+    "total_area": 105825,
+    "total_value": 167725600
   },
   "liquidity": {
-    "this_month": 7,
-    "avg_prior_3m": 7,
+    "this_month": 10,
+    "avg_prior_3m": 6.7,
     "trend": "up",
     "months": [
       {
@@ -696,7 +696,7 @@
       },
       {
         "month": "2026-06",
-        "count": 7
+        "count": 10
       }
     ]
   },
@@ -708,7 +708,7 @@
       },
       {
         "label": "500–1000م²",
-        "count": 33
+        "count": 35
       },
       {
         "label": "1000–5000م²",
@@ -716,21 +716,21 @@
       },
       {
         "label": "أكثر من 5000م²",
-        "count": 8
+        "count": 9
       }
     ],
     "by_usage": [
       {
         "label": "صناعي",
-        "count": 40
+        "count": 41
       },
       {
         "label": "سكن عمالة",
-        "count": 15
+        "count": 16
       },
       {
         "label": "مستودع",
-        "count": 9
+        "count": 10
       }
     ]
   },
@@ -738,13 +738,13 @@
     {
       "key": "light",
       "name": "صناعي خفيف",
-      "bench": 1776,
+      "bench": 1784,
       "bench_label": "المصفاة 2377"
     },
     {
       "key": "medium",
       "name": "صناعي متوسط",
-      "bench": 1684,
+      "bench": 1696,
       "bench_label": "صناعي مرجّح"
     },
     {
@@ -772,7 +772,38 @@
       "bench_label": "سكن عمالة 3200"
     }
   ],
-  "notable_deals": [],
+  "notable_deals": [
+    {
+      "date": "2026-06-15",
+      "plan": "3880/1",
+      "plan_short": "الفوزان 3880/1",
+      "area": 5200,
+      "meter_price": 1635,
+      "type": "مستودع",
+      "kind": "large",
+      "delta_pct": 1.6
+    },
+    {
+      "date": "2026-06-11",
+      "plan": "2377",
+      "plan_short": "المصفاة 2377",
+      "area": 710,
+      "meter_price": 2080,
+      "type": "صناعي",
+      "kind": "high",
+      "delta_pct": 16.6
+    },
+    {
+      "date": "2026-06-07",
+      "plan": "3200",
+      "plan_short": "سكن عمالة 3200",
+      "area": 650,
+      "meter_price": 905,
+      "type": "سكن عمالة",
+      "kind": "low",
+      "delta_pct": -14.5
+    }
+  ],
   "white_land_fee": null,
   "deals": [
     {
@@ -785,6 +816,28 @@
       "usage": "صناعي",
       "lat": 24.492326,
       "lng": 46.874922
+    },
+    {
+      "transaction_date": "2026-06-15",
+      "plan": "3880/1",
+      "parcel": "900",
+      "area": 5200,
+      "meter_price": 1635,
+      "type": "مستودع",
+      "usage": "مستودع",
+      "lat": 24.503054,
+      "lng": 46.90383
+    },
+    {
+      "transaction_date": "2026-06-11",
+      "plan": "2377",
+      "parcel": "901",
+      "area": 710,
+      "meter_price": 2080,
+      "type": "صناعي",
+      "usage": "صناعي",
+      "lat": 24.487384,
+      "lng": 46.875056
     },
     {
       "transaction_date": "2026-06-10",
@@ -807,6 +860,17 @@
       "usage": "سكن عمالة",
       "lat": 24.488765,
       "lng": 46.888059
+    },
+    {
+      "transaction_date": "2026-06-07",
+      "plan": "3200",
+      "parcel": "902",
+      "area": 650,
+      "meter_price": 905,
+      "type": "سكن عمالة",
+      "usage": "سكن عمالة",
+      "lat": 24.488705,
+      "lng": 46.888127
     },
     {
       "transaction_date": "2026-06-01",

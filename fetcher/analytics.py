@@ -20,7 +20,7 @@ import argparse
 import json
 import sqlite3
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -207,7 +207,7 @@ def liquidity(deals):
         trend = "up" if this_month > avg_prior else ("down" if this_month < avg_prior else "flat")
     return {
         "this_month": this_month,
-        "avg_prior_3m": ri(avg_prior) if avg_prior is not None else None,
+        "avg_prior_3m": r1(avg_prior) if avg_prior is not None else None,
         "trend": trend,
         "months": [{"month": s["month"], "count": s["count"]} for s in series],
     }
@@ -391,6 +391,28 @@ def sample_deals():
                 "lat": round(lat0 + math.sin(ang) * r, 6),
                 "lng": round(lng0 + math.cos(ang) * r * lng_scale, 6),
             })
+
+    # صفقات لافتة حديثة (≤30 يومًا) لتفعيل قسم «صفقات لافتة»: كبيرة / مرتفعة / منخفضة
+    notable_seed = [
+        ("3880/1", 5,  5200, 1635, "مستودع"),     # كبيرة (مساحة ≥ 5000 م²)
+        ("2377",   9,  710,  2080, "صناعي"),       # مرتفعة (> +10% عن السائد)
+        ("3200",   13, 650,  905,  "سكن عمالة"),   # منخفضة (> -10% عن السائد)
+    ]
+    for k, (plan, days_ago, area, price, typ) in enumerate(notable_seed):
+        center, _ref, lat0, lng0 = base[plan]
+        dt = today - timedelta(days=days_ago)
+        seed = (k * 0x9E3779B1 + 0x517CC1B7) & 0xFFFFFFFF
+        ang = (seed % 4096) / 4096.0 * 2 * math.pi
+        r = 0.0012 + math.sqrt(((seed >> 12) % 4096) / 4096.0) * 0.0030
+        out.append({
+            "transaction_date": dt.isoformat(),
+            "plan": plan, "parcel": str(900 + k),
+            "real_estate_number": f"SAMPLE-N-{plan}-{k}",
+            "area": area, "usage": typ, "type": typ,
+            "meter_price": price, "amount": price * area,
+            "lat": round(lat0 + math.sin(ang) * r, 6),
+            "lng": round(lng0 + math.cos(ang) * r * lng_scale, 6),
+        })
     return out
 
 
