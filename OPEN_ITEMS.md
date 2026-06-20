@@ -20,26 +20,40 @@
 
 ---
 
+## 🔑 اكتشاف API بسيطة الحقيقي (2026-06-20) — اقرأه قبل ربط البيانات الحيّة
+
+أثناء أول محاولة جلب فعلي (والمالك مسجّل دخوله) تبيّن أن الـ endpoint المفترض في المواصفات **خاطئ**:
+- ❌ المفترض في الكود: `POST /api/precord/rer_transactions/data` → يرجع **403** حتى مع جلسة صحيحة.
+- ✅ الصحيح (مُلتقَط من جلسة حيّة على `/map`):
+  `GET /api/get_geojson_filterd_rer_transactions?sw_lat=&sw_lng=&ne_lat=&ne_lng=`
+  → يرجع **GeoJSON** (الإحداثيات مضمّنة في كل feature — لا حاجة لتخمينها).
+- endpoints مساندة مُلتقَطة:
+  - `GET /api/get_geojson_filterd_transactions?...` (طبقة وزارة العدل — سياق)
+  - `GET /api/rer-transactions/get_usage_subfilter` · `.../get_property_type_subfilter` (خيارات الفلاتر)
+  - `GET /api/get-rer-limit` (حدّ النتائج) · `GET /api/user` (تأكيد الجلسة)
+
+**التغيير المطلوب في `fetcher/fetch.py` (آخر خطوة):** استبدال طلب الـ POST بـ GET إلى
+`get_geojson_filterd_rer_transactions` على صندوق إحداثي يغطّي طايا (مثلاً
+`sw_lat=24.42, sw_lng=46.82, ne_lat=24.55, ne_lng=46.95`)، وتفكيك الـ FeatureCollection
+(`features[].geometry.coordinates=[lng,lat]`، `features[].properties`=حقول الصفقة).
+قد يلزم تقسيم الصندوق (tiling) إن تجاوزت النتائج حدّ `get-rer-limit`.
+
+---
+
 ## ⏳ بنود تحتاجك (بالترتيب)
 
-### 1) تثبيت بيئة بايثون (مرة واحدة)
-```bash
-cd "Taya Dashboaerd"
-python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-playwright install chromium
-```
+### 1) ~~تثبيت بيئة بايثون~~ ✅ تمّ
+`.venv` مُنشأ، الاعتماديات مثبّتة، Chrome channel + الاتصال بـ بسيطة مُتحقَّقان.
 
-### 2) تسجيل دخول بسيطة لمرة واحدة  ← الأهم (يفتح باب البيانات الحقيقية)
-```bash
-python fetcher/fetch.py --login    # يفتح Chrome مرئياً → سجّل الدخول + «تذكّرني» → اضغط Enter
-```
-بدون هذه الخطوة تبقى الواجهة على البيانات التوضيحية.
+### 2) ~~تسجيل دخول بسيطة~~ ✅ تمّ
+الجلسة محفوظة في ملف طايا المخصّص (`~/Library/Application Support/taya-chrome-profile`، مؤكَّد عبر
+`/api/user`). أعد `--login` فقط لو انتهت الجلسة لاحقًا.
 
-### 3) أول جلب فعلي + توليد بيانات حقيقية
+### 3) ربط البيانات الحيّة — **آخر خطوة (مؤجّلة بقرار المالك)**
+بعد تعديل الـ endpoint (انظر قسم «اكتشاف API» أعلاه):
 ```bash
-python fetcher/fetch.py            # جلب أولي (حتى 24 شهراً)
-python fetcher/analytics.py        # يستبدل metrics.json التوضيحي ببيانات حقيقية
+.venv/bin/python fetcher/fetch.py        # جلب GeoJSON على صندوق طايا
+.venv/bin/python fetcher/analytics.py    # يستبدل metrics.json التوضيحي ببيانات حقيقية
 ```
 سيختفي بانر «بيانات توضيحية» تلقائياً عند وجود بيانات حقيقية.
 

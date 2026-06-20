@@ -302,10 +302,10 @@ def compute_metrics(raw_deals, *, sample=False, source_date=None):
 
     last_date = max((d["_date"] for d in deals if d["_date"]), default=None)
     if sample:
-        source_note = "بيانات توضيحية (نموذج) — ليست صفقات حقيقية"
+        source_note = "بيانات توضيحية (نموذج): ليست صفقات حقيقية"
     else:
         as_of = source_date or last_date or date.today()
-        source_note = f"المصدر: السجل العقاري عبر بسيطة — حتى {as_of.isoformat()}"
+        source_note = f"المصدر: السجل العقاري عبر بسيطة، حتى {as_of.isoformat()}"
     return {
         "generated_at": datetime.now().isoformat(timespec="seconds"),
         "sample": sample,

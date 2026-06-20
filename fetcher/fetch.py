@@ -509,29 +509,69 @@ def _send_email(subject: str, body: str) -> None:
 # ─────────────────────────────────────────────────────────────────────────────
 # وضع تسجيل الدخول لمرة واحدة
 # ─────────────────────────────────────────────────────────────────────────────
-def run_login() -> None:
+def _session_live_via_request(ctx) -> bool:
+    """يتحقّق إن كانت جلسة بسيطة حيّة عبر طلب API مباشر (لا يلمس تبويب المستخدم)."""
+    import urllib.parse
+    xsrf = None
+    try:
+        for c in ctx.cookies():
+            if c.get("name") == "XSRF-TOKEN":
+                xsrf = urllib.parse.unquote(c.get("value", ""))
+                break
+    except Exception:
+        return False
+    headers = {"Content-Type": "application/json", "Accept": "application/json",
+               "X-Requested-With": "XMLHttpRequest"}
+    if xsrf:
+        headers["X-XSRF-TOKEN"] = xsrf
+    body = {"page": 1, "regions": [1], "cities": [1], "neighborhoods": NEIGHBORHOODS,
+            "planExactMatch": True, "parcelExactMatch": True, "realEstateNumberExactMatch": True,
+            "sort_column": "transaction_date", "sort_order": "descending",
+            "perPage": PAGE_SIZE, "per_page": PAGE_SIZE}
+    try:
+        resp = ctx.request.post(PASEETAH_BASE + API_PATH, headers=headers,
+                                data=json.dumps(body), timeout=15000)
+        if resp.status != 200:
+            return False
+        json.loads(resp.text())
+        return True
+    except Exception:
+        return False
+
+
+def run_login(timeout_min: int = 10) -> None:
     _require_profile()
     from playwright.sync_api import sync_playwright
-    print("─" * 60)
-    print("تسجيل دخول بسيطة لمرة واحدة")
-    print("سيُفتح Chrome مرئياً. سجّل الدخول (جوال + OTP)، فعّل «تذكّرني»،")
-    print("ثم ارجع هنا واضغط Enter لإغلاق المتصفّح وحفظ الجلسة في الـ profile.")
-    print("─" * 60)
+    import time
+    print("سيُفتح Chrome الآن على ملف طايا المخصّص.")
+    print("سجّل دخول بسيطة (جوال + OTP) وفعّل «تذكّرني». سأكتشف نجاح الدخول تلقائيًا ثم أغلق.")
     Path(PROFILE_PATH).mkdir(parents=True, exist_ok=True)
+    live = False
     with sync_playwright() as p:
         ctx = p.chromium.launch_persistent_context(
             user_data_dir=PROFILE_PATH, channel="chrome", headless=False,
+            args=["--disable-blink-features=AutomationControlled"],
         )
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
         try:
             page.goto(PASEETAH_BASE, wait_until="domcontentloaded", timeout=60000)
         except Exception:
             pass
-        try:
-            input("\n[انتظار] بعد إتمام تسجيل الدخول، اضغط Enter هنا… ")
-        finally:
-            ctx.close()
-    print("تم حفظ الجلسة. التشغيلات المجدولة ستعمل headless بلا OTP حتى تنتهي الجلسة.")
+        start = time.time()
+        waited = 0
+        while time.time() - start < timeout_min * 60:
+            if _session_live_via_request(ctx):
+                live = True
+                break
+            time.sleep(4)
+            waited += 4
+            if waited % 20 == 0:
+                print(f"… بانتظار تسجيل الدخول ({waited} ثانية)", flush=True)
+        ctx.close()
+    if live:
+        print("✅ تم: الجلسة حيّة ومحفوظة في الـ profile. (التشغيلات التالية headless بلا OTP)")
+    else:
+        raise SystemExit("⌛ انتهت المهلة دون اكتشاف تسجيل دخول. أعد: python fetcher/fetch.py --login")
 
 
 # ─────────────────────────────────────────────────────────────────────────────

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>موكاب C — بيان أصول · TIC</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#2A121A; --surface:#341621; --surface-2:#3e1b28; --line:#532935; --line-2:#6a3543;
+    --ink:#F3E8DD; --ink-2:#D8C4B8; --muted:#AC9089;
+    --brass:#C9A24B; --brass-2:#E3C57E;
+    --pos:#86BE94; --neg:#E2917F;
+    --p1:#C9A24B; --p2:#8FB59A; --p3:#D89A66; --p4:#B9A79E;
+  }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:var(--bg); color:var(--ink); padding:0 0 60px;
+        font-family:"Almarai",system-ui,sans-serif; line-height:1.6; font-variant-numeric:tabular-nums; }
+  .num{ font-variant-numeric:tabular-nums; }
+  .wrap{ max-width:1080px; margin:0 auto; padding:0 22px; }
+  h1,h2,h3{ margin:0; font-weight:800; }
+
+  .masthead{ border-block-end:1px solid var(--brass); padding:26px 0 18px; display:flex;
+             align-items:flex-end; justify-content:space-between; gap:16px; flex-wrap:wrap; margin-top:14px; }
+  .mh-l{ display:flex; align-items:center; gap:14px; }
+  .crest{ width:46px; height:46px; border:1px solid var(--brass); color:var(--brass); border-radius:50%;
+          display:flex; align-items:center; justify-content:center; font-weight:800; font-size:13px; }
+  .mh-l h1{ font-size:20px; font-weight:800; letter-spacing:-.01em; line-height:1.25; }
+  .mh-l .s{ color:var(--muted); font-size:12px; font-weight:400; margin-top:3px; }
+  .mh-r{ text-align:left; color:var(--muted); font-size:11.5px; }
+  .mh-r b{ color:var(--brass-2); font-weight:700; display:block; font-size:13px; }
+
+  .eyebrow{ color:var(--brass); font-size:12px; font-weight:700; margin:34px 0 14px; display:flex; align-items:center; gap:12px; }
+  .eyebrow::after{ content:""; flex:1; height:1px; background:var(--line); }
+
+  /* statement summary hero */
+  .summary{ display:grid; grid-template-columns:1.5fr 1fr 1fr; gap:0; border:1px solid var(--line);
+            border-radius:3px; background:linear-gradient(180deg,var(--surface-2),var(--surface)); overflow:hidden; }
+  @media(max-width:760px){ .summary{ grid-template-columns:1fr; } }
+  .su{ padding:22px 24px; border-inline-start:1px solid var(--line); }
+  .su:first-child{ border-inline-start:0; }
+  .su .l{ color:var(--muted); font-size:12px; }
+  .su .v{ font-size:34px; font-weight:800; margin-top:8px; line-height:1; letter-spacing:-.02em; }
+  .su .v .u{ font-size:12px; color:var(--muted); font-weight:400; margin-inline-start:5px; }
+  .su.lead .v{ color:var(--brass-2); }
+  .su .d{ font-size:12.5px; margin-top:9px; } .pos{ color:var(--pos); } .neg{ color:var(--neg); }
+  .verdict{ display:inline-block; margin-top:10px; border:1px solid var(--brass); color:var(--brass-2);
+            border-radius:2px; padding:3px 11px; font-size:12px; font-weight:700; }
+
+  /* holdings = plans as line items */
+  .holdings{ border:1px solid var(--line); border-radius:3px; overflow:hidden; }
+  .hr{ display:grid; grid-template-columns:1.6fr 1fr 1fr 1fr; gap:14px; align-items:center; padding:16px 24px;
+       border-block-end:1px solid var(--line); }
+  .hr:last-child{ border-block-end:0; }
+  .hr.h{ color:var(--muted); font-size:11.5px; font-weight:700; padding-block:11px; }
+  .hr .nm{ display:flex; align-items:center; gap:11px; font-weight:700; font-size:14.5px; }
+  .hr .nm i{ width:10px; height:10px; border-radius:50%; }
+  .hr .pr{ font-size:18px; font-weight:800; text-align:left; }
+  .hr .pr .u{ font-size:11px; color:var(--muted); font-weight:400; }
+  .hr .mo{ text-align:left; font-size:13px; font-weight:700; }
+  .hr .fl{ text-align:left; } .fl span{ border:1px solid var(--line-2); color:var(--ink-2); border-radius:2px; padding:2px 9px; font-size:11px; }
+
+  .twocol{ display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-top:18px; }
+  @media(max-width:760px){ .twocol{ grid-template-columns:1fr; } }
+  .panel{ border:1px solid var(--line); border-radius:3px; padding:20px 22px; background:var(--surface); }
+  .panel h3{ font-size:14px; font-weight:800; } .panel .hint{ color:var(--muted); font-size:11.5px; font-weight:400; margin-top:3px; }
+  .barv{ display:flex; align-items:flex-end; gap:6px; height:104px; margin-top:16px; }
+  .barv i{ flex:1; background:linear-gradient(180deg,var(--brass),rgba(201,162,75,.22)); border-radius:2px 2px 0 0; }
+  .note{ color:var(--muted); font-size:11.5px; margin-top:20px; line-height:1.85; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="masthead">
+    <div class="mh-l">
+      <div class="crest">TIC</div>
+      <div>
+        <h1>محيط مدينة طايا الصناعية — بيان السوق</h1>
+        <div class="s">السجل العقاري عبر بسيطة · نافذة 24 شهرًا</div>
+      </div>
+    </div>
+    <div class="mh-r">آخر تحديث<b class="num">2026-06-20 · 07:30</b></div>
+  </div>
+
+  <div class="eyebrow">ملخّص القرار</div>
+  <div class="summary">
+    <div class="su lead">
+      <div class="l">موقعك من السوق — صناعي خفيف</div>
+      <div class="v num">+3.4<span class="u">% فوق وسيط المصفاة</span></div>
+      <div class="verdict">موقع مرتفع — راقب التسعير</div>
+    </div>
+    <div class="su"><div class="l">القيمة المتداولة</div><div class="v num">154.2<span class="u">مليون ر.س</span></div><div class="d num" style="color:var(--muted)">99,265 م² · 64 صفقة</div></div>
+    <div class="su"><div class="l">الوسيط العام</div><div class="v num">1,711<span class="u">ر.س/م²</span></div><div class="d pos num">▲ +0.6% شهريًا</div></div>
+  </div>
+
+  <div class="eyebrow">المخططات المنافسة</div>
+  <div class="holdings">
+    <div class="hr h"><span>المخطط</span><span style="text-align:left">الوسيط</span><span style="text-align:left">الزخم الشهري</span><span style="text-align:left">الحالة</span></div>
+    <div class="hr"><span class="nm"><i style="background:var(--p1)"></i>صناعي المصفاة · 2377</span><span class="pr num">1,769<span class="u"> ر.س/م²</span></span><span class="mo pos num">▲ +0.6%</span><span class="fl"><span>ضمن النطاق</span></span></div>
+    <div class="hr"><span class="nm"><i style="background:var(--p2)"></i>الفوزان · 3880/1</span><span class="pr num">1,492<span class="u"> ر.س/م²</span></span><span class="mo pos num">▲ +0.7%</span><span class="fl"><span>ضمن النطاق</span></span></div>
+    <div class="hr"><span class="nm"><i style="background:var(--p3)"></i>مستودعات · 3796</span><span class="pr num">1,827<span class="u"> ر.س/م²</span></span><span class="mo pos num">▲ +0.5%</span><span class="fl"><span>ضمن النطاق</span></span></div>
+    <div class="hr"><span class="nm"><i style="background:var(--p4)"></i>سكن عمالة · 3200</span><span class="pr num">1,042<span class="u"> ر.س/م²</span></span><span class="mo neg num">▼ −0.3%</span><span class="fl"><span>ضمن النطاق</span></span></div>
+  </div>
+
+  <div class="twocol">
+    <div class="panel">
+      <h3>سيولة السوق</h3>
+      <div class="hint">عدد الصفقات شهريًا — آخر 12 شهرًا</div>
+      <div class="barv"><i style="height:46%"></i><i style="height:52%"></i><i style="height:56%"></i><i style="height:60%"></i><i style="height:64%"></i><i style="height:68%"></i><i style="height:72%"></i><i style="height:78%"></i><i style="height:84%"></i><i style="height:90%"></i><i style="height:95%"></i><i style="height:100%"></i></div>
+    </div>
+    <div class="panel">
+      <h3>المخاطر والفرص</h3>
+      <div class="hint">صفقات لافتة قريبة · آخر 30 يومًا</div>
+      <div style="margin-top:14px; display:grid; gap:12px; font-size:13px">
+        <div style="display:flex; justify-content:space-between; gap:10px; padding-bottom:10px; border-bottom:1px solid var(--line)"><span class="num">5,100م² · 1,510 ر.س/م² · الفوزان</span><span style="color:var(--neg); font-weight:700">أدنى −2%</span></div>
+        <div style="display:flex; justify-content:space-between; gap:10px; padding-bottom:10px; border-bottom:1px solid var(--line)"><span class="num">710م² · 1,880 ر.س/م² · المصفاة</span><span style="color:var(--brass-2); font-weight:700">أعلى +3%</span></div>
+        <div style="display:flex; justify-content:space-between; gap:10px"><span class="num">1,200م² · 1,880 · مستودعات</span><span style="color:var(--brass-2); font-weight:700">صفقة كبيرة</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="note">موكاب C — اتجاه «بيان الأصول»: لون أوكسبلود عميق ملتزَم، أكسنت نحاسي، أرقام بطل كبيرة، تخطيط كبيان بنك خاص. إحساس مالي واثق. بيانات تمثيليّة.</div>
+</div>
+</body>
+</html>

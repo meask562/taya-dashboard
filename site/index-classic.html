@@ -8,25 +8,24 @@
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    /* C — بيان أصول: أوكسبلود عميق + نحاسي */
-    --navy:#341621; --navy-2:#2A121A; --teal:#C9A24B; --teal-d:#E3C57E; --teal-l:rgba(201,162,75,.15);
-    --ink:#F3E8DD; --ink-2:#D8C4B8; --muted:#B0958D;
-    --bg:#2A121A; --surface:#341621; --surface-2:#3e1b28;
-    --line:#532935; --line-strong:#6a3543;
-    --warn:#E3C57E; --warn-l:rgba(224,178,90,.16); --danger:#E2917F; --danger-l:rgba(226,145,127,.16); --ok:#86BE94; --ok-l:rgba(134,190,148,.15);
-    --p2377:#C9A24B; --p3880:#8FB59A; --p3796:#D89A66; --p3200:#B9A79E;
-    --r-sm:6px; --r-md:8px; --r-lg:10px;
-    --shadow-1:0 1px 2px rgba(0,0,0,.28); --shadow-2:0 10px 30px rgba(0,0,0,.45);
+    --navy:#28285D; --navy-2:#0F1B3C; --teal:#5EC2C9; --teal-d:#0F6E56; --teal-l:#E3F4F0;
+    --ink:#16161D; --ink-2:#3d3d46; --muted:#64646e;
+    --bg:#f7f8fa; --surface:#ffffff; --surface-2:#eef1f5;
+    --line:#e6e8ee; --line-strong:#d2d6df;
+    --warn:#9A6207; --warn-l:#FBF0DC; --danger:#B0202B; --danger-l:#FBEBEC; --ok:#0F6E56; --ok-l:#E3F4F0;
+    --p2377:#28285D; --p3880:#1D9E75; --p3796:#BA7517; --p3200:#6B6B76;
+    --r-sm:8px; --r-md:12px; --r-lg:16px;
+    --shadow-1:0 1px 2px rgba(16,27,60,.04); --shadow-2:0 6px 22px rgba(16,27,60,.10);
     --ring:0 0 0 2px var(--surface), 0 0 0 4px var(--teal);
     --ease:cubic-bezier(.22,.61,.36,1);
   }
   *{ box-sizing:border-box; }
   html{ -webkit-text-size-adjust:100%; }
   body{
-    font-family:"Almarai","Segoe UI",Tahoma,Arial,sans-serif;
+    font-family:"IBM Plex Sans Arabic","Segoe UI",Tahoma,Arial,sans-serif;
     margin:0; background:var(--bg); color:var(--ink); line-height:1.5;
     font-variant-numeric:tabular-nums lining-nums;
     -webkit-font-smoothing:antialiased; padding:20px 18px 40px; overflow-x:clip;
@@ -48,9 +47,9 @@
   }
   .brand-txt{ min-width:0; }
   .h-title{ color:#fff; font-size:19px; font-weight:600; line-height:1.3; }
-  .h-sub{ color:#CBB6A8; font-size:12.5px; margin-top:4px; }
+  .h-sub{ color:#A9C6CE; font-size:12.5px; margin-top:4px; }
   .h-upd{ text-align:left; flex-shrink:0; }
-  .h-upd .l{ color:#B0958D; font-size:11px; text-transform:none; }
+  .h-upd .l{ color:#8C9BC0; font-size:11px; text-transform:none; }
   .h-upd .v{ color:var(--teal); font-size:13px; font-weight:600; margin-top:2px; }
 
   /* ── Status strips ── */
@@ -59,7 +58,7 @@
   .strip.sample{ display:none; background:var(--warn-l); color:var(--warn); }
   .strip.stale{ display:none; background:var(--warn-l); color:var(--warn); }
   .strip.err{ display:none; background:var(--danger-l); color:var(--danger); }
-  .strip code{ background:rgba(255,255,255,.10); padding:0 5px; border-radius:4px; font-size:12px; }
+  .strip code{ background:rgba(0,0,0,.06); padding:0 5px; border-radius:4px; font-size:12px; }
 
   /* ── Section scaffolding (no eyebrows) ── */
   .section{ margin-top:26px; }
@@ -90,8 +89,8 @@
     border-radius:var(--r-sm); font:inherit; font-size:13.5px; text-align:center; color:var(--ink);
     background:var(--surface); transition:border-color .15s, box-shadow .15s;
   }
-  .prow input::placeholder{ color:#9A8079; }
-  .prow input:hover{ border-color:#7a4452; }
+  .prow input::placeholder{ color:#6f6f79; }
+  .prow input:hover{ border-color:#b9bdc8; }
   .prow input:focus-visible{ outline:none; border-color:var(--teal); box-shadow:0 0 0 3px var(--teal-l); }
   .gap{ font-weight:600; font-variant-numeric:tabular-nums; animation:gappop .25s var(--ease); }
   @keyframes gappop{ from{ transform:scale(.82); opacity:.35; } to{ transform:none; opacity:1; } }
@@ -108,7 +107,7 @@
   .kpi-head{ display:flex; align-items:center; gap:7px; }
   .kpi-dot{ width:9px; height:9px; border-radius:50%; flex-shrink:0; }
   .kpi-label{ font-size:12.5px; color:var(--muted); font-weight:500; }
-  .kpi-value{ font-size:31px; font-weight:800; margin-top:8px; line-height:1; color:var(--teal-d); }
+  .kpi-value{ font-size:28px; font-weight:600; margin-top:8px; line-height:1; color:var(--ink); }
   .kpi-value .u{ font-size:12px; font-weight:400; color:var(--muted); margin-inline-start:3px; }
   .kpi-mom{ font-size:12px; font-weight:500; margin-top:6px; }
   .kpi-foot{ display:flex; align-items:center; justify-content:space-between; gap:8px; margin-top:12px;
@@ -126,7 +125,7 @@
   @media(max-width:760px){ .row2{ grid-template-columns:1fr; } }
   .panel h3{ font-size:14px; color:var(--ink); }
   .panel .hint{ font-size:12px; color:var(--muted); margin-top:3px; margin-bottom:12px; }
-  .metric-big{ font-size:25px; font-weight:800; color:var(--teal-d); }
+  .metric-big{ font-size:24px; font-weight:600; color:var(--ink); }
   .metric-big .sub{ font-size:12.5px; color:var(--muted); font-weight:400; }
   .chart-box{ position:relative; width:100%; height:210px; direction:ltr; min-width:0; }
   .chart-box.tall{ height:300px; }
@@ -144,7 +143,7 @@
     padding:7px 12px; border:1px solid var(--line-strong); border-radius:var(--r-sm); font:inherit;
     font-size:13px; background:var(--surface); color:var(--ink); cursor:pointer; transition:border-color .15s;
   }
-  .toolbar select:hover{ border-color:#7a4452; }
+  .toolbar select:hover{ border-color:#b9bdc8; }
   .toolbar select:focus-visible{ outline:none; border-color:var(--teal); box-shadow:0 0 0 3px var(--teal-l); }
   .fcount{ font-size:12.5px; color:var(--ink-2); font-weight:600; margin-inline-start:auto; align-self:center; }
   .fclear{
@@ -152,7 +151,7 @@
     border-radius:var(--r-sm); font:inherit; font-size:12.5px; font-weight:500; color:var(--navy); cursor:pointer;
     transition:background .15s, border-color .15s, opacity .15s;
   }
-  .fclear:hover{ background:var(--surface-2); border-color:#7a4452; }
+  .fclear:hover{ background:var(--surface-2); border-color:#b9bdc8; }
   .fclear:focus-visible{ outline:none; box-shadow:0 0 0 3px var(--teal-l); }
   .fclear[disabled]{ opacity:.45; cursor:default; }
   .fhint{ margin:0 0 12px; }
@@ -162,14 +161,14 @@
   .stat{ flex:1 1 150px; min-width:140px; padding:6px 18px; border-inline-start:1px solid var(--line); }
   .stat:first-child{ border-inline-start:0; }
   .stat .l{ font-size:12px; color:var(--muted); }
-  .stat .v{ font-size:24px; font-weight:800; margin-top:5px; color:var(--teal-d); }
+  .stat .v{ font-size:21px; font-weight:600; margin-top:4px; color:var(--ink); }
   .stat .v .u{ font-size:11px; color:var(--muted); font-weight:400; margin-inline-start:3px; }
   @media(max-width:560px){
     .stat{ flex-basis:45%; border-inline-start:0; }
   }
 
   /* ── Header freshness ── */
-  .h-age{ color:#B0958D; font-size:11px; margin-top:3px; }
+  .h-age{ color:#8C9BC0; font-size:11px; margin-top:3px; }
   .h-age.stale{ color:#F0B86A; font-weight:600; }
 
   /* ── Interactive trend legend ── */
@@ -213,11 +212,11 @@
     border-radius:var(--r-sm); font:inherit; font-size:13px; font-weight:500; cursor:pointer; color:var(--navy);
     transition:background .15s, border-color .15s;
   }
-  .morebtn:hover{ background:var(--surface-2); border-color:#7a4452; }
+  .morebtn:hover{ background:var(--surface-2); border-color:#b9bdc8; }
   .morebtn:focus-visible{ outline:none; box-shadow:0 0 0 3px var(--teal-l); }
 
   .empty{ color:var(--muted); font-size:13px; padding:14px 0; }
-  .note{ font-size:11.5px; color:#A8918A; margin-top:14px; line-height:1.8; text-wrap:pretty; }
+  .note{ font-size:11.5px; color:#66666f; margin-top:14px; line-height:1.8; text-wrap:pretty; }
 
   @media(max-width:560px){
     body{ padding:14px 12px 32px; }
@@ -235,7 +234,7 @@
   .wrap.app-loading .section, .wrap.app-loading #footNote{ display:none; }
   .wrap.app-error .section, .wrap.app-error #footNote{ display:none; }
   .load-head{ font-size:13px; color:var(--muted); margin:16px 2px 12px; }
-  .skel{ background:linear-gradient(90deg,#3e1b28 25%,#4a2230 37%,#3e1b28 63%); background-size:400% 100%;
+  .skel{ background:linear-gradient(90deg,#eef1f5 25%,#e6eaf1 37%,#eef1f5 63%); background-size:400% 100%;
          animation:skel 1.4s ease infinite; border-radius:var(--r-sm); }
   @keyframes skel{ 0%{ background-position:100% 0; } 100%{ background-position:0 0; } }
   .skel-panel{ height:190px; margin-bottom:14px; border-radius:var(--r-md); }
@@ -243,9 +242,9 @@
   .skel-kpi{ height:118px; border-radius:var(--r-md); }
 
   .intro{ display:none; align-items:center; gap:12px; justify-content:space-between; flex-wrap:wrap;
-          background:var(--teal-l); color:var(--teal-d); border:1px solid rgba(201,162,75,.4); border-radius:var(--r-sm);
+          background:var(--teal-l); color:var(--teal-d); border:1px solid #bfe3e0; border-radius:var(--r-sm);
           padding:11px 14px; font-size:13px; line-height:1.7; margin-top:12px; }
-  .intro b{ color:var(--teal-d); }
+  .intro b{ color:var(--navy); }
   .intro-x{ flex-shrink:0; padding:7px 16px; border:0; background:var(--teal-d); color:#fff; border-radius:var(--r-sm);
             font:inherit; font-size:12.5px; font-weight:600; cursor:pointer; }
   .intro-x:focus-visible{ outline:none; box-shadow:0 0 0 3px rgba(15,110,86,.35); }
@@ -268,7 +267,7 @@
   .tip:hover::after, .tip:focus::after{ opacity:1; }
 
   /* ── Leaflet popups: طابق الخط والاتجاه ── */
-  .leaflet-container{ font-family:"Almarai","Segoe UI",Tahoma,sans-serif; }
+  .leaflet-container{ font-family:"IBM Plex Sans Arabic","Segoe UI",Tahoma,sans-serif; }
   .leaflet-popup-content{ direction:rtl; font-size:12.5px; line-height:1.75; color:var(--ink); }
   .leaflet-popup-content b{ color:var(--navy); }
   .leaflet-popup-content .num{ font-variant-numeric:tabular-nums lining-nums; }
@@ -453,10 +452,10 @@
 "use strict";
 
 var TIC = [24.4887, 46.8813];
-var PLAN_COLORS = { "2377":"#C9A24B", "3880/1":"#8FB59A", "3796":"#D89A66", "3200":"#B9A79E" };
-// تدرّج نحاسي واحد لشارت المساحة (غامق=صغير، فاتح=كبير) — لا يستخدم ألوان المخططات
-var DEM_RAMP = ["#5A4422", "#7A5E2A", "#9A7A38", "#C9A24B", "#E3C57E"];
-var FONT = '"Almarai", "Segoe UI", Tahoma, sans-serif';
+var PLAN_COLORS = { "2377":"#28285D", "3880/1":"#1D9E75", "3796":"#BA7517", "3200":"#6B6B76" };
+// تدرّج teal واحد لشارت المساحة (فاتح=صغير، غامق=كبير) — لا يستخدم ألوان المخططات
+var DEM_RAMP = ["#CFEAEC", "#9AD5DA", "#5EC2C9", "#2C8A93", "#1C5A66"];
+var FONT = '"IBM Plex Sans Arabic", "Segoe UI", Tahoma, sans-serif';
 
 function nf(x){ return (x===null||x===undefined||isNaN(x)) ? "—" : Number(x).toLocaleString("en-US"); }
 function pct(x){ return (x===null||x===undefined||isNaN(x)) ? "—" : (x>=0?"+":"")+x+"%"; }
@@ -533,7 +532,7 @@ function relativeAr(iso){
 if (window.Chart){
   Chart.defaults.font.family = FONT;
   Chart.defaults.font.size = 12;
-  Chart.defaults.color = "#B0958D";
+  Chart.defaults.color = "#64646e";
   Chart.defaults.plugins.legend.display = false;
   Chart.defaults.plugins.tooltip.titleFont = {family:FONT};
   Chart.defaults.plugins.tooltip.bodyFont = {family:FONT};
@@ -582,8 +581,6 @@ function animateNumbers(){
       else { el.textContent = fmtCount(target, fmt); el.style.willChange = ""; }
     }
     requestAnimationFrame(step);
-    // حارس: ثبّت القيمة النهائية مهما تجمّد rAF (تبويب مخفي/خلفية)
-    setTimeout(function(){ el.textContent = fmtCount(target, fmt); el.style.willChange = ""; }, dur + 300);
   });
 }
 
@@ -727,9 +724,9 @@ function buildLiquidity(M){
   document.getElementById("liqBig").innerHTML = nf(L.this_month) + trendTxt;
   charts.liq = new Chart(document.getElementById("liq"), {
     type:"bar",
-    data:{labels:labels, datasets:[{label:"صفقات", data:data, backgroundColor:"#C9A24B", borderRadius:4, maxBarThickness:34}]},
+    data:{labels:labels, datasets:[{label:"صفقات", data:data, backgroundColor:"#5EC2C9", borderRadius:4, maxBarThickness:34}]},
     options:{responsive:true, maintainAspectRatio:false,
-      scales:{y:{beginAtZero:true, border:{display:false}, grid:{color:"rgba(243,232,221,0.08)"}},
+      scales:{y:{beginAtZero:true, border:{display:false}, grid:{color:"rgba(100,100,110,0.10)"}},
               x:{border:{display:false}, grid:{display:false}}}}
   });
 }
@@ -748,7 +745,7 @@ function buildDemand(M){
         backgroundColor:D.map(function(b,i){ return DEM_RAMP[i] || DEM_RAMP[DEM_RAMP.length-1]; }),
         borderRadius:4, maxBarThickness:26}]},
     options:{indexAxis:"y", responsive:true, maintainAspectRatio:false,
-      scales:{x:{beginAtZero:true, border:{display:false}, grid:{color:"rgba(243,232,221,0.08)"}},
+      scales:{x:{beginAtZero:true, border:{display:false}, grid:{color:"rgba(100,100,110,0.10)"}},
               y:{border:{display:false}, grid:{display:false}}}}
   });
 }
@@ -759,11 +756,11 @@ function buildMap(M){
   var order = ["2377","3880/1","3796","3200"];
   var legend = "";
   order.forEach(function(p){
-    var c = PLAN_COLORS[p] || (M.plans&&M.plans[p]&&M.plans[p].color) || "#888";
+    var c = (M.plans&&M.plans[p]&&M.plans[p].color) || PLAN_COLORS[p] || "#888";
     var label = (M.plans&&M.plans[p]&&M.plans[p].short) || p;
     legend += '<span><i style="background:'+c+'; width:10px; height:10px; border-radius:50%"></i>'+label+'</span>';
   });
-  legend += '<span><i style="background:#C9A24B; width:10px; height:10px; border-radius:50%"></i>مدينة طايا TIC</span>';
+  legend += '<span><i style="background:#5EC2C9; width:10px; height:10px; border-radius:50%"></i>مدينة طايا TIC</span>';
   document.getElementById("mapLegend").innerHTML = legend;
 
   var sel = document.getElementById("planFilter");
@@ -775,9 +772,9 @@ function buildMap(M){
   });
 
   MAP = L.map("map", {scrollWheelZoom:false}).setView(TIC, 13);
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
-    {maxZoom:19, subdomains:"abcd", attribution:"© OpenStreetMap © CARTO"}).addTo(MAP);
-  L.circle(TIC, {radius:1100, color:"#C9A24B", weight:2, fillColor:"#C9A24B", fillOpacity:0.12})
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    {maxZoom:19, attribution:"© OpenStreetMap"}).addTo(MAP);
+  L.circle(TIC, {radius:1100, color:"#5EC2C9", weight:2, fillColor:"#5EC2C9", fillOpacity:0.12})
     .addTo(MAP).bindPopup("<b>مدينة طايا الصناعية (TIC)</b><br>حي المصفاة");
   L.marker(TIC).addTo(MAP).bindPopup("<b>مدينة طايا الصناعية (TIC)</b>");
   MARKERS = L.layerGroup().addTo(MAP);
@@ -814,7 +811,7 @@ function buildTrend(M){
     var s = M.plans && M.plans[p]; if(!s) return;
     var byMonth = {}; (s.monthly||[]).forEach(function(m){ byMonth[m.month] = m.median; });
     var data = months.map(function(mk){ return byMonth[mk]!=null ? byMonth[mk] : null; });
-    var col = PLAN_COLORS[p] || s.color || "#888";
+    var col = s.color || PLAN_COLORS[p] || "#888";
     var i = datasets.length;
     datasets.push({label:s.short||p, data:data, borderColor:col, backgroundColor:col,
       borderDash:dashes[p]||[], tension:0.32, borderWidth:2, pointRadius:0, pointHoverRadius:4, spanGaps:true});
@@ -834,7 +831,7 @@ function buildTrend(M){
     data:{labels:labels, datasets:datasets},
     options:{responsive:true, maintainAspectRatio:false, interaction:{mode:"index", intersect:false},
       scales:{y:{ticks:{callback:function(v){return Number(v).toLocaleString("en-US");}},
-        border:{display:false}, grid:{color:"rgba(243,232,221,0.08)"}},
+        border:{display:false}, grid:{color:"rgba(100,100,110,0.10)"}},
         x:{border:{display:false}, grid:{display:false}}}}
   });
   // تبديل عرض كل مخطط من اللِّجند (نقر أو لوحة مفاتيح)

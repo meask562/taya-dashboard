@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>موكاب B — مخطّط المسّاح · TIC</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#E9EEEC; --paper:#F6F8F7; --ink:#16302C; --ink-2:#3a544f; --muted:#6d827d;
+    --line:#cdd8d4; --line-2:#b3c2bd;
+    --orange:#DB5524;            /* surveyor orange */
+    --cyan:#137A8B; --green:#3F7A4B; --gold:#9A6207;
+    --p1:#16302C; --p2:#137A8B; --p3:#DB5524; --p4:#8a948f;
+  }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:var(--bg); color:var(--ink); padding:22px 18px 60px;
+        font-family:"Cairo",system-ui,sans-serif; line-height:1.55; font-variant-numeric:tabular-nums;
+        background-image:linear-gradient(var(--line) 1px,transparent 0),linear-gradient(90deg,var(--line) 1px,transparent 0);
+        background-size:28px 28px; background-position:-1px -1px; }
+  .num{ font-variant-numeric:tabular-nums; }
+  .wrap{ max-width:1180px; margin:0 auto; }
+  h1,h2,h3{ margin:0; }
+
+  /* drawing title block */
+  .titleblock{ border:1.5px solid var(--ink); background:var(--paper); display:grid;
+               grid-template-columns:auto 1fr auto; align-items:stretch; }
+  .tb-logo{ border-inline-end:1.5px solid var(--ink); padding:16px 20px; display:flex; align-items:center; gap:12px; }
+  .tb-logo .m{ width:40px; height:40px; border:1.5px solid var(--orange); color:var(--orange); border-radius:2px;
+               display:flex; align-items:center; justify-content:center; font-weight:900; font-size:13px; }
+  .tb-mid{ padding:14px 20px; }
+  .tb-mid h1{ font-size:17px; font-weight:700; letter-spacing:-.01em; }
+  .tb-mid .s{ color:var(--muted); font-size:12px; margin-top:3px; }
+  .tb-meta{ border-inline-start:1.5px solid var(--ink); padding:14px 18px; display:grid; gap:4px; align-content:center; min-width:170px; }
+  .tb-meta .row{ display:flex; justify-content:space-between; gap:14px; font-size:11.5px; }
+  .tb-meta .row b{ color:var(--ink); font-weight:600; } .tb-meta .row span{ color:var(--muted); }
+  @media(max-width:760px){ .titleblock{ grid-template-columns:1fr; } .tb-logo,.tb-meta{ border:0; border-block-end:1.5px solid var(--ink); } }
+
+  .sec{ margin-top:24px; }
+  .sec-h{ display:flex; align-items:center; gap:10px; margin-bottom:10px; }
+  .sec-h .no{ font-weight:700; color:var(--orange); font-size:12px; border:1px solid var(--orange); border-radius:2px; padding:1px 7px; }
+  .sec-h h2{ font-size:14px; font-weight:700; color:var(--ink); }
+  .sec-h .ln{ flex:1; border-top:1px dashed var(--line-2); }
+
+  /* position = plot comparison */
+  .plot{ border:1.5px solid var(--ink); background:var(--paper); }
+  .prow{ display:grid; grid-template-columns:1.3fr 1fr 1.2fr .7fr; gap:12px; align-items:center; padding:12px 18px;
+         border-bottom:1px dashed var(--line-2); font-size:13px; }
+  .prow:last-child{ border-bottom:0; }
+  .prow.h{ background:#eef3f1; color:var(--muted); font-size:11px; font-weight:600; }
+  .prow .nm{ font-weight:700; }
+  .gap-pos{ color:var(--green); font-weight:700; } .gap-neg{ color:var(--orange); font-weight:700; }
+
+  /* parcel cards */
+  .parcels{ display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:14px; }
+  .parcel{ border:1.5px solid var(--ink); background:var(--paper); padding:15px 16px; position:relative; }
+  .parcel::before,.parcel::after{ content:""; position:absolute; width:9px; height:9px; border:1.5px solid var(--orange); }
+  .parcel::before{ inset-block-start:-1.5px; inset-inline-start:-1.5px; border-inline-end:0; border-block-end:0; }
+  .parcel::after{ inset-block-end:-1.5px; inset-inline-end:-1.5px; border-inline-start:0; border-block-start:0; }
+  .parcel .pl{ font-size:11.5px; color:var(--muted); display:flex; align-items:center; gap:7px; }
+  .parcel .pl i{ width:8px; height:8px; }
+  .parcel .pv{ font-size:27px; font-weight:700; margin-top:8px; color:var(--ink); }
+  .parcel .pv .u{ font-size:11px; color:var(--muted); font-weight:400; }
+  .parcel .pm{ font-size:11.5px; margin-top:4px; } .up{ color:var(--green); } .down{ color:var(--orange); }
+  .parcel .pf{ display:flex; justify-content:space-between; margin-top:10px; padding-top:9px; border-top:1px dashed var(--line-2); font-size:11px; color:var(--muted); }
+  .flag{ border:1px solid var(--cyan); color:var(--cyan); border-radius:2px; padding:1px 7px; font-weight:600; }
+
+  .twocol{ display:grid; grid-template-columns:1.4fr 1fr; gap:14px; }
+  @media(max-width:860px){ .twocol{ grid-template-columns:1fr; } }
+  .map{ border:1.5px solid var(--ink); background:
+        repeating-linear-gradient(0deg,transparent 0 19px,rgba(19,122,139,.07) 19px 20px),
+        repeating-linear-gradient(90deg,transparent 0 19px,rgba(19,122,139,.07) 19px 20px), var(--paper);
+        height:300px; position:relative; overflow:hidden; }
+  .pin{ position:absolute; border:1.5px solid; border-radius:2px; font-size:10px; padding:2px 5px; font-weight:700; background:var(--paper); }
+  .ring{ position:absolute; width:120px; height:120px; border:1.5px dashed var(--orange); border-radius:50%; }
+  .panel{ border:1.5px solid var(--ink); background:var(--paper); padding:15px 16px; }
+  .panel h3{ font-size:13px; font-weight:700; } .panel .hint{ color:var(--muted); font-size:11px; margin-top:2px; }
+  .barv{ display:flex; align-items:flex-end; gap:5px; height:100px; margin-top:14px; }
+  .barv i{ flex:1; background:repeating-linear-gradient(135deg,var(--cyan) 0 3px,rgba(19,122,139,.4) 3px 6px); border-radius:1px; }
+  .note{ color:var(--muted); font-size:11px; margin-top:18px; line-height:1.8; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="titleblock">
+    <div class="tb-logo"><div class="m">TIC</div></div>
+    <div class="tb-mid">
+      <h1>محيط مدينة طايا الصناعية — مسح صفقات السوق</h1>
+      <div class="s">السجل العقاري عبر بسيطة · مرتكز 24.4887°N, 46.8813°E</div>
+    </div>
+    <div class="tb-meta">
+      <div class="row"><span>نافذة</span><b>24 شهرًا</b></div>
+      <div class="row"><span>محدّث</span><b class="num">2026-06-20</b></div>
+      <div class="row"><span>صفقات</span><b class="num">64</b></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-h"><span class="no">١</span><h2>موقعك من السوق</h2><span class="ln"></span></div>
+    <div class="plot">
+      <div class="prow h"><span>الفئة</span><span>سعر طرحك</span><span>السوق المنافس</span><span>الفرق</span></div>
+      <div class="prow"><span class="nm">صناعي خفيف</span><span class="num">1,880</span><span>1,769 · المصفاة 2377</span><span class="gap-pos">+6.3%</span></div>
+      <div class="prow"><span class="nm">مستودعات</span><span class="num">1,750</span><span>1,827 · مستودعات 3796</span><span class="gap-neg">−4.2%</span></div>
+      <div class="prow"><span class="nm">سكني</span><span class="num">1,100</span><span>1,042 · سكن عمالة 3200</span><span class="gap-pos">+5.6%</span></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-h"><span class="no">٢</span><h2>المخططات — قراءة لكل قطعة</h2><span class="ln"></span></div>
+    <div class="parcels">
+      <div class="parcel"><div class="pl"><i style="background:var(--p1)"></i>المصفاة · 2377</div><div class="pv num">1,769<span class="u"> ر.س/م²</span></div><div class="pm up">▲ +0.6% شهريًا</div><div class="pf"><span class="num">28 صفقة</span><span class="flag">ضمن النطاق</span></div></div>
+      <div class="parcel"><div class="pl"><i style="background:var(--p2)"></i>الفوزان · 3880/1</div><div class="pv num">1,492<span class="u"> ر.س/م²</span></div><div class="pm up">▲ +0.7% شهريًا</div><div class="pf"><span class="num">12 صفقة</span><span class="flag">ضمن النطاق</span></div></div>
+      <div class="parcel"><div class="pl"><i style="background:var(--p3)"></i>مستودعات · 3796</div><div class="pv num">1,827<span class="u"> ر.س/م²</span></div><div class="pm up">▲ +0.5% شهريًا</div><div class="pf"><span class="num">9 صفقات</span><span class="flag">ضمن النطاق</span></div></div>
+      <div class="parcel"><div class="pl"><i style="background:var(--p4)"></i>سكن عمالة · 3200</div><div class="pv num">1,042<span class="u"> ر.س/م²</span></div><div class="pm down">▼ −0.3% شهريًا</div><div class="pf"><span class="num">15 صفقة</span><span class="flag">ضمن النطاق</span></div></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-h"><span class="no">٣</span><h2>مواقع الصفقات والطلب</h2><span class="ln"></span></div>
+    <div class="twocol">
+      <div class="map">
+        <div class="ring" style="inset-block-start:90px; inset-inline-start:140px"></div>
+        <div class="pin" style="inset-block-start:60px; inset-inline-start:200px; border-color:var(--p1); color:var(--p1)">2377</div>
+        <div class="pin" style="inset-block-start:120px; inset-inline-start:120px; border-color:var(--p1); color:var(--p1)">2377</div>
+        <div class="pin" style="inset-block-start:50px; inset-inline-start:90px; border-color:var(--p2); color:var(--p2)">3880</div>
+        <div class="pin" style="inset-block-start:170px; inset-inline-start:230px; border-color:var(--p3); color:var(--p3)">3796</div>
+        <div class="pin" style="inset-block-start:150px; inset-inline-start:170px; border-color:var(--orange); color:var(--orange)">TIC</div>
+      </div>
+      <div class="panel">
+        <h3>سيولة السوق</h3>
+        <div class="hint">صفقات/شهر — آخر 12</div>
+        <div class="barv"><i style="height:46%"></i><i style="height:52%"></i><i style="height:56%"></i><i style="height:60%"></i><i style="height:64%"></i><i style="height:68%"></i><i style="height:72%"></i><i style="height:78%"></i><i style="height:84%"></i><i style="height:90%"></i><i style="height:95%"></i><i style="height:100%"></i></div>
+        <div class="pf" style="display:flex; justify-content:space-between; margin-top:12px; font-size:12px; color:var(--ink); font-weight:600"><span>هذا الشهر</span><span class="num">66 صفقة ▲</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="note">موكاب B — اتجاه «مخطّط المسّاح»: أرضية شرح فاتحة بشبكة، صندوق عنوان كرسم هندسي، بطاقات قطع بزوايا قياس، وخريطة طوبوغرافيّة. مستمدّ من مجال الأراضي. بيانات تمثيليّة.</div>
+</div>
+</body>
+</html>
