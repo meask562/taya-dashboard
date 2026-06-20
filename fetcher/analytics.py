@@ -37,7 +37,7 @@ PLAN_META = {
     "2377":   {"label": "صناعي المصفاة · 2377", "short": "المصفاة 2377",  "color": "#28285D", "ref": [1600, 2000]},
     "3880/1": {"label": "الفوزان · 3880/1",      "short": "الفوزان 3880/1", "color": "#1D9E75", "ref": [1100, 2400]},
     "3796":   {"label": "مستودعات · 3796",       "short": "مستودعات 3796",  "color": "#BA7517", "ref": [1200, 1900]},
-    "3200":   {"label": "سكن عمالة · 3200",      "short": "سكن عمالة 3200", "color": "#888780", "ref": [833, 1200]},
+    "3200":   {"label": "سكن عمالة · 3200",      "short": "سكن عمالة 3200", "color": "#8E5A86", "ref": [833, 1200]},
 }
 PLAN_ORDER = ["2377", "3880/1", "3796", "3200"]
 
@@ -359,7 +359,8 @@ def sample_deals():
     out = []
     today = date.today()
     counts = {"2377": 28, "3880/1": 12, "3796": 9, "3200": 15}
-    for plan, (center, _ref, lat0, lng0) in base.items():
+    lng_scale = 1.0 / math.cos(math.radians(24.49))   # تعويض انضغاط درجات الطول لتبدو الدائرة دائرة
+    for pi, (plan, (center, _ref, lat0, lng0)) in enumerate(base.items()):
         for i in range(counts[plan]):
             months_ago = i % 10
             y, m = today.year, today.month - months_ago
@@ -371,14 +372,19 @@ def sample_deals():
             wobble = ((i % 5) - 2) * 0.03                    # تشتّت ±6%
             price = round(center * (1 + drift + wobble))
             area = areas[plan][i % 3]
+            # تشتّت طبيعي حتميّ داخل قرص حول مركز المخطط (لا حلقات): زاوية عشوائيّة + نصف قطر
+            # بجذر تربيعي لتوزيع متجانس على المساحة بدل التكدّس في المركز.
+            seed = (pi * 0x9E3779B1 + (i + 1) * 0x85EBCA77) & 0xFFFFFFFF
+            ang = (seed % 4096) / 4096.0 * 2 * math.pi
+            r = 0.0010 + math.sqrt(((seed >> 12) % 4096) / 4096.0) * 0.0040
             out.append({
                 "transaction_date": f"{y:04d}-{m:02d}-{day:02d}",
                 "plan": plan, "parcel": str(100 + i),
                 "real_estate_number": f"SAMPLE-{plan}-{i}",
                 "area": area, "usage": types[plan], "type": types[plan],
                 "meter_price": price, "amount": price * area,
-                "lat": round(lat0 + math.sin(i) * 0.004, 6),
-                "lng": round(lng0 + math.cos(i) * 0.004, 6),
+                "lat": round(lat0 + math.sin(ang) * r, 6),
+                "lng": round(lng0 + math.cos(ang) * r * lng_scale, 6),
             })
     return out
 
