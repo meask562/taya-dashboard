@@ -192,6 +192,8 @@ def sample() -> dict:
 def main() -> int:
     ap = argparse.ArgumentParser(description="سحب صفقات سهيل لمحيط طايا → suhail.json")
     ap.add_argument("--sample", action="store_true", help="بيانات توضيحية بلا شبكة")
+    ap.add_argument("--ci", action="store_true",
+                    help="وضع السحابة: عند فشل السحب أبقِ الملف الحالي ولا تكتب عيّنة")
     args = ap.parse_args()
 
     if args.sample:
@@ -200,6 +202,9 @@ def main() -> int:
         try:
             data = fetch_live()
         except (urllib.error.URLError, urllib.error.HTTPError, RuntimeError, KeyError, ValueError) as e:
+            if args.ci and OUT_PATH.exists():
+                print(f"[suhail] تعذّر السحب الحيّ ({e}) — أبقيت الملف الحالي دون تغيير.", file=sys.stderr)
+                return 0
             print(f"[suhail] تعذّر السحب الحيّ ({e}) — اكتب عيّنة بدلًا منه.", file=sys.stderr)
             data = sample()
 

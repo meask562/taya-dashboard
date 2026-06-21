@@ -1,0 +1,61 @@
+name: نشر اللوحة + تحديث البيانات المجدول
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 5 * * 0"        # كل أحد 05:00 UTC (08:00 الرياض) — تحديث بيانات أسبوعي
+  workflow_dispatch:            # زرّ تشغيل يدوي من تبويب Actions
+
+permissions:
+  contents: write               # لدفع البيانات المحدّثة
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # ── تحديث البيانات (يعمل فقط في الجدولة/التشغيل اليدوي، لا عند كل دفع) ──
+      - name: تهيئة Python
+        if: github.event_name != 'push'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: سحب البيانات الحيّة (سهيل + طايا) ثم الدمج
+        if: github.event_name != 'push'
+        run: |
+          python fetcher/inventory.py            || echo "inventory: أبقيت الحالي"
+          python fetcher/suhail.py --ci          || echo "suhail: أبقيت الحالي"
+          python fetcher/merge.py                || echo "merge: تخطّي"
+
+      - name: حفظ البيانات المحدّثة في المستودع
+        if: github.event_name != 'push'
+        run: |
+          git config user.name  "taya-data-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/*.json
+          if git diff --cached --quiet; then
+            echo "لا تغيّر في البيانات."
+          else
+            git commit -m "data: تحديث تلقائي للبيانات (سهيل/طايا/الدمج)"
+            git push
+          fi
+
+      # ── نشر site/ على GitHub Pages (دائمًا) ──
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4
