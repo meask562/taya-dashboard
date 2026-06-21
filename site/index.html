@@ -397,6 +397,28 @@
     <div class="h-upd"><div class="l">آخر تحديث</div><div class="v num"><span class="live-dot"></span><span id="hUpd">—</span></div><div class="h-age" id="hAge"></div></div>
   </header>
 
+  <style>
+    html{ scroll-behavior:smooth; }
+    @media (prefers-reduced-motion: reduce){ html{ scroll-behavior:auto; } }
+    .tabnav{ position:sticky; top:0; z-index:1100; display:flex; gap:2px;
+      background:var(--bg); border-bottom:1.5px solid var(--line-strong);
+      margin:0 0 6px; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; }
+    .tabnav::-webkit-scrollbar{ display:none; }
+    .tabnav-btn{ appearance:none; background:none; border:0; cursor:pointer; white-space:nowrap;
+      padding:12px 18px; font:inherit; font-size:14px; font-weight:600; color:var(--muted);
+      border-bottom:2.5px solid transparent; transition:color .2s var(--ease), border-color .2s var(--ease); }
+    .tabnav-btn:hover{ color:var(--ink-2); }
+    .tabnav-btn.is-active{ color:var(--navy); border-bottom-color:var(--teal); }
+    .tabnav-btn:focus-visible{ outline:none; box-shadow:var(--ring); border-radius:6px 6px 0 0; }
+    .section{ scroll-margin-top:62px; }
+  </style>
+  <nav class="tabnav" id="tabnav" aria-label="تنقّل أقسام اللوحة">
+    <button type="button" class="tabnav-btn is-active" data-tab="ov">نظرة عامة</button>
+    <button type="button" class="tabnav-btn" data-tab="mkt">السوق</button>
+    <button type="button" class="tabnav-btn" data-tab="inv">مخزوننا</button>
+    <button type="button" class="tabnav-btn" data-tab="deals">الصفقات</button>
+  </nav>
+
   <div class="strip sample" id="sampleBanner">⚠️ بيانات توضيحية (نموذج): ليست صفقات حقيقية، وتُستبدل بعد أول تشغيل فعلي للجلب.</div>
   <div class="strip stale" id="staleAlert">التحديث متوقف منذ أكثر من 48 ساعة، ويلزم تجديد جلسة بسيطة.</div>
   <div class="strip err" id="loaderr">
@@ -419,7 +441,7 @@
   </div>
 
   <!-- (٢) موقعك من السوق (البطل) -->
-  <section class="section">
+  <section class="section" data-group="ov">
     <div class="panel position">
       <div class="top">
         <h2><span class="marker"></span>موقعك من السوق</h2>
@@ -431,20 +453,48 @@
   </section>
 
 
+  <!-- نبض السوق الحيّ — مصادر مدمجة (سهيل + بسيطة) -->
+  <section class="section" id="mktSection" data-group="ov" style="display:none">
+    <div class="head">
+      <h2><span class="marker"></span>نبض السوق الحيّ — مصادر مدمجة</h2>
+      <span class="sub">صفقات محيط طايا من سهيل وبسيطة، بعد إزالة التكرار برقم الصفقة</span>
+      <span class="tip" tabindex="0" role="note" aria-label="تُدمج صفقات السوق من مصدرين (سهيل، بسيطة) وتُزال المكرّرات اعتمادًا على رقم الصفقة الرسميّ من وزارة العدل، لا بالصفات." data-tip="دمج صفقات سهيل + بسيطة لمحيط طايا، مع إزالة المكرّرات برقم الصفقة الرسميّ (لا بالتاريخ/المساحة/السعر).">ⓘ</span>
+    </div>
+    <div id="mktSources" style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px"></div>
+    <div class="panel statbar" id="mktStats"></div>
+    <div class="note" id="mktNote" style="margin-top:10px"></div>
+  </section>
+
+  <!-- (٥) المخاطر والفرص -->
+  <section class="section" data-group="ov">
+    <div class="head"><h2>المخاطر والفرص</h2></div>
+    <div class="risk">
+      <div class="riskcard">
+        <div class="t">رسوم الأراضي البيضاء · أرض طايا</div>
+        <div class="v" id="whiteFee">—</div>
+        <div class="note" style="margin-top:6px;">تكلفة الاحتفاظ على المساحة غير المطوّرة؛ ضغط مباشر على قرار التوقيت. (تُقرأ من طبقة بسيطة عند توفّرها، ولا تُختلق)</div>
+      </div>
+      <div class="riskcard">
+        <div class="t">صفقات لافتة قريبة (آخر 30 يومًا)</div>
+        <div id="notable" style="margin-top:6px"></div>
+      </div>
+    </div>
+  </section>
+
   <!-- (١+٣) بطاقات الأسعار + الزخم -->
-  <section class="section">
+  <section class="section" data-group="mkt">
     <div class="head"><h2>سعر السوق والزخم</h2><span class="sub">وسيط ر.س/م² لكل مخطط منافس</span><span class="tip" tabindex="0" role="note" aria-label="الوسيط = السعر الأوسط، مقاوم للقيم الشاذة. الزخم: تغيّر الوسيط شهريًا وربعيًا. «ضمن النطاق» = داخل النطاق السعري المرجعي للمخطط." data-tip="الوسيط = السعر الأوسط (مقاوم للشواذ). الزخم: تغيّر الوسيط شهريًا/ربعيًا. «ضمن النطاق» = داخل النطاق المرجعي للمخطط.">ⓘ</span></div>
     <div class="kpis" id="kpis"></div>
   </section>
 
   <!-- (٤) حجم السوق المتداول -->
-  <section class="section">
+  <section class="section" data-group="mkt">
     <div class="head"><h2>حجم السوق المتداول</h2><span class="sub">إجمالي ما رُصد في نافذة البيانات</span><span class="tip" tabindex="0" role="note" aria-label="إجمالي قيمة ومساحة وعدد الصفقات المرصودة في نافذة البيانات." data-tip="إجمالي قيمة ومساحة وعدد الصفقات المرصودة خلال نافذة البيانات.">ⓘ</span></div>
     <div class="panel statbar" id="statbar"></div>
   </section>
 
   <!-- (٣ سيولة) + (٤ طلب) -->
-  <section class="section">
+  <section class="section" data-group="mkt">
     <div class="row2">
       <div class="panel">
         <h3>سيولة السوق</h3>
@@ -462,7 +512,7 @@
   </section>
 
   <!-- الخريطة -->
-  <section class="section">
+  <section class="section" data-group="mkt">
     <div class="head"><h2>مواقع الصفقات حول مدينة طايا الصناعية</h2></div>
     <div class="panel">
       <div class="toolbar">
@@ -497,7 +547,7 @@
   </section>
 
   <!-- الاتجاه -->
-  <section class="section">
+  <section class="section" data-group="mkt">
     <div class="head"><h2>اتجاه وسيط السعر الشهري</h2><span class="sub">ر.س/م²</span></div>
     <div class="panel">
       <div class="legend" id="trendLegend"></div>
@@ -505,24 +555,8 @@
     </div>
   </section>
 
-  <!-- (٥) المخاطر والفرص -->
-  <section class="section">
-    <div class="head"><h2>المخاطر والفرص</h2></div>
-    <div class="risk">
-      <div class="riskcard">
-        <div class="t">رسوم الأراضي البيضاء · أرض طايا</div>
-        <div class="v" id="whiteFee">—</div>
-        <div class="note" style="margin-top:6px;">تكلفة الاحتفاظ على المساحة غير المطوّرة؛ ضغط مباشر على قرار التوقيت. (تُقرأ من طبقة بسيطة عند توفّرها، ولا تُختلق)</div>
-      </div>
-      <div class="riskcard">
-        <div class="t">صفقات لافتة قريبة (آخر 30 يومًا)</div>
-        <div id="notable" style="margin-top:6px"></div>
-      </div>
-    </div>
-  </section>
-
   <!-- مخزون قطع طايا (كوكبيت البيع) — قابل للطيّ -->
-  <section class="section" id="invSection" style="display:none">
+  <section class="section" id="invSection" data-group="inv" style="display:none">
     <div class="head inv-head" id="invToggle" role="button" tabindex="0" aria-expanded="true" aria-controls="invBody">
       <h2><span class="marker"></span>مخزون قطع طايا</h2>
       <span class="sub">ما نملكه ونبيعه على الخريطة · <a class="ext" href="https://taya-industrial-city.voom.cc/master-plan" target="_blank" rel="noopener" onclick="event.stopPropagation()">الخريطة ثلاثيّة الأبعاد ↗</a></span>
@@ -558,7 +592,7 @@
   </section>
 
   <!-- الجدول -->
-  <section class="section">
+  <section class="section" data-group="deals">
     <div class="head"><h2>أحدث الصفقات المسجّلة</h2></div>
     <div class="panel">
       <div class="tablewrap">
@@ -727,14 +761,17 @@ Promise.all([
     .then(function(r){ if(!r.ok) throw new Error("HTTP "+r.status); return r.json(); }),
   fetch("data/inventory.json", {cache:"no-store"})
     .then(function(r){ return r.ok ? r.json() : null; })
-    .catch(function(){ return null; })   // المخزون اختياري: لا يُسقط اللوحة لو غاب
+    .catch(function(){ return null; }),  // المخزون اختياري: لا يُسقط اللوحة لو غاب
+  fetch("data/market.json", {cache:"no-store"})
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .catch(function(){ return null; })   // السوق المدمج اختياري كذلك
 ])
-  .then(function(arr){ render(arr[0], arr[1]); })
+  .then(function(arr){ render(arr[0], arr[1], arr[2]); })
   .catch(function(e){ console.error(e);
     var w = document.querySelector(".wrap"); w.classList.remove("app-loading"); w.classList.add("app-error");
     document.getElementById("loaderr").style.display = "flex"; });
 
-function render(M, INV){
+function render(M, INV, MK){
   INVENTORY = INV || null;
   document.querySelector(".wrap").classList.remove("app-loading");
   document.getElementById("hSub").textContent =
@@ -752,6 +789,7 @@ function render(M, INV){
   }
 
   buildPosition(M);
+  buildMarketSources(MK);
   buildInventory(M);
   buildKpis(M);
   buildTotals(M);
@@ -778,6 +816,43 @@ function render(M, INV){
     " · مستبعدة (شواذ): " + nf(M.excluded_outliers) +
     " · وُلّد: " + (M.generated_at||"—") +
     " · الإعلانات سياق فقط، المرجع صفقات السجل العقاري/عدل عبر بسيطة.";
+}
+
+// ── نبض السوق الحيّ — مصادر مدمجة (سهيل + بسيطة، بعد إزالة التكرار) ──
+function buildMarketSources(MK){
+  if(!MK || !MK.summary) return;               // اختياري: يظهر فقط حين يتوفّر market.json
+  document.getElementById("mktSection").style.display = "";
+
+  var s = MK.summary, mg = MK.merge || {}, src = MK.sources || {};
+  // شارات المصادر (حيّ/عيّنة + العدد)
+  var badges = Object.keys(src).map(function(k){
+    var v = src[k]; var live = !v.sample;
+    return '<span class="badge '+(live?"ok":"muted")+'" title="'+(live?"بيانات حيّة":"بيانات عيّنة")+'">'+
+           '● '+v.label+' — '+(live?"حيّ":"عيّنة")+' · '+nf(v.count)+' صفقة</span>';
+  });
+  badges.push('<span class="badge '+(mg.duplicates_removed>0?"warn":"muted")+'">مكرّرات مُزالة: '+nf(mg.duplicates_removed||0)+'</span>');
+  if(mg.without_tx_no) badges.push('<span class="badge muted">بلا رقم صفقة: '+nf(mg.without_tx_no)+'</span>');
+  document.getElementById("mktSources").innerHTML = badges.join("");
+
+  // قيمة إجماليّة مختصرة
+  var mv, mUnit, tv = s.total_value;
+  if(tv>=1e9){ mv=(tv/1e9).toFixed(2); mUnit="مليار ر.س"; }
+  else if(tv>=1e6){ mv=(tv/1e6).toFixed(1); mUnit="مليون ر.س"; }
+  else { mv = tv!=null ? nf(tv) : "—"; mUnit="ر.س"; }
+
+  document.getElementById("mktStats").innerHTML =
+    '<div class="stat"><div class="l">صفقات فريدة (مدمجة)</div><div class="v"><span class="num cnum" data-count="'+(s.deal_count||0)+'">'+nf(s.deal_count)+'</span></div></div>'+
+    '<div class="stat"><div class="l">وسيط سعر المتر</div><div class="v"><span class="num cnum" data-count="'+(s.median_price_of_meter||0)+'">'+nf(s.median_price_of_meter)+'</span><span class="u">ر.س/م²</span></div></div>'+
+    '<div class="stat"><div class="l">إجمالي القيمة</div><div class="v"><span class="num">'+mv+'</span><span class="u">'+mUnit+'</span></div></div>'+
+    '<div class="stat"><div class="l">أشهر مغطّاة</div><div class="v"><span class="num">'+nf((s.months_covered||[]).length)+'</span><span class="u">شهر</span></div></div>';
+
+  // تفصيل الاستخدام (أعلى 3) + ملاحظة المصدر/الأمانة
+  var uses = (MK.by_use||[]).slice(0,3).map(function(u){
+    return u.use+" "+nf(u.count)+(u.median_pm?" · وسيط "+nf(u.median_pm):"");
+  }).join("  ·  ");
+  document.getElementById("mktNote").innerHTML =
+    (uses ? "أبرز الاستخدامات: "+uses+" — " : "") +
+    "إزالة التكرار برقم الصفقة الرسميّ (لا بالصفات). سهيل حيّ؛ بسيطة عيّنة الآن وتنضمّ حيًّا لاحقًا.";
 }
 
 // ── (٢) موقعك من السوق ──
@@ -1278,6 +1353,47 @@ function renderTable(){
   }).join("");
   document.getElementById("moreBtn").style.display = rows.length > TABLE.shown ? "inline-block" : "none";
 }
+
+// ── شريط التابات (scroll-spy): قفز للقسم + تتبّع التاب النشط حسب موضع التمرير ──
+(function(){
+  var nav = document.getElementById("tabnav");
+  if(!nav) return;
+  var btns = [].slice.call(nav.querySelectorAll(".tabnav-btn"));
+  var navH = function(){ return nav.offsetHeight || 56; };
+
+  function firstVisible(group){
+    var secs = [].slice.call(document.querySelectorAll('.section[data-group="'+group+'"]'));
+    return secs.filter(function(s){ return s.offsetParent !== null; })[0] || null;  // يتخطّى المخفيّ (display:none)
+  }
+  function setActive(group){
+    btns.forEach(function(b){ b.classList.toggle("is-active", b.dataset.tab===group); });
+  }
+  nav.addEventListener("click", function(e){
+    var b = e.target.closest(".tabnav-btn"); if(!b) return;
+    var sec = firstVisible(b.dataset.tab);
+    if(sec){
+      var y = sec.getBoundingClientRect().top + window.pageYOffset - navH() - 6;
+      window.scrollTo({ top: y, behavior: (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) ? "auto" : "smooth" });
+    }
+    setActive(b.dataset.tab);
+  });
+
+  // تتبّع التاب النشط أثناء التمرير (أي مجموعة أقسام نحن داخلها الآن)
+  var ticking = false;
+  function onScroll(){
+    if(ticking) return; ticking = true;
+    requestAnimationFrame(function(){
+      ticking = false;
+      var line = navH() + 24, current = "ov";
+      [].forEach.call(document.querySelectorAll(".section[data-group]"), function(s){
+        if(s.offsetParent !== null && s.getBoundingClientRect().top <= line) current = s.dataset.group;
+      });
+      setActive(current);
+    });
+  }
+  window.addEventListener("scroll", onScroll, { passive:true });
+  window.addEventListener("resize", onScroll, { passive:true });
+})();
 </script>
 </body>
 </html>
