@@ -14,11 +14,11 @@
   <key>ProgramArguments</key>
   <array>
     <string>/bin/bash</string>
-    <string>/Users/abuturki/Library/CloudStorage/OneDrive-Personal/Claude Code/Taya Dashboaerd/scheduler/run.sh</string>
+    <string>/PATH/TO/taya-dashboard/scheduler/run.sh</string>
   </array>
 
   <key>WorkingDirectory</key>
-  <string>/Users/abuturki/Library/CloudStorage/OneDrive-Personal/Claude Code/Taya Dashboaerd</string>
+  <string>/PATH/TO/taya-dashboard</string>
 
   <key>StartCalendarInterval</key>
   <dict>
@@ -30,9 +30,9 @@
   <false/>
 
   <key>StandardOutPath</key>
-  <string>/Users/abuturki/Library/CloudStorage/OneDrive-Personal/Claude Code/Taya Dashboaerd/scheduler/logs/launchd.out.log</string>
+  <string>/PATH/TO/taya-dashboard/scheduler/logs/launchd.out.log</string>
   <key>StandardErrorPath</key>
-  <string>/Users/abuturki/Library/CloudStorage/OneDrive-Personal/Claude Code/Taya Dashboaerd/scheduler/logs/launchd.err.log</string>
+  <string>/PATH/TO/taya-dashboard/scheduler/logs/launchd.err.log</string>
 
   <key>ProcessType</key>
   <string>Background</string>

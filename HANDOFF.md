@@ -12,11 +12,11 @@
 لوحة قرار عقاريّة (Arabic RTL، صفحة واحدة) لمالك مدينة طايا الصناعيّة:
 - **تقنيّة:** HTML/CSS/JavaScript صرف (بلا framework) + Chart.js + Leaflet. الواجهة كلّها في `site/index.html`.
 - **مبدأ المعمار:** مصدر الحقيقة هو ملفّات **JSON** في `site/data/`. سكربتات `fetcher/` تنتج هذه الملفّات؛ الواجهة تقرأها فقط. أي مصدر بيانات جديد (ERP مثلاً) = سكربت يكتب JSON بنفس المخطّط.
-- **حيّ الآن:** https://meask562.github.io/taya-dashboard/
+- **حيّ الآن:** <رابط-النشر-لديكم>
 
 ## 2) كيف يحصل الفريق على كل الملفّات
-المشروع كلّه في مستودع GitHub:  **github.com/meask562/taya-dashboard**
-- **مبرمج:** `git clone https://github.com/meask562/taya-dashboard.git`
+المشروع كلّه في مستودع GitHub:  **github.com/<حسابكم>/taya-dashboard**
+- **مبرمج:** `git clone https://github.com/<حسابكم>/taya-dashboard.git`
 - **غير مبرمج:** زرّ **Code → Download ZIP** في صفحة المستودع.
 - **للمساهمة (الدفع للمستودع):** يضيف المالكُ أعضاءَ الفريق Collaborators من
   Settings → Collaborators في GitHub (أو الفريق يعمل Fork).

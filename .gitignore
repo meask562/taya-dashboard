@@ -38,3 +38,8 @@ node_modules/
 
 # ── أدوات Claude Code المحلية (إعدادات/معاينة/سكِلز — خاصة بالجهاز، لا تُنشر) ──
 .claude/
+
+# ملاحظات داخليّة (شخصيّة) — لا تُنشر
+_ملخص الجلسة للمتابعة.md
+Claude_Code_Prompts_Dashboard_طايا.md
+_private/
