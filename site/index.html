@@ -566,6 +566,7 @@
       <div class="panel position">
         <div id="invHero"></div>
         <div id="invSectors" class="inv-sectors"></div>
+        <div class="note" style="margin-top:10px">المصدر: <b>موقع مدينة طايا الصناعيّة (tic-taya.sa)</b> — قطع حقيقيّة (كود/بلوك/مساحة/نوع/اتجاه). الموقع العام يعرض <b>المعروض للبيع</b> فقط (+ محجوز)؛ بيانات <b>المباع والإيراد</b> تأتي من نظامكم الداخلي. السعر تقدير قطاعي (غير منشور علنًا)، والمواقع على الخريطة تقريبيّة.</div>
       </div>
       <div class="panel" style="margin-top:14px">
         <div class="toolbar">
@@ -578,7 +579,7 @@
         <div class="tablewrap">
           <table id="invTable">
             <thead><tr>
-              <th data-k="plot_no">القطعة</th><th data-k="sector_name">التصنيف</th>
+              <th data-k="plot_no">القطعة</th><th data-k="block">البلوك</th><th data-k="sector_name">التصنيف</th>
               <th data-k="area">المساحة</th><th data-k="status">الحالة</th>
               <th data-k="price">ر.س/م²</th>
             </tr></thead>
@@ -964,6 +965,7 @@ function buildInventory(M){
     rows.sort(function(a,b){
       var va, vb;
       if(sortKey==="area"){ va=a.area; vb=b.area; }
+      else if(sortKey==="block"){ va=a.block||0; vb=b.block||0; }
       else if(sortKey==="price"){ va=priceOf(a); vb=priceOf(b); }
       else if(sortKey==="status"){ va=a.status; vb=b.status; }
       else if(sortKey==="sector_name"){ va=names[a.sector]||""; vb=names[b.sector]||""; }
@@ -972,9 +974,10 @@ function buildInventory(M){
     });
     var body = document.getElementById("invTbody");
     var shown = rows.slice(0, invLimit);
-    if(!rows.length){ body.innerHTML = '<tr><td colspan="5" class="empty">لا قطع مطابقة.</td></tr>'; }
+    if(!rows.length){ body.innerHTML = '<tr><td colspan="6" class="empty">لا قطع مطابقة.</td></tr>'; }
     else body.innerHTML = shown.map(function(p){
-      return '<tr><td class="p">'+p.plot_no+'</td><td>'+(names[p.sector]||p.sector_name||p.sector)+'</td>'+
+      return '<tr><td class="p">'+p.plot_no+'</td><td class="num">'+(p.block!=null?p.block:"—")+'</td>'+
+        '<td>'+(names[p.sector]||p.sector_name||p.sector)+'</td>'+
         '<td class="num">'+nf(p.area)+' م²</td>'+
         '<td><span class="st '+p.status+'">'+(INV_STATUS[p.status]||p.status)+'</span></td>'+
         '<td class="num">'+nf(priceOf(p))+'</td></tr>';
