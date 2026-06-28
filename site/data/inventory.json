@@ -2,7 +2,7 @@
   "sample": false,
   "source": "tic-taya.sa/listings",
   "source_note": "قطع حقيقيّة من موقع مدينة طايا الصناعيّة. الموقع العام يعرض المعروض للبيع (+ محجوز) ولا يَنشُر المباع — فالمبيعات تُضاف من النظام الداخلي. المواقع على الخريطة تقريبيّة (إحداثيات الموقع placeholder).",
-  "generated_at": "2026-06-21T00:00:00",
+  "generated_at": "2026-06-28T00:00:00",
   "tic_center": [
     24.4887,
     46.8813
@@ -32,8 +32,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.492043,
-      "lng": 46.886708
+      "lat": 24.490522,
+      "lng": 46.87527
     },
     {
       "plot_no": "LI-B11-172",
@@ -47,8 +47,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.492244,
-      "lng": 46.886353
+      "lat": 24.497462,
+      "lng": 46.882668
     },
     {
       "plot_no": "LI-B11-173",
@@ -62,8 +62,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.483163,
-      "lng": 46.882145
+      "lat": 24.494884,
+      "lng": 46.880945
     },
     {
       "plot_no": "LI-B11-174",
@@ -77,8 +77,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.488029,
-      "lng": 46.893933
+      "lat": 24.498131,
+      "lng": 46.888293
     },
     {
       "plot_no": "LI-B11-175",
@@ -92,8 +92,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.483773,
-      "lng": 46.8818
+      "lat": 24.48921,
+      "lng": 46.891727
     },
     {
       "plot_no": "LI-B11-176",
@@ -107,8 +107,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494106,
-      "lng": 46.885553
+      "lat": 24.481979,
+      "lng": 46.8911
     },
     {
       "plot_no": "LI-B11-177",
@@ -122,8 +122,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.483314,
-      "lng": 46.889103
+      "lat": 24.49168,
+      "lng": 46.873597
     },
     {
       "plot_no": "LI-B11-178",
@@ -137,8 +137,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.493,
-      "lng": 46.889437
+      "lat": 24.494329,
+      "lng": 46.875981
     },
     {
       "plot_no": "LI-B11-179",
@@ -152,8 +152,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.49494,
-      "lng": 46.882774
+      "lat": 24.490232,
+      "lng": 46.89058
     },
     {
       "plot_no": "LI-B11-180",
@@ -167,8 +167,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.496312,
-      "lng": 46.876039
+      "lat": 24.495751,
+      "lng": 46.88174
     },
     {
       "plot_no": "LI-B11-181",
@@ -182,8 +182,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.484147,
-      "lng": 46.871129
+      "lat": 24.496732,
+      "lng": 46.87203
     },
     {
       "plot_no": "LI-B11-182",
@@ -197,8 +197,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.484279,
-      "lng": 46.889907
+      "lat": 24.482099,
+      "lng": 46.87276
     },
     {
       "plot_no": "LI-B11-183",
@@ -212,8 +212,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.487463,
-      "lng": 46.875691
+      "lat": 24.491534,
+      "lng": 46.878679
     },
     {
       "plot_no": "LI-B11-184",
@@ -227,8 +227,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.491183,
-      "lng": 46.86915
+      "lat": 24.490599,
+      "lng": 46.8698
     },
     {
       "plot_no": "LI-B11-185",
@@ -242,8 +242,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.495663,
-      "lng": 46.880285
+      "lat": 24.484022,
+      "lng": 46.890407
     },
     {
       "plot_no": "LI-B12-186",
@@ -257,8 +257,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.495191,
-      "lng": 46.882651
+      "lat": 24.490276,
+      "lng": 46.875495
     },
     {
       "plot_no": "LI-B12-187",
@@ -272,8 +272,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.495792,
-      "lng": 46.883239
+      "lat": 24.483986,
+      "lng": 46.876167
     },
     {
       "plot_no": "LI-B12-188",
@@ -287,8 +287,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.485775,
-      "lng": 46.888317
+      "lat": 24.483486,
+      "lng": 46.874097
     },
     {
       "plot_no": "LI-B12-189",
@@ -302,8 +302,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.48254,
-      "lng": 46.878459
+      "lat": 24.496523,
+      "lng": 46.88048
     },
     {
       "plot_no": "LI-B13-190",
@@ -317,8 +317,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.497346,
-      "lng": 46.881213
+      "lat": 24.485645,
+      "lng": 46.877753
     },
     {
       "plot_no": "LI-B13-191",
@@ -332,8 +332,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.48818,
-      "lng": 46.874664
+      "lat": 24.494492,
+      "lng": 46.872636
     },
     {
       "plot_no": "LI-B13-192",
@@ -347,8 +347,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.492048,
-      "lng": 46.884814
+      "lat": 24.489115,
+      "lng": 46.87439
     },
     {
       "plot_no": "LI-B13-193",
@@ -362,8 +362,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.488372,
-      "lng": 46.868954
+      "lat": 24.484814,
+      "lng": 46.880727
     },
     {
       "plot_no": "LI-B13-194",
@@ -377,8 +377,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.48322,
-      "lng": 46.875706
+      "lat": 24.489926,
+      "lng": 46.893114
     },
     {
       "plot_no": "LI-B13-195",
@@ -392,8 +392,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.498507,
-      "lng": 46.886808
+      "lat": 24.498884,
+      "lng": 46.879341
     },
     {
       "plot_no": "LI-B13-196",
@@ -407,8 +407,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494835,
-      "lng": 46.888021
+      "lat": 24.491172,
+      "lng": 46.887828
     },
     {
       "plot_no": "LI-B13-197",
@@ -422,8 +422,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.483304,
-      "lng": 46.878981
+      "lat": 24.479843,
+      "lng": 46.877835
     },
     {
       "plot_no": "LI-B13-198",
@@ -437,8 +437,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494706,
-      "lng": 46.885146
+      "lat": 24.484297,
+      "lng": 46.872248
     },
     {
       "plot_no": "LI-B13-199",
@@ -452,8 +452,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.482013,
-      "lng": 46.878569
+      "lat": 24.481557,
+      "lng": 46.891422
     },
     {
       "plot_no": "LI-B13-200",
@@ -467,8 +467,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.49574,
-      "lng": 46.887629
+      "lat": 24.496496,
+      "lng": 46.886434
     },
     {
       "plot_no": "LI-B13-201",
@@ -482,8 +482,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.492117,
-      "lng": 46.887652
+      "lat": 24.492138,
+      "lng": 46.870429
     },
     {
       "plot_no": "LI-B14-202",
@@ -497,8 +497,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.49484,
-      "lng": 46.877199
+      "lat": 24.484215,
+      "lng": 46.883521
     },
     {
       "plot_no": "LI-B14-203",
@@ -512,8 +512,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.486258,
-      "lng": 46.872786
+      "lat": 24.482505,
+      "lng": 46.883677
     },
     {
       "plot_no": "LI-B14-204",
@@ -527,8 +527,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494876,
-      "lng": 46.887063
+      "lat": 24.490489,
+      "lng": 46.887406
     },
     {
       "plot_no": "LI-B14-205",
@@ -542,8 +542,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.493184,
-      "lng": 46.880001
+      "lat": 24.478431,
+      "lng": 46.876727
     },
     {
       "plot_no": "LI-B14-206",
@@ -557,8 +557,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.48336,
-      "lng": 46.87692
+      "lat": 24.489012,
+      "lng": 46.884117
     },
     {
       "plot_no": "LI-B15-207",
@@ -572,8 +572,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.488554,
-      "lng": 46.889338
+      "lat": 24.494022,
+      "lng": 46.877018
     },
     {
       "plot_no": "LI-B15-208",
@@ -587,8 +587,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.480101,
-      "lng": 46.881634
+      "lat": 24.481578,
+      "lng": 46.879314
     },
     {
       "plot_no": "LI-B15-209",
@@ -602,8 +602,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.482255,
-      "lng": 46.878493
+      "lat": 24.485461,
+      "lng": 46.891198
     },
     {
       "plot_no": "LI-B15-210",
@@ -617,8 +617,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.489838,
-      "lng": 46.870023
+      "lat": 24.478932,
+      "lng": 46.881745
     },
     {
       "plot_no": "LI-B15-211",
@@ -632,8 +632,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.482265,
-      "lng": 46.881267
+      "lat": 24.48725,
+      "lng": 46.873539
     },
     {
       "plot_no": "LI-B15-212",
@@ -647,8 +647,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.479901,
-      "lng": 46.889718
+      "lat": 24.494048,
+      "lng": 46.889922
     },
     {
       "plot_no": "LI-B15-213",
@@ -662,8 +662,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.488939,
-      "lng": 46.885921
+      "lat": 24.481265,
+      "lng": 46.88115
     },
     {
       "plot_no": "LI-B15-214",
@@ -677,8 +677,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.489899,
-      "lng": 46.87251
+      "lat": 24.485724,
+      "lng": 46.89076
     },
     {
       "plot_no": "LI-B15-215",
@@ -692,8 +692,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.479841,
-      "lng": 46.884042
+      "lat": 24.495718,
+      "lng": 46.878961
     },
     {
       "plot_no": "LI-B15-216",
@@ -707,8 +707,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.499116,
-      "lng": 46.883286
+      "lat": 24.478208,
+      "lng": 46.885089
     },
     {
       "plot_no": "LI-B15-217",
@@ -722,8 +722,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.486524,
-      "lng": 46.892769
+      "lat": 24.49358,
+      "lng": 46.872716
     },
     {
       "plot_no": "LI-B15-218",
@@ -737,8 +737,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.493078,
-      "lng": 46.871556
+      "lat": 24.498817,
+      "lng": 46.882585
     },
     {
       "plot_no": "LI-B15-219",
@@ -752,8 +752,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.495138,
-      "lng": 46.875384
+      "lat": 24.491176,
+      "lng": 46.869604
     },
     {
       "plot_no": "LI-B15-220",
@@ -767,8 +767,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.483337,
-      "lng": 46.87133
+      "lat": 24.496726,
+      "lng": 46.881842
     },
     {
       "plot_no": "LI-B15-221",
@@ -782,8 +782,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.499412,
-      "lng": 46.878447
+      "lat": 24.490361,
+      "lng": 46.889607
     },
     {
       "plot_no": "LI-B15-222",
@@ -797,8 +797,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.493159,
-      "lng": 46.875877
+      "lat": 24.494194,
+      "lng": 46.875391
     },
     {
       "plot_no": "LI-B15-223",
@@ -812,8 +812,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.486543,
-      "lng": 46.891853
+      "lat": 24.487726,
+      "lng": 46.884557
     },
     {
       "plot_no": "LI-B16-224",
@@ -827,8 +827,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.495683,
-      "lng": 46.888169
+      "lat": 24.498633,
+      "lng": 46.885704
     },
     {
       "plot_no": "LI-B16-225",
@@ -842,8 +842,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.492971,
-      "lng": 46.873604
+      "lat": 24.494265,
+      "lng": 46.877761
     },
     {
       "plot_no": "LI-B16-226",
@@ -857,8 +857,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.492913,
-      "lng": 46.888392
+      "lat": 24.496932,
+      "lng": 46.884166
     },
     {
       "plot_no": "LI-B16-227",
@@ -872,8 +872,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.486967,
-      "lng": 46.877208
+      "lat": 24.479379,
+      "lng": 46.875724
     },
     {
       "plot_no": "LI-B16-228",
@@ -887,8 +887,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.490869,
-      "lng": 46.870126
+      "lat": 24.492964,
+      "lng": 46.892092
     },
     {
       "plot_no": "LI-B16-229",
@@ -902,8 +902,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.492249,
-      "lng": 46.888651
+      "lat": 24.483017,
+      "lng": 46.875846
     },
     {
       "plot_no": "LI-B17-230",
@@ -917,8 +917,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.479807,
-      "lng": 46.875705
+      "lat": 24.492973,
+      "lng": 46.872043
     },
     {
       "plot_no": "LI-B17-231",
@@ -932,8 +932,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.493861,
-      "lng": 46.88019
+      "lat": 24.489856,
+      "lng": 46.871132
     },
     {
       "plot_no": "LI-B17-232",
@@ -947,8 +947,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.48172,
-      "lng": 46.874927
+      "lat": 24.480591,
+      "lng": 46.87618
     },
     {
       "plot_no": "LI-B17-233",
@@ -962,8 +962,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.490073,
-      "lng": 46.887442
+      "lat": 24.489473,
+      "lng": 46.87046
     },
     {
       "plot_no": "LI-B18-234",
@@ -977,8 +977,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.493638,
-      "lng": 46.876619
+      "lat": 24.498428,
+      "lng": 46.882369
     },
     {
       "plot_no": "LI-B18-235",
@@ -992,8 +992,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.489121,
-      "lng": 46.876675
+      "lat": 24.482232,
+      "lng": 46.886725
     },
     {
       "plot_no": "LI-B18-236",
@@ -1007,8 +1007,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.492298,
-      "lng": 46.876452
+      "lat": 24.486714,
+      "lng": 46.871223
     },
     {
       "plot_no": "LI-B18-237",
@@ -1022,8 +1022,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.495868,
-      "lng": 46.891424
+      "lat": 24.490379,
+      "lng": 46.86873
     },
     {
       "plot_no": "LI-B18-238",
@@ -1037,8 +1037,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.497313,
-      "lng": 46.888639
+      "lat": 24.500254,
+      "lng": 46.881846
     },
     {
       "plot_no": "LI-B18-239",
@@ -1052,8 +1052,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.49872,
-      "lng": 46.879407
+      "lat": 24.487617,
+      "lng": 46.88233
     },
     {
       "plot_no": "LI-B18-240",
@@ -1067,8 +1067,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.485177,
-      "lng": 46.889358
+      "lat": 24.487742,
+      "lng": 46.874886
     },
     {
       "plot_no": "LI-B18-241",
@@ -1082,8 +1082,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.491982,
-      "lng": 46.888719
+      "lat": 24.492379,
+      "lng": 46.872986
     },
     {
       "plot_no": "LI-B18-242",
@@ -1097,8 +1097,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.480004,
-      "lng": 46.883803
+      "lat": 24.477697,
+      "lng": 46.881003
     },
     {
       "plot_no": "LI-B18-243",
@@ -1112,8 +1112,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.498285,
-      "lng": 46.880148
+      "lat": 24.485512,
+      "lng": 46.870695
     },
     {
       "plot_no": "LI-B18-244",
@@ -1127,8 +1127,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.480681,
-      "lng": 46.887247
+      "lat": 24.481216,
+      "lng": 46.876905
     },
     {
       "plot_no": "LI-B18-245",
@@ -1142,8 +1142,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.493434,
-      "lng": 46.880996
+      "lat": 24.482465,
+      "lng": 46.876235
     },
     {
       "plot_no": "LI-B18-246",
@@ -1157,8 +1157,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.493796,
-      "lng": 46.887421
+      "lat": 24.490082,
+      "lng": 46.872927
     },
     {
       "plot_no": "LI-B18-247",
@@ -1172,8 +1172,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.482038,
-      "lng": 46.884412
+      "lat": 24.495388,
+      "lng": 46.878504
     },
     {
       "plot_no": "LI-B19-248",
@@ -1187,8 +1187,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.478465,
-      "lng": 46.880626
+      "lat": 24.479509,
+      "lng": 46.884095
     },
     {
       "plot_no": "LI-B19-249",
@@ -1202,8 +1202,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494832,
-      "lng": 46.874705
+      "lat": 24.494233,
+      "lng": 46.872525
     },
     {
       "plot_no": "LI-B19-250",
@@ -1217,8 +1217,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.488441,
-      "lng": 46.88605
+      "lat": 24.496498,
+      "lng": 46.89061
     },
     {
       "plot_no": "LI-B19-251",
@@ -1232,8 +1232,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.483937,
-      "lng": 46.890775
+      "lat": 24.497856,
+      "lng": 46.874028
     },
     {
       "plot_no": "LI-B19-252",
@@ -1247,8 +1247,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.481308,
-      "lng": 46.879554
+      "lat": 24.498736,
+      "lng": 46.879159
     },
     {
       "plot_no": "LI-B19-253",
@@ -1262,8 +1262,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.488858,
-      "lng": 46.875331
+      "lat": 24.479111,
+      "lng": 46.875976
     },
     {
       "plot_no": "LI-B20-254",
@@ -1277,8 +1277,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.495756,
-      "lng": 46.888262
+      "lat": 24.483561,
+      "lng": 46.891059
     },
     {
       "plot_no": "LI-B20-255",
@@ -1292,8 +1292,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.479399,
-      "lng": 46.882608
+      "lat": 24.496173,
+      "lng": 46.889689
     },
     {
       "plot_no": "LI-B20-256",
@@ -1307,8 +1307,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.493759,
-      "lng": 46.872897
+      "lat": 24.492315,
+      "lng": 46.878548
     },
     {
       "plot_no": "LI-B20-257",
@@ -1322,8 +1322,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.482475,
-      "lng": 46.88036
+      "lat": 24.493162,
+      "lng": 46.873477
     },
     {
       "plot_no": "LI-B20-258",
@@ -1337,8 +1337,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.496278,
-      "lng": 46.874677
+      "lat": 24.493807,
+      "lng": 46.87371
     },
     {
       "plot_no": "LI-B20-259",
@@ -1352,8 +1352,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.482942,
-      "lng": 46.8908
+      "lat": 24.496024,
+      "lng": 46.878845
     },
     {
       "plot_no": "LI-B20-260",
@@ -1367,8 +1367,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.480981,
-      "lng": 46.882732
+      "lat": 24.48421,
+      "lng": 46.882657
     },
     {
       "plot_no": "LI-B20-261",
@@ -1382,8 +1382,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.48489,
-      "lng": 46.878567
+      "lat": 24.492946,
+      "lng": 46.878852
     },
     {
       "plot_no": "LI-B20-262",
@@ -1397,8 +1397,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.49598,
-      "lng": 46.8837
+      "lat": 24.497907,
+      "lng": 46.883621
     },
     {
       "plot_no": "LI-B20-263",
@@ -1412,8 +1412,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.498732,
-      "lng": 46.88446
+      "lat": 24.492245,
+      "lng": 46.873097
     },
     {
       "plot_no": "LI-B20-264",
@@ -1427,8 +1427,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.477928,
-      "lng": 46.881336
+      "lat": 24.496443,
+      "lng": 46.872947
     },
     {
       "plot_no": "LI-B20-265",
@@ -1442,8 +1442,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.481755,
-      "lng": 46.873877
+      "lat": 24.495672,
+      "lng": 46.879443
     },
     {
       "plot_no": "LI-B20-266",
@@ -1457,8 +1457,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494697,
-      "lng": 46.891097
+      "lat": 24.494214,
+      "lng": 46.892553
     },
     {
       "plot_no": "LI-B20-267",
@@ -1472,8 +1472,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.493542,
-      "lng": 46.885875
+      "lat": 24.497131,
+      "lng": 46.874733
     },
     {
       "plot_no": "LI-B21-268",
@@ -1487,8 +1487,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.481297,
-      "lng": 46.886296
+      "lat": 24.4889,
+      "lng": 46.873763
     },
     {
       "plot_no": "LI-B21-270",
@@ -1502,8 +1502,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.48171,
-      "lng": 46.881135
+      "lat": 24.487502,
+      "lng": 46.877314
     },
     {
       "plot_no": "LI-B21-271",
@@ -1517,8 +1517,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.483679,
-      "lng": 46.890799
+      "lat": 24.495718,
+      "lng": 46.871132
     },
     {
       "plot_no": "LI-B21-272",
@@ -1532,8 +1532,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.490539,
-      "lng": 46.869653
+      "lat": 24.486623,
+      "lng": 46.885217
     },
     {
       "plot_no": "LI-B21-273",
@@ -1547,8 +1547,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.480468,
-      "lng": 46.885819
+      "lat": 24.489873,
+      "lng": 46.884172
     },
     {
       "plot_no": "LI-B21-274",
@@ -1562,8 +1562,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.498083,
-      "lng": 46.883549
+      "lat": 24.484448,
+      "lng": 46.885667
     },
     {
       "plot_no": "LI-B22-275",
@@ -1577,8 +1577,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.496042,
-      "lng": 46.878607
+      "lat": 24.483119,
+      "lng": 46.888749
     },
     {
       "plot_no": "LI-B22-276",
@@ -1592,8 +1592,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494007,
-      "lng": 46.876014
+      "lat": 24.479452,
+      "lng": 46.883746
     },
     {
       "plot_no": "LI-B22-277",
@@ -1607,8 +1607,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494882,
-      "lng": 46.879476
+      "lat": 24.481213,
+      "lng": 46.871968
     },
     {
       "plot_no": "LI-B22-278",
@@ -1622,8 +1622,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.486595,
-      "lng": 46.868877
+      "lat": 24.485331,
+      "lng": 46.881397
     },
     {
       "plot_no": "LI-B22-279",
@@ -1637,8 +1637,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.493473,
-      "lng": 46.891601
+      "lat": 24.487849,
+      "lng": 46.888266
     },
     {
       "plot_no": "LI-B22-280",
@@ -1652,8 +1652,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.497586,
-      "lng": 46.886832
+      "lat": 24.487512,
+      "lng": 46.876524
     },
     {
       "plot_no": "LI-B22-281",
@@ -1667,8 +1667,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.480187,
-      "lng": 46.884712
+      "lat": 24.479631,
+      "lng": 46.880902
     },
     {
       "plot_no": "LI-B22-282",
@@ -1682,8 +1682,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.491208,
-      "lng": 46.887924
+      "lat": 24.488883,
+      "lng": 46.889005
     },
     {
       "plot_no": "LI-B22-283",
@@ -1697,8 +1697,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.486193,
-      "lng": 46.892372
+      "lat": 24.481933,
+      "lng": 46.871337
     },
     {
       "plot_no": "LI-B22-284",
@@ -1712,8 +1712,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.480481,
-      "lng": 46.889951
+      "lat": 24.496966,
+      "lng": 46.875489
     },
     {
       "plot_no": "LI-B23-285",
@@ -1727,8 +1727,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.496979,
-      "lng": 46.888156
+      "lat": 24.48709,
+      "lng": 46.886495
     },
     {
       "plot_no": "LI-B23-286",
@@ -1742,8 +1742,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.495183,
-      "lng": 46.882046
+      "lat": 24.494538,
+      "lng": 46.872338
     },
     {
       "plot_no": "LI-B23-287",
@@ -1757,8 +1757,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494885,
-      "lng": 46.877892
+      "lat": 24.491881,
+      "lng": 46.871339
     },
     {
       "plot_no": "LI-B23-288",
@@ -1772,8 +1772,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.493632,
-      "lng": 46.88694
+      "lat": 24.486005,
+      "lng": 46.893438
     },
     {
       "plot_no": "LI-B23-289",
@@ -1787,8 +1787,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.493932,
-      "lng": 46.873671
+      "lat": 24.492502,
+      "lng": 46.875963
     },
     {
       "plot_no": "LI-B23-290",
@@ -1802,8 +1802,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.483349,
-      "lng": 46.871757
+      "lat": 24.495565,
+      "lng": 46.880976
     },
     {
       "plot_no": "LI-B23-291",
@@ -1817,8 +1817,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.490636,
-      "lng": 46.873178
+      "lat": 24.490716,
+      "lng": 46.875684
     },
     {
       "plot_no": "LI-B23-292",
@@ -1832,8 +1832,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.490184,
-      "lng": 46.889498
+      "lat": 24.49181,
+      "lng": 46.870034
     },
     {
       "plot_no": "LI-B23-293",
@@ -1847,8 +1847,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.500121,
-      "lng": 46.880297
+      "lat": 24.484379,
+      "lng": 46.875514
     },
     {
       "plot_no": "LI-B23-294",
@@ -1862,8 +1862,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.499496,
-      "lng": 46.879559
+      "lat": 24.487925,
+      "lng": 46.875562
     },
     {
       "plot_no": "LI-B24-295",
@@ -1877,8 +1877,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.498118,
-      "lng": 46.886609
+      "lat": 24.489907,
+      "lng": 46.872806
     },
     {
       "plot_no": "LI-B24-296",
@@ -1892,8 +1892,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.482183,
-      "lng": 46.889576
+      "lat": 24.494428,
+      "lng": 46.884828
     },
     {
       "plot_no": "LI-B24-297",
@@ -1907,8 +1907,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.492881,
-      "lng": 46.875736
+      "lat": 24.480423,
+      "lng": 46.880362
     },
     {
       "plot_no": "LI-B24-298",
@@ -1922,8 +1922,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.490296,
-      "lng": 46.893644
+      "lat": 24.496632,
+      "lng": 46.880671
     },
     {
       "plot_no": "LI-B25-299",
@@ -1937,8 +1937,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.49605,
-      "lng": 46.888289
+      "lat": 24.495967,
+      "lng": 46.874849
     },
     {
       "plot_no": "LI-B25-300",
@@ -1952,8 +1952,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.496538,
-      "lng": 46.875771
+      "lat": 24.482182,
+      "lng": 46.884215
     },
     {
       "plot_no": "LI-B25-301",
@@ -1967,8 +1967,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.49067,
-      "lng": 46.886642
+      "lat": 24.494201,
+      "lng": 46.880441
     },
     {
       "plot_no": "LI-B25-302",
@@ -1982,8 +1982,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.490911,
-      "lng": 46.880707
+      "lat": 24.490657,
+      "lng": 46.891231
     },
     {
       "plot_no": "LI-B25-303",
@@ -1997,8 +1997,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.481807,
-      "lng": 46.889867
+      "lat": 24.486483,
+      "lng": 46.888347
     },
     {
       "plot_no": "LI-B25-304",
@@ -2012,8 +2012,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494608,
-      "lng": 46.871743
+      "lat": 24.496943,
+      "lng": 46.874408
     },
     {
       "plot_no": "LI-B25-305",
@@ -2027,8 +2027,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.486742,
-      "lng": 46.87003
+      "lat": 24.489771,
+      "lng": 46.87243
     },
     {
       "plot_no": "LI-B25-306",
@@ -2042,8 +2042,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.489852,
-      "lng": 46.870489
+      "lat": 24.497452,
+      "lng": 46.878172
     },
     {
       "plot_no": "LI-B25-307",
@@ -2057,8 +2057,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.492432,
-      "lng": 46.874164
+      "lat": 24.479706,
+      "lng": 46.875681
     },
     {
       "plot_no": "LI-B25-308",
@@ -2072,8 +2072,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.489607,
-      "lng": 46.871186
+      "lat": 24.48916,
+      "lng": 46.869941
     },
     {
       "plot_no": "LI-B25-309",
@@ -2087,8 +2087,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.49111,
-      "lng": 46.870071
+      "lat": 24.486828,
+      "lng": 46.881907
     },
     {
       "plot_no": "LI-B26-310",
@@ -2102,8 +2102,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.484726,
-      "lng": 46.884644
+      "lat": 24.489903,
+      "lng": 46.887316
     },
     {
       "plot_no": "LI-B26-311",
@@ -2117,8 +2117,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.491057,
-      "lng": 46.887095
+      "lat": 24.489968,
+      "lng": 46.890899
     },
     {
       "plot_no": "LI-B26-312",
@@ -2132,8 +2132,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.495375,
-      "lng": 46.884181
+      "lat": 24.493563,
+      "lng": 46.885644
     },
     {
       "plot_no": "LI-B26-313",
@@ -2147,8 +2147,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.493339,
-      "lng": 46.87499
+      "lat": 24.481702,
+      "lng": 46.884389
     },
     {
       "plot_no": "LI-B26-314",
@@ -2162,8 +2162,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.489643,
-      "lng": 46.89182
+      "lat": 24.493086,
+      "lng": 46.890153
     },
     {
       "plot_no": "LI-B26-315",
@@ -2177,8 +2177,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.49105,
-      "lng": 46.886469
+      "lat": 24.487932,
+      "lng": 46.868812
     },
     {
       "plot_no": "LI-B26-316",
@@ -2192,8 +2192,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.480915,
-      "lng": 46.886754
+      "lat": 24.487396,
+      "lng": 46.88782
     },
     {
       "plot_no": "LI-B26-317",
@@ -2207,8 +2207,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494767,
-      "lng": 46.890435
+      "lat": 24.481031,
+      "lng": 46.875688
     },
     {
       "plot_no": "LI-B26-318",
@@ -2222,8 +2222,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.486616,
-      "lng": 46.87692
+      "lat": 24.498812,
+      "lng": 46.88274
     },
     {
       "plot_no": "LI-B26-319",
@@ -2237,8 +2237,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.483201,
-      "lng": 46.873678
+      "lat": 24.483212,
+      "lng": 46.882781
     },
     {
       "plot_no": "LI-B26-320",
@@ -2252,8 +2252,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.487473,
-      "lng": 46.875505
+      "lat": 24.486612,
+      "lng": 46.89222
     },
     {
       "plot_no": "LI-B26-321",
@@ -2267,8 +2267,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.492334,
-      "lng": 46.889294
+      "lat": 24.49009,
+      "lng": 46.870662
     },
     {
       "plot_no": "LI-B27-322",
@@ -2282,8 +2282,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.496906,
-      "lng": 46.874263
+      "lat": 24.488419,
+      "lng": 46.893876
     },
     {
       "plot_no": "LI-B27-323",
@@ -2297,8 +2297,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.486726,
-      "lng": 46.888182
+      "lat": 24.484787,
+      "lng": 46.886827
     },
     {
       "plot_no": "LI-B27-324",
@@ -2312,8 +2312,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.48903,
-      "lng": 46.892042
+      "lat": 24.483442,
+      "lng": 46.872906
     },
     {
       "plot_no": "LI-B27-325",
@@ -2327,8 +2327,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.485456,
-      "lng": 46.885712
+      "lat": 24.478372,
+      "lng": 46.878879
     },
     {
       "plot_no": "LI-B27-326",
@@ -2342,8 +2342,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.493913,
-      "lng": 46.872755
+      "lat": 24.479729,
+      "lng": 46.886036
     },
     {
       "plot_no": "LI-B27-327",
@@ -2357,8 +2357,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.49487,
-      "lng": 46.870843
+      "lat": 24.478433,
+      "lng": 46.886014
     },
     {
       "plot_no": "LI-B27-328",
@@ -2372,8 +2372,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.486316,
-      "lng": 46.885031
+      "lat": 24.499337,
+      "lng": 46.880887
     },
     {
       "plot_no": "LI-B27-329",
@@ -2387,8 +2387,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.499593,
-      "lng": 46.881759
+      "lat": 24.484816,
+      "lng": 46.88962
     },
     {
       "plot_no": "LI-B27-330",
@@ -2402,8 +2402,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.497208,
-      "lng": 46.879796
+      "lat": 24.487009,
+      "lng": 46.89308
     },
     {
       "plot_no": "LI-B27-331",
@@ -2417,8 +2417,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.485172,
-      "lng": 46.893408
+      "lat": 24.48793,
+      "lng": 46.876903
     },
     {
       "plot_no": "LI-B27-332",
@@ -2432,8 +2432,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.491771,
-      "lng": 46.880613
+      "lat": 24.485398,
+      "lng": 46.871059
     },
     {
       "plot_no": "LI-B27-333",
@@ -2447,8 +2447,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.484306,
-      "lng": 46.892957
+      "lat": 24.491657,
+      "lng": 46.873591
     },
     {
       "plot_no": "LI-B27-334",
@@ -2462,8 +2462,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.489459,
-      "lng": 46.889636
+      "lat": 24.486762,
+      "lng": 46.87024
     },
     {
       "plot_no": "LI-B28-335",
@@ -2477,8 +2477,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.482008,
-      "lng": 46.883396
+      "lat": 24.492089,
+      "lng": 46.879929
     },
     {
       "plot_no": "LI-B28-336",
@@ -2492,8 +2492,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494819,
-      "lng": 46.879528
+      "lat": 24.479599,
+      "lng": 46.889278
     },
     {
       "plot_no": "LI-B28-337",
@@ -2507,8 +2507,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.49313,
-      "lng": 46.893003
+      "lat": 24.488117,
+      "lng": 46.89394
     },
     {
       "plot_no": "LI-B28-338",
@@ -2522,8 +2522,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.47773,
-      "lng": 46.882319
+      "lat": 24.485399,
+      "lng": 46.873751
     },
     {
       "plot_no": "LI-B28-339",
@@ -2537,8 +2537,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494679,
-      "lng": 46.87714
+      "lat": 24.49266,
+      "lng": 46.886145
     },
     {
       "plot_no": "LI-B28-340",
@@ -2552,8 +2552,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.49555,
-      "lng": 46.877424
+      "lat": 24.494901,
+      "lng": 46.887514
     },
     {
       "plot_no": "LI-B28-341",
@@ -2567,8 +2567,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.489,
-      "lng": 46.871082
+      "lat": 24.487552,
+      "lng": 46.87774
     },
     {
       "plot_no": "LI-B28-342",
@@ -2582,8 +2582,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.496544,
-      "lng": 46.872889
+      "lat": 24.481036,
+      "lng": 46.886295
     },
     {
       "plot_no": "LI-B28-343",
@@ -2597,8 +2597,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.487075,
-      "lng": 46.869259
+      "lat": 24.481591,
+      "lng": 46.890384
     },
     {
       "plot_no": "LI-B28-344",
@@ -2612,8 +2612,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.491078,
-      "lng": 46.89194
+      "lat": 24.493698,
+      "lng": 46.885347
     },
     {
       "plot_no": "LI-B28-345",
@@ -2627,8 +2627,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.482954,
-      "lng": 46.892019
+      "lat": 24.477081,
+      "lng": 46.879805
     },
     {
       "plot_no": "LI-B28-346",
@@ -2642,8 +2642,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.480861,
-      "lng": 46.880438
+      "lat": 24.497661,
+      "lng": 46.888349
     },
     {
       "plot_no": "LI-B29-347",
@@ -2657,8 +2657,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.491832,
-      "lng": 46.876645
+      "lat": 24.491708,
+      "lng": 46.884858
     },
     {
       "plot_no": "LI-B29-348",
@@ -2672,8 +2672,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.492022,
-      "lng": 46.887265
+      "lat": 24.481645,
+      "lng": 46.881395
     },
     {
       "plot_no": "LI-B29-349",
@@ -2687,8 +2687,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.495704,
-      "lng": 46.873604
+      "lat": 24.493563,
+      "lng": 46.886128
     },
     {
       "plot_no": "LI-B29-350",
@@ -2702,8 +2702,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.492756,
-      "lng": 46.885145
+      "lat": 24.488659,
+      "lng": 46.89116
     },
     {
       "plot_no": "LI-B29-351",
@@ -2717,8 +2717,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.483333,
-      "lng": 46.878217
+      "lat": 24.478964,
+      "lng": 46.887317
     },
     {
       "plot_no": "LI-B29-352",
@@ -2732,8 +2732,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.496885,
-      "lng": 46.877362
+      "lat": 24.481852,
+      "lng": 46.873199
     },
     {
       "plot_no": "LI-B29-353",
@@ -2747,8 +2747,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.490016,
-      "lng": 46.869274
+      "lat": 24.487717,
+      "lng": 46.877351
     },
     {
       "plot_no": "LI-B29-354",
@@ -2762,8 +2762,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.486119,
-      "lng": 46.876698
+      "lat": 24.479856,
+      "lng": 46.881792
     },
     {
       "plot_no": "LI-B29-355",
@@ -2777,8 +2777,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.497387,
-      "lng": 46.879704
+      "lat": 24.481333,
+      "lng": 46.889908
     },
     {
       "plot_no": "LI-B30-356",
@@ -2792,8 +2792,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.486413,
-      "lng": 46.893172
+      "lat": 24.489566,
+      "lng": 46.887453
     },
     {
       "plot_no": "LI-B30-357",
@@ -2807,8 +2807,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.49674,
-      "lng": 46.876955
+      "lat": 24.47835,
+      "lng": 46.88533
     },
     {
       "plot_no": "LI-B30-358",
@@ -2822,8 +2822,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494118,
-      "lng": 46.892
+      "lat": 24.489586,
+      "lng": 46.868884
     },
     {
       "plot_no": "LI-B30-359",
@@ -2837,8 +2837,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.487532,
-      "lng": 46.877292
+      "lat": 24.499549,
+      "lng": 46.877076
     },
     {
       "plot_no": "LI-B30-360",
@@ -2852,8 +2852,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.496355,
-      "lng": 46.886014
+      "lat": 24.494785,
+      "lng": 46.889922
     },
     {
       "plot_no": "LI-B30-361",
@@ -2867,8 +2867,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494714,
-      "lng": 46.871825
+      "lat": 24.497532,
+      "lng": 46.885478
     },
     {
       "plot_no": "LI-B31-362",
@@ -2882,8 +2882,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.499396,
-      "lng": 46.877872
+      "lat": 24.488881,
+      "lng": 46.883118
     },
     {
       "plot_no": "LI-B31-363",
@@ -2897,8 +2897,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.48885,
-      "lng": 46.883584
+      "lat": 24.486983,
+      "lng": 46.892273
     },
     {
       "plot_no": "LI-B31-364",
@@ -2912,8 +2912,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.495406,
-      "lng": 46.875234
+      "lat": 24.49168,
+      "lng": 46.877975
     },
     {
       "plot_no": "LI-B31-365",
@@ -2927,8 +2927,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.485374,
-      "lng": 46.875117
+      "lat": 24.481051,
+      "lng": 46.872713
     },
     {
       "plot_no": "LI-B31-366",
@@ -2942,8 +2942,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.481996,
-      "lng": 46.887252
+      "lat": 24.493659,
+      "lng": 46.88665
     },
     {
       "plot_no": "LI-B31-367",
@@ -2957,8 +2957,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.484289,
-      "lng": 46.885929
+      "lat": 24.495124,
+      "lng": 46.886402
     },
     {
       "plot_no": "LI-B31-368",
@@ -2972,8 +2972,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494382,
-      "lng": 46.887719
+      "lat": 24.496011,
+      "lng": 46.888878
     },
     {
       "plot_no": "LI-B31-369",
@@ -2987,8 +2987,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.493187,
-      "lng": 46.883387
+      "lat": 24.497553,
+      "lng": 46.887544
     },
     {
       "plot_no": "LI-B31-370",
@@ -3002,8 +3002,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.47995,
-      "lng": 46.876753
+      "lat": 24.488246,
+      "lng": 46.877787
     },
     {
       "plot_no": "LI-B31-371",
@@ -3017,8 +3017,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494292,
-      "lng": 46.871759
+      "lat": 24.484252,
+      "lng": 46.873088
     },
     {
       "plot_no": "LI-B31-372",
@@ -3032,8 +3032,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.491941,
-      "lng": 46.893443
+      "lat": 24.488164,
+      "lng": 46.892268
     },
     {
       "plot_no": "LI-B32-373",
@@ -3047,8 +3047,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.491039,
-      "lng": 46.870766
+      "lat": 24.497622,
+      "lng": 46.88816
     },
     {
       "plot_no": "LI-B32-374",
@@ -3062,8 +3062,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.480483,
-      "lng": 46.874187
+      "lat": 24.493961,
+      "lng": 46.873354
     },
     {
       "plot_no": "LI-B32-375",
@@ -3077,8 +3077,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.48147,
-      "lng": 46.881007
+      "lat": 24.487581,
+      "lng": 46.893786
     },
     {
       "plot_no": "LI-B32-376",
@@ -3092,8 +3092,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.496733,
-      "lng": 46.876975
+      "lat": 24.495906,
+      "lng": 46.882787
     },
     {
       "plot_no": "LI-B32-377",
@@ -3107,8 +3107,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.490872,
-      "lng": 46.892407
+      "lat": 24.485982,
+      "lng": 46.874805
     },
     {
       "plot_no": "LI-B32-378",
@@ -3122,8 +3122,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.496538,
-      "lng": 46.888615
+      "lat": 24.486062,
+      "lng": 46.877711
     },
     {
       "plot_no": "LI-B33-379",
@@ -3137,8 +3137,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.492933,
-      "lng": 46.883983
+      "lat": 24.498765,
+      "lng": 46.878349
     },
     {
       "plot_no": "LI-B33-380",
@@ -3152,8 +3152,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.486298,
-      "lng": 46.889458
+      "lat": 24.489745,
+      "lng": 46.890057
     },
     {
       "plot_no": "LI-B33-381",
@@ -3167,8 +3167,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494857,
-      "lng": 46.875318
+      "lat": 24.481641,
+      "lng": 46.883054
     },
     {
       "plot_no": "LI-B33-382",
@@ -3182,8 +3182,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.479604,
-      "lng": 46.888362
+      "lat": 24.499273,
+      "lng": 46.882175
     },
     {
       "plot_no": "LI-B33-383",
@@ -3197,8 +3197,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.482738,
-      "lng": 46.882687
+      "lat": 24.478725,
+      "lng": 46.880863
     },
     {
       "plot_no": "LI-B33-384",
@@ -3212,8 +3212,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.491646,
-      "lng": 46.88061
+      "lat": 24.487374,
+      "lng": 46.881893
     },
     {
       "plot_no": "LI-B33-385",
@@ -3227,8 +3227,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.490569,
-      "lng": 46.87271
+      "lat": 24.497897,
+      "lng": 46.874857
     },
     {
       "plot_no": "LI-B33-386",
@@ -3242,8 +3242,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.493648,
-      "lng": 46.873054
+      "lat": 24.485353,
+      "lng": 46.880003
     },
     {
       "plot_no": "LI-B33-387",
@@ -3257,8 +3257,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.486081,
-      "lng": 46.879508
+      "lat": 24.493426,
+      "lng": 46.879785
     },
     {
       "plot_no": "LI-B33-388",
@@ -3272,8 +3272,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.481469,
-      "lng": 46.882491
+      "lat": 24.488561,
+      "lng": 46.877162
     },
     {
       "plot_no": "LI-B33-389",
@@ -3287,8 +3287,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.497559,
-      "lng": 46.88542
+      "lat": 24.485958,
+      "lng": 46.873079
     },
     {
       "plot_no": "LI-B33-390",
@@ -3302,8 +3302,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.490046,
-      "lng": 46.871434
+      "lat": 24.484302,
+      "lng": 46.869682
     },
     {
       "plot_no": "LI-B33-391",
@@ -3317,8 +3317,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.485406,
-      "lng": 46.869369
+      "lat": 24.487407,
+      "lng": 46.893118
     },
     {
       "plot_no": "LI-B33-392",
@@ -3332,8 +3332,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.481423,
-      "lng": 46.890484
+      "lat": 24.484175,
+      "lng": 46.889426
     },
     {
       "plot_no": "LI-B34-393",
@@ -3347,8 +3347,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.489662,
-      "lng": 46.893362
+      "lat": 24.481367,
+      "lng": 46.88311
     },
     {
       "plot_no": "LI-B34-394",
@@ -3362,8 +3362,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.496613,
-      "lng": 46.879764
+      "lat": 24.490293,
+      "lng": 46.88239
     },
     {
       "plot_no": "LI-B34-395",
@@ -3377,8 +3377,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.485277,
-      "lng": 46.889222
+      "lat": 24.482654,
+      "lng": 46.872705
     },
     {
       "plot_no": "LI-B34-396",
@@ -3392,8 +3392,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.493917,
-      "lng": 46.877608
+      "lat": 24.483968,
+      "lng": 46.877554
     },
     {
       "plot_no": "LI-B34-397",
@@ -3407,8 +3407,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.493334,
-      "lng": 46.880238
+      "lat": 24.496115,
+      "lng": 46.874337
     },
     {
       "plot_no": "LI-B34-398",
@@ -3422,8 +3422,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.48062,
-      "lng": 46.887018
+      "lat": 24.480883,
+      "lng": 46.890661
     },
     {
       "plot_no": "LI-B34-399",
@@ -3437,8 +3437,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.483956,
-      "lng": 46.876927
+      "lat": 24.487741,
+      "lng": 46.893541
     },
     {
       "plot_no": "LI-B34-400",
@@ -3452,8 +3452,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.49027,
-      "lng": 46.892343
+      "lat": 24.480485,
+      "lng": 46.889233
     },
     {
       "plot_no": "LI-B34-401",
@@ -3467,8 +3467,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.484682,
-      "lng": 46.875172
+      "lat": 24.481029,
+      "lng": 46.877281
     },
     {
       "plot_no": "LI-B35-402",
@@ -3482,8 +3482,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494096,
-      "lng": 46.887321
+      "lat": 24.488162,
+      "lng": 46.88856
     },
     {
       "plot_no": "LI-B35-403",
@@ -3497,8 +3497,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.482949,
-      "lng": 46.89042
+      "lat": 24.484283,
+      "lng": 46.879487
     },
     {
       "plot_no": "LI-B35-404",
@@ -3512,8 +3512,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.496062,
-      "lng": 46.885388
+      "lat": 24.480281,
+      "lng": 46.886903
     },
     {
       "plot_no": "LI-B35-405",
@@ -3527,8 +3527,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.493563,
-      "lng": 46.878999
+      "lat": 24.48092,
+      "lng": 46.886039
     },
     {
       "plot_no": "LI-B35-406",
@@ -3542,8 +3542,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.484283,
-      "lng": 46.883452
+      "lat": 24.477825,
+      "lng": 46.881208
     },
     {
       "plot_no": "LI-B35-407",
@@ -3557,8 +3557,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494888,
-      "lng": 46.874003
+      "lat": 24.486389,
+      "lng": 46.891639
     },
     {
       "plot_no": "LI-B35-408",
@@ -3572,8 +3572,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.479966,
-      "lng": 46.887316
+      "lat": 24.498829,
+      "lng": 46.876077
     },
     {
       "plot_no": "LI-B35-409",
@@ -3587,8 +3587,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.48737,
-      "lng": 46.871013
+      "lat": 24.49849,
+      "lng": 46.881762
     },
     {
       "plot_no": "LI-B35-410",
@@ -3602,8 +3602,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.489203,
-      "lng": 46.868894
+      "lat": 24.488852,
+      "lng": 46.87677
     },
     {
       "plot_no": "LI-B35-411",
@@ -3617,8 +3617,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.486005,
-      "lng": 46.887252
+      "lat": 24.48272,
+      "lng": 46.874769
     },
     {
       "plot_no": "LI-B35-412",
@@ -3632,8 +3632,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.4963,
-      "lng": 46.878668
+      "lat": 24.490898,
+      "lng": 46.891978
     },
     {
       "plot_no": "LI-B35-413",
@@ -3647,8 +3647,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.490221,
-      "lng": 46.893464
+      "lat": 24.478303,
+      "lng": 46.882002
     },
     {
       "plot_no": "LI-B36-414",
@@ -3662,8 +3662,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.485414,
-      "lng": 46.882706
+      "lat": 24.491544,
+      "lng": 46.875209
     },
     {
       "plot_no": "LI-B36-415",
@@ -3677,8 +3677,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.491661,
-      "lng": 46.88902
+      "lat": 24.4825,
+      "lng": 46.88085
     },
     {
       "plot_no": "LI-B36-416",
@@ -3692,8 +3692,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.497987,
-      "lng": 46.886184
+      "lat": 24.481739,
+      "lng": 46.891483
     },
     {
       "plot_no": "LI-B36-417",
@@ -3707,8 +3707,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.488886,
-      "lng": 46.869208
+      "lat": 24.489529,
+      "lng": 46.889404
     },
     {
       "plot_no": "LI-B36-418",
@@ -3722,8 +3722,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.483179,
-      "lng": 46.886034
+      "lat": 24.487322,
+      "lng": 46.871196
     },
     {
       "plot_no": "LI-B36-419",
@@ -3737,8 +3737,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.479067,
-      "lng": 46.878388
+      "lat": 24.493996,
+      "lng": 46.875742
     },
     {
       "plot_no": "LI-B36-420",
@@ -3752,8 +3752,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.491198,
-      "lng": 46.892328
+      "lat": 24.478595,
+      "lng": 46.876919
     },
     {
       "plot_no": "LI-B36-421",
@@ -3767,8 +3767,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.484873,
-      "lng": 46.869715
+      "lat": 24.496769,
+      "lng": 46.876786
     },
     {
       "plot_no": "LI-B36-422",
@@ -3782,8 +3782,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.487618,
-      "lng": 46.878443
+      "lat": 24.489751,
+      "lng": 46.870588
     },
     {
       "plot_no": "LI-B36-423",
@@ -3797,8 +3797,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.485941,
-      "lng": 46.884195
+      "lat": 24.494882,
+      "lng": 46.874772
     },
     {
       "plot_no": "LI-B36-424",
@@ -3812,8 +3812,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.489249,
-      "lng": 46.89286
+      "lat": 24.485673,
+      "lng": 46.872598
     },
     {
       "plot_no": "LI-B36-425",
@@ -3827,8 +3827,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.496613,
-      "lng": 46.887014
+      "lat": 24.487688,
+      "lng": 46.888348
     },
     {
       "plot_no": "LI-B36-426",
@@ -3842,8 +3842,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.488132,
-      "lng": 46.876304
+      "lat": 24.480491,
+      "lng": 46.881231
     },
     {
       "plot_no": "LI-B36-427",
@@ -3857,8 +3857,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.49268,
-      "lng": 46.88902
+      "lat": 24.495418,
+      "lng": 46.875947
     },
     {
       "plot_no": "LI-B36-428",
@@ -3872,8 +3872,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.498901,
-      "lng": 46.881025
+      "lat": 24.484945,
+      "lng": 46.888716
     },
     {
       "plot_no": "LI-B36-429",
@@ -3887,8 +3887,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.480886,
-      "lng": 46.887288
+      "lat": 24.483396,
+      "lng": 46.873949
     },
     {
       "plot_no": "LI-B36-430",
@@ -3902,8 +3902,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.489848,
-      "lng": 46.89372
+      "lat": 24.498644,
+      "lng": 46.887941
     },
     {
       "plot_no": "LI-B36-431",
@@ -3917,8 +3917,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.492012,
-      "lng": 46.887457
+      "lat": 24.481223,
+      "lng": 46.87581
     },
     {
       "plot_no": "LI-B36-432",
@@ -3932,8 +3932,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.490582,
-      "lng": 46.87429
+      "lat": 24.478403,
+      "lng": 46.884319
     },
     {
       "plot_no": "LI-B36-433",
@@ -3947,8 +3947,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.478263,
-      "lng": 46.880825
+      "lat": 24.492405,
+      "lng": 46.881949
     },
     {
       "plot_no": "LI-B36-434",
@@ -3962,8 +3962,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.485371,
-      "lng": 46.88945
+      "lat": 24.49726,
+      "lng": 46.87989
     },
     {
       "plot_no": "LI-B36-435",
@@ -3977,8 +3977,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.489149,
-      "lng": 46.870224
+      "lat": 24.481947,
+      "lng": 46.889956
     },
     {
       "plot_no": "LI-B36-436",
@@ -3992,8 +3992,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.483884,
-      "lng": 46.869977
+      "lat": 24.499281,
+      "lng": 46.880281
     },
     {
       "plot_no": "LI-B36-437",
@@ -4007,8 +4007,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.489956,
-      "lng": 46.876161
+      "lat": 24.49118,
+      "lng": 46.871511
     },
     {
       "plot_no": "LI-B37-438",
@@ -4022,8 +4022,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.479163,
-      "lng": 46.88505
+      "lat": 24.479269,
+      "lng": 46.87986
     },
     {
       "plot_no": "LI-B37-439",
@@ -4037,8 +4037,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.491262,
-      "lng": 46.892396
+      "lat": 24.481825,
+      "lng": 46.891261
     },
     {
       "plot_no": "LI-B37-440",
@@ -4052,8 +4052,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.483065,
-      "lng": 46.88839
+      "lat": 24.484638,
+      "lng": 46.880749
     },
     {
       "plot_no": "LI-B37-441",
@@ -4067,8 +4067,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.492205,
-      "lng": 46.875612
+      "lat": 24.489802,
+      "lng": 46.874565
     },
     {
       "plot_no": "LI-B37-442",
@@ -4082,8 +4082,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.495738,
-      "lng": 46.875546
+      "lat": 24.487973,
+      "lng": 46.869991
     },
     {
       "plot_no": "LI-B37-443",
@@ -4097,8 +4097,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.496093,
-      "lng": 46.882877
+      "lat": 24.499364,
+      "lng": 46.877528
     },
     {
       "plot_no": "LI-B37-444",
@@ -4112,8 +4112,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.498337,
-      "lng": 46.875429
+      "lat": 24.478366,
+      "lng": 46.879952
     },
     {
       "plot_no": "LI-B37-445",
@@ -4127,8 +4127,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.487703,
-      "lng": 46.870681
+      "lat": 24.490396,
+      "lng": 46.887213
     },
     {
       "plot_no": "LI-B37-446",
@@ -4142,8 +4142,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.483261,
-      "lng": 46.886267
+      "lat": 24.497021,
+      "lng": 46.890032
     },
     {
       "plot_no": "LI-B37-447",
@@ -4157,8 +4157,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.484733,
-      "lng": 46.891778
+      "lat": 24.481109,
+      "lng": 46.890792
     },
     {
       "plot_no": "LI-B37-448",
@@ -4172,8 +4172,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.478275,
-      "lng": 46.88642
+      "lat": 24.491087,
+      "lng": 46.871409
     },
     {
       "plot_no": "LI-B37-449",
@@ -4187,8 +4187,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.489284,
-      "lng": 46.88458
+      "lat": 24.500158,
+      "lng": 46.880274
     },
     {
       "plot_no": "LI-B37-450",
@@ -4202,8 +4202,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.481613,
-      "lng": 46.890939
+      "lat": 24.492095,
+      "lng": 46.869708
     },
     {
       "plot_no": "LI-B37-451",
@@ -4217,8 +4217,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.495812,
-      "lng": 46.889044
+      "lat": 24.487781,
+      "lng": 46.892239
     },
     {
       "plot_no": "LI-B37-452",
@@ -4232,8 +4232,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.481118,
-      "lng": 46.873887
+      "lat": 24.485335,
+      "lng": 46.887512
     },
     {
       "plot_no": "LI-B37-453",
@@ -4247,8 +4247,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.499133,
-      "lng": 46.883145
+      "lat": 24.481893,
+      "lng": 46.881334
     },
     {
       "plot_no": "LI-B37-454",
@@ -4262,8 +4262,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.488352,
-      "lng": 46.875366
+      "lat": 24.490218,
+      "lng": 46.893307
     },
     {
       "plot_no": "LI-B37-455",
@@ -4277,8 +4277,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.48412,
-      "lng": 46.879534
+      "lat": 24.487525,
+      "lng": 46.893103
     },
     {
       "plot_no": "LI-B37-456",
@@ -4292,8 +4292,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.481317,
-      "lng": 46.878565
+      "lat": 24.494139,
+      "lng": 46.872235
     },
     {
       "plot_no": "LI-B37-457",
@@ -4307,8 +4307,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.480015,
-      "lng": 46.87273
+      "lat": 24.495738,
+      "lng": 46.875764
     },
     {
       "plot_no": "LI-B37-458",
@@ -4322,8 +4322,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494852,
-      "lng": 46.889511
+      "lat": 24.499135,
+      "lng": 46.879437
     },
     {
       "plot_no": "LI-B37-459",
@@ -4337,8 +4337,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.496324,
-      "lng": 46.88063
+      "lat": 24.488913,
+      "lng": 46.868572
     },
     {
       "plot_no": "LI-B37-460",
@@ -4352,8 +4352,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.496134,
-      "lng": 46.87564
+      "lat": 24.477373,
+      "lng": 46.882913
     },
     {
       "plot_no": "LI-B37-461",
@@ -4367,8 +4367,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.489438,
-      "lng": 46.873885
+      "lat": 24.489376,
+      "lng": 46.877651
     },
     {
       "plot_no": "LI-B38-462",
@@ -4382,8 +4382,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.490172,
-      "lng": 46.888018
+      "lat": 24.478969,
+      "lng": 46.882006
     },
     {
       "plot_no": "LI-B38-463",
@@ -4397,8 +4397,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.495596,
-      "lng": 46.873218
+      "lat": 24.498243,
+      "lng": 46.885531
     },
     {
       "plot_no": "LI-B38-464",
@@ -4412,8 +4412,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.487521,
-      "lng": 46.893148
+      "lat": 24.498114,
+      "lng": 46.879193
     },
     {
       "plot_no": "LI-B38-465",
@@ -4427,8 +4427,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.495194,
-      "lng": 46.884154
+      "lat": 24.484754,
+      "lng": 46.887833
     },
     {
       "plot_no": "LI-B38-466",
@@ -4442,8 +4442,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.487494,
-      "lng": 46.879496
+      "lat": 24.481824,
+      "lng": 46.89074
     },
     {
       "plot_no": "LI-B38-467",
@@ -4457,8 +4457,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.480174,
-      "lng": 46.884782
+      "lat": 24.495497,
+      "lng": 46.888633
     },
     {
       "plot_no": "LI-B38-468",
@@ -4472,8 +4472,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.495462,
-      "lng": 46.871534
+      "lat": 24.499231,
+      "lng": 46.886408
     },
     {
       "plot_no": "LI-B38-469",
@@ -4487,8 +4487,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.490054,
-      "lng": 46.875361
+      "lat": 24.483415,
+      "lng": 46.892005
     },
     {
       "plot_no": "LI-B38-470",
@@ -4502,8 +4502,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.497457,
-      "lng": 46.888391
+      "lat": 24.492306,
+      "lng": 46.870436
     },
     {
       "plot_no": "LI-B38-471",
@@ -4517,8 +4517,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.479286,
-      "lng": 46.879538
+      "lat": 24.493547,
+      "lng": 46.871261
     },
     {
       "plot_no": "LI-B38-472",
@@ -4532,8 +4532,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.479979,
-      "lng": 46.878884
+      "lat": 24.483333,
+      "lng": 46.884653
     },
     {
       "plot_no": "LI-B39-473",
@@ -4547,8 +4547,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.477679,
-      "lng": 46.881523
+      "lat": 24.486439,
+      "lng": 46.871445
     },
     {
       "plot_no": "LI-B40-474",
@@ -4562,8 +4562,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.486648,
-      "lng": 46.86887
+      "lat": 24.493528,
+      "lng": 46.875356
     },
     {
       "plot_no": "LI-B40-475",
@@ -4577,8 +4577,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.497461,
-      "lng": 46.876674
+      "lat": 24.493049,
+      "lng": 46.885197
     },
     {
       "plot_no": "LI-B40-476",
@@ -4592,8 +4592,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.482752,
-      "lng": 46.885667
+      "lat": 24.491206,
+      "lng": 46.893742
     },
     {
       "plot_no": "LI-B40-477",
@@ -4607,8 +4607,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.488311,
-      "lng": 46.883909
+      "lat": 24.4943,
+      "lng": 46.875013
     },
     {
       "plot_no": "LI-B40-478",
@@ -4622,8 +4622,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.490228,
-      "lng": 46.885303
+      "lat": 24.495184,
+      "lng": 46.871538
     },
     {
       "plot_no": "LI-B40-479",
@@ -4637,8 +4637,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.48523,
-      "lng": 46.869876
+      "lat": 24.482402,
+      "lng": 46.873424
     },
     {
       "plot_no": "LI-B40-480",
@@ -4652,8 +4652,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.492118,
-      "lng": 46.890568
+      "lat": 24.499827,
+      "lng": 46.881037
     },
     {
       "plot_no": "LI-B40-481",
@@ -4667,8 +4667,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.484311,
-      "lng": 46.891183
+      "lat": 24.484131,
+      "lng": 46.869685
     },
     {
       "plot_no": "LI-B40-482",
@@ -4682,8 +4682,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.489417,
-      "lng": 46.873777
+      "lat": 24.493273,
+      "lng": 46.888011
     },
     {
       "plot_no": "LI-B40-483",
@@ -4697,8 +4697,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.492595,
-      "lng": 46.887991
+      "lat": 24.483198,
+      "lng": 46.882785
     },
     {
       "plot_no": "LI-B40-484",
@@ -4712,8 +4712,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.494144,
-      "lng": 46.88745
+      "lat": 24.482657,
+      "lng": 46.877023
     },
     {
       "plot_no": "LI-B40-485",
@@ -4727,8 +4727,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.492926,
-      "lng": 46.889075
+      "lat": 24.494785,
+      "lng": 46.888153
     },
     {
       "plot_no": "LI-B41-486",
@@ -4742,8 +4742,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.495112,
-      "lng": 46.871393
+      "lat": 24.493087,
+      "lng": 46.891824
     },
     {
       "plot_no": "LI-B41-487",
@@ -4757,8 +4757,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.489998,
-      "lng": 46.889517
+      "lat": 24.498576,
+      "lng": 46.87502
     },
     {
       "plot_no": "LI-B41-488",
@@ -4772,8 +4772,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.497287,
-      "lng": 46.879211
+      "lat": 24.492231,
+      "lng": 46.872438
     },
     {
       "plot_no": "LI-B41-489",
@@ -4787,8 +4787,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.482223,
-      "lng": 46.890477
+      "lat": 24.500122,
+      "lng": 46.879202
     },
     {
       "plot_no": "LI-B41-490",
@@ -4802,8 +4802,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.491481,
-      "lng": 46.8796
+      "lat": 24.477073,
+      "lng": 46.882697
     },
     {
       "plot_no": "LI-B41-491",
@@ -4817,8 +4817,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.488513,
-      "lng": 46.887682
+      "lat": 24.489444,
+      "lng": 46.886378
     },
     {
       "plot_no": "LI-B41-492",
@@ -4832,8 +4832,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.480163,
-      "lng": 46.882472
+      "lat": 24.477997,
+      "lng": 46.881372
     },
     {
       "plot_no": "LI-B41-493",
@@ -4847,8 +4847,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1850,
-      "lat": 24.477849,
-      "lng": 46.87955
+      "lat": 24.480154,
+      "lng": 46.883123
     },
     {
       "plot_no": "MI-B44-510",
@@ -4862,8 +4862,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.485682,
-      "lng": 46.891135
+      "lat": 24.483962,
+      "lng": 46.87327
     },
     {
       "plot_no": "MI-B44-511",
@@ -4877,8 +4877,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.480652,
-      "lng": 46.889315
+      "lat": 24.480306,
+      "lng": 46.881654
     },
     {
       "plot_no": "MI-B44-512",
@@ -4892,8 +4892,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.494308,
-      "lng": 46.892336
+      "lat": 24.487616,
+      "lng": 46.868611
     },
     {
       "plot_no": "MI-B44-513",
@@ -4907,8 +4907,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.495439,
-      "lng": 46.874315
+      "lat": 24.479226,
+      "lng": 46.876743
     },
     {
       "plot_no": "MI-B44-514",
@@ -4922,8 +4922,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.493862,
-      "lng": 46.892831
+      "lat": 24.488451,
+      "lng": 46.892458
     },
     {
       "plot_no": "MI-B44-515",
@@ -4937,8 +4937,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.491195,
-      "lng": 46.880658
+      "lat": 24.486071,
+      "lng": 46.871932
     },
     {
       "plot_no": "MI-B44-516",
@@ -4952,8 +4952,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.487637,
-      "lng": 46.871712
+      "lat": 24.486236,
+      "lng": 46.882991
     },
     {
       "plot_no": "MI-B45-517",
@@ -4967,8 +4967,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.491229,
-      "lng": 46.889756
+      "lat": 24.499827,
+      "lng": 46.878396
     },
     {
       "plot_no": "MI-B45-518",
@@ -4982,8 +4982,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.494003,
-      "lng": 46.883808
+      "lat": 24.48087,
+      "lng": 46.881287
     },
     {
       "plot_no": "MI-B45-519",
@@ -4997,8 +4997,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.49399,
-      "lng": 46.892504
+      "lat": 24.481731,
+      "lng": 46.876183
     },
     {
       "plot_no": "MI-B45-520",
@@ -5012,8 +5012,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.486099,
-      "lng": 46.888882
+      "lat": 24.49057,
+      "lng": 46.887519
     },
     {
       "plot_no": "MI-B45-521",
@@ -5027,8 +5027,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.479448,
-      "lng": 46.886835
+      "lat": 24.495925,
+      "lng": 46.874452
     },
     {
       "plot_no": "MI-B45-522",
@@ -5042,8 +5042,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.49165,
-      "lng": 46.875757
+      "lat": 24.489546,
+      "lng": 46.883355
     },
     {
       "plot_no": "MI-B45-523",
@@ -5057,8 +5057,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.495642,
-      "lng": 46.872092
+      "lat": 24.492046,
+      "lng": 46.88699
     },
     {
       "plot_no": "MI-B45-524",
@@ -5072,8 +5072,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.493263,
-      "lng": 46.886935
+      "lat": 24.497532,
+      "lng": 46.874217
     },
     {
       "plot_no": "MI-B45-525",
@@ -5087,8 +5087,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.493077,
-      "lng": 46.888151
+      "lat": 24.489444,
+      "lng": 46.890792
     },
     {
       "plot_no": "MI-B46-526",
@@ -5102,8 +5102,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.491992,
-      "lng": 46.872968
+      "lat": 24.482163,
+      "lng": 46.886458
     },
     {
       "plot_no": "MI-B46-527",
@@ -5117,8 +5117,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.496239,
-      "lng": 46.888056
+      "lat": 24.486765,
+      "lng": 46.889901
     },
     {
       "plot_no": "MI-B46-528",
@@ -5132,8 +5132,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.496031,
-      "lng": 46.886845
+      "lat": 24.479497,
+      "lng": 46.876403
     },
     {
       "plot_no": "MI-B46-529",
@@ -5147,8 +5147,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.481779,
-      "lng": 46.881779
+      "lat": 24.48527,
+      "lng": 46.873236
     },
     {
       "plot_no": "MI-B46-530",
@@ -5162,8 +5162,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.49661,
-      "lng": 46.889886
+      "lat": 24.487251,
+      "lng": 46.879504
     },
     {
       "plot_no": "MI-B46-531",
@@ -5177,8 +5177,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.487134,
-      "lng": 46.890464
+      "lat": 24.492191,
+      "lng": 46.893538
     },
     {
       "plot_no": "MI-B46-532",
@@ -5192,8 +5192,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.483591,
-      "lng": 46.88549
+      "lat": 24.493707,
+      "lng": 46.874741
     },
     {
       "plot_no": "MI-B46-533",
@@ -5207,8 +5207,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.492353,
-      "lng": 46.874786
+      "lat": 24.485845,
+      "lng": 46.88394
     },
     {
       "plot_no": "MI-B46-534",
@@ -5222,8 +5222,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.496818,
-      "lng": 46.887123
+      "lat": 24.493856,
+      "lng": 46.887142
     },
     {
       "plot_no": "MI-B46-535",
@@ -5237,8 +5237,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.47876,
-      "lng": 46.87473
+      "lat": 24.492466,
+      "lng": 46.877967
     },
     {
       "plot_no": "MI-B46-536",
@@ -5252,8 +5252,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.489009,
-      "lng": 46.871679
+      "lat": 24.484978,
+      "lng": 46.871207
     },
     {
       "plot_no": "MI-B46-537",
@@ -5267,8 +5267,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.493562,
-      "lng": 46.880889
+      "lat": 24.487352,
+      "lng": 46.881071
     },
     {
       "plot_no": "MI-B46-538",
@@ -5282,8 +5282,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.478937,
-      "lng": 46.885686
+      "lat": 24.486891,
+      "lng": 46.88778
     },
     {
       "plot_no": "MI-B46-539",
@@ -5297,8 +5297,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.49154,
-      "lng": 46.885955
+      "lat": 24.479963,
+      "lng": 46.889531
     },
     {
       "plot_no": "MI-B47-540",
@@ -5312,8 +5312,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.48381,
-      "lng": 46.882455
+      "lat": 24.486103,
+      "lng": 46.869285
     },
     {
       "plot_no": "MI-B47-541",
@@ -5327,8 +5327,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.49098,
-      "lng": 46.878959
+      "lat": 24.49056,
+      "lng": 46.874745
     },
     {
       "plot_no": "MI-B47-542",
@@ -5342,8 +5342,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.493582,
-      "lng": 46.877938
+      "lat": 24.481906,
+      "lng": 46.875096
     },
     {
       "plot_no": "MI-B47-543",
@@ -5357,8 +5357,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.496122,
-      "lng": 46.874221
+      "lat": 24.491017,
+      "lng": 46.886028
     },
     {
       "plot_no": "MI-B47-544",
@@ -5372,8 +5372,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.492517,
-      "lng": 46.890533
+      "lat": 24.494344,
+      "lng": 46.876626
     },
     {
       "plot_no": "MI-B47-545",
@@ -5387,8 +5387,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.486082,
-      "lng": 46.87909
+      "lat": 24.481211,
+      "lng": 46.876281
     },
     {
       "plot_no": "MI-B47-546",
@@ -5402,8 +5402,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.497872,
-      "lng": 46.881114
+      "lat": 24.49084,
+      "lng": 46.887538
     },
     {
       "plot_no": "MI-B47-547",
@@ -5417,8 +5417,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.498221,
-      "lng": 46.888692
+      "lat": 24.487001,
+      "lng": 46.885967
     },
     {
       "plot_no": "MI-B47-548",
@@ -5432,8 +5432,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.496702,
-      "lng": 46.889099
+      "lat": 24.480722,
+      "lng": 46.874587
     },
     {
       "plot_no": "MI-B47-549",
@@ -5447,8 +5447,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.482605,
-      "lng": 46.87604
+      "lat": 24.495699,
+      "lng": 46.878031
     },
     {
       "plot_no": "MI-B47-550",
@@ -5462,8 +5462,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.48726,
-      "lng": 46.886347
+      "lat": 24.484394,
+      "lng": 46.873904
     },
     {
       "plot_no": "MI-B47-551",
@@ -5477,8 +5477,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.477609,
-      "lng": 46.879854
+      "lat": 24.483377,
+      "lng": 46.890505
     },
     {
       "plot_no": "MI-B47-552",
@@ -5492,8 +5492,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.483417,
-      "lng": 46.88996
+      "lat": 24.48472,
+      "lng": 46.877666
     },
     {
       "plot_no": "MI-B47-553",
@@ -5507,8 +5507,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.484118,
-      "lng": 46.881223
+      "lat": 24.489788,
+      "lng": 46.871609
     },
     {
       "plot_no": "MI-B42-494",
@@ -5522,8 +5522,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.498498,
-      "lng": 46.881945
+      "lat": 24.490658,
+      "lng": 46.870654
     },
     {
       "plot_no": "MI-B42-495",
@@ -5537,8 +5537,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.485195,
-      "lng": 46.873559
+      "lat": 24.486269,
+      "lng": 46.890157
     },
     {
       "plot_no": "MI-B42-496",
@@ -5552,8 +5552,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.480809,
-      "lng": 46.888688
+      "lat": 24.490241,
+      "lng": 46.872051
     },
     {
       "plot_no": "MI-B42-497",
@@ -5567,8 +5567,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.486729,
-      "lng": 46.889947
+      "lat": 24.477231,
+      "lng": 46.882972
     },
     {
       "plot_no": "MI-B42-498",
@@ -5582,8 +5582,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.485996,
-      "lng": 46.889852
+      "lat": 24.487734,
+      "lng": 46.891147
     },
     {
       "plot_no": "MI-B42-499",
@@ -5597,8 +5597,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.497339,
-      "lng": 46.883755
+      "lat": 24.495721,
+      "lng": 46.872521
     },
     {
       "plot_no": "MI-B42-500",
@@ -5612,8 +5612,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.485905,
-      "lng": 46.892879
+      "lat": 24.49297,
+      "lng": 46.889855
     },
     {
       "plot_no": "MI-B43-501",
@@ -5627,8 +5627,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.497809,
-      "lng": 46.873994
+      "lat": 24.478402,
+      "lng": 46.876159
     },
     {
       "plot_no": "MI-B43-502",
@@ -5642,8 +5642,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.490515,
-      "lng": 46.870012
+      "lat": 24.478179,
+      "lng": 46.8858
     },
     {
       "plot_no": "MI-B43-503",
@@ -5657,8 +5657,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.494151,
-      "lng": 46.873377
+      "lat": 24.483216,
+      "lng": 46.89241
     },
     {
       "plot_no": "MI-B43-504",
@@ -5672,8 +5672,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.4818,
-      "lng": 46.886485
+      "lat": 24.48632,
+      "lng": 46.886987
     },
     {
       "plot_no": "MI-B43-505",
@@ -5687,8 +5687,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.486206,
-      "lng": 46.884161
+      "lat": 24.488135,
+      "lng": 46.893545
     },
     {
       "plot_no": "MI-B43-506",
@@ -5702,8 +5702,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.497823,
-      "lng": 46.883326
+      "lat": 24.498801,
+      "lng": 46.881538
     },
     {
       "plot_no": "MI-B43-507",
@@ -5717,8 +5717,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.497023,
-      "lng": 46.877145
+      "lat": 24.487464,
+      "lng": 46.877611
     },
     {
       "plot_no": "MI-B43-508",
@@ -5732,8 +5732,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.490634,
-      "lng": 46.881313
+      "lat": 24.488487,
+      "lng": 46.87177
     },
     {
       "plot_no": "MI-B43-509",
@@ -5747,8 +5747,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1700,
-      "lat": 24.488211,
-      "lng": 46.875057
+      "lat": 24.495605,
+      "lng": 46.877422
     },
     {
       "plot_no": "RF-B08-120",
@@ -5762,8 +5762,8 @@
       "street_width": 20,
       "status": "reserved",
       "asking_price": 2200,
-      "lat": 24.498906,
-      "lng": 46.877131
+      "lat": 24.49443,
+      "lng": 46.881561
     },
     {
       "plot_no": "RF-B01-001",
@@ -5777,8 +5777,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.482425,
-      "lng": 46.883779
+      "lat": 24.489,
+      "lng": 46.879123
     },
     {
       "plot_no": "RF-B01-002",
@@ -5792,8 +5792,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.485286,
-      "lng": 46.888042
+      "lat": 24.499026,
+      "lng": 46.886123
     },
     {
       "plot_no": "RF-B01-003",
@@ -5807,8 +5807,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.480326,
-      "lng": 46.886457
+      "lat": 24.478576,
+      "lng": 46.876122
     },
     {
       "plot_no": "RF-B01-004",
@@ -5822,8 +5822,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.489066,
-      "lng": 46.889245
+      "lat": 24.491144,
+      "lng": 46.870852
     },
     {
       "plot_no": "RF-B01-005",
@@ -5837,8 +5837,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.499004,
-      "lng": 46.876933
+      "lat": 24.482888,
+      "lng": 46.884688
     },
     {
       "plot_no": "RF-B01-006",
@@ -5852,8 +5852,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.492253,
-      "lng": 46.887636
+      "lat": 24.494341,
+      "lng": 46.879146
     },
     {
       "plot_no": "RF-B01-007",
@@ -5867,8 +5867,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.480344,
-      "lng": 46.887194
+      "lat": 24.479078,
+      "lng": 46.876059
     },
     {
       "plot_no": "RF-B01-008",
@@ -5882,8 +5882,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.479739,
-      "lng": 46.881663
+      "lat": 24.4967,
+      "lng": 46.879326
     },
     {
       "plot_no": "RF-B01-009",
@@ -5897,8 +5897,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.484377,
-      "lng": 46.873949
+      "lat": 24.497259,
+      "lng": 46.886052
     },
     {
       "plot_no": "RF-B01-010",
@@ -5912,8 +5912,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.492193,
-      "lng": 46.871993
+      "lat": 24.482945,
+      "lng": 46.891888
     },
     {
       "plot_no": "RF-B01-011",
@@ -5927,8 +5927,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.487577,
-      "lng": 46.877934
+      "lat": 24.49586,
+      "lng": 46.885336
     },
     {
       "plot_no": "RF-B01-012",
@@ -5942,8 +5942,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.495818,
-      "lng": 46.872643
+      "lat": 24.499749,
+      "lng": 46.87808
     },
     {
       "plot_no": "RF-B01-013",
@@ -5957,8 +5957,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.49726,
-      "lng": 46.880737
+      "lat": 24.49997,
+      "lng": 46.879618
     },
     {
       "plot_no": "RF-B01-014",
@@ -5972,8 +5972,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.485277,
-      "lng": 46.878778
+      "lat": 24.484191,
+      "lng": 46.873034
     },
     {
       "plot_no": "RF-B01-015",
@@ -5987,8 +5987,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.484583,
-      "lng": 46.875258
+      "lat": 24.487156,
+      "lng": 46.879988
     },
     {
       "plot_no": "RF-B01-016",
@@ -6002,8 +6002,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.495701,
-      "lng": 46.887419
+      "lat": 24.481992,
+      "lng": 46.89006
     },
     {
       "plot_no": "RF-B02-017",
@@ -6017,8 +6017,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.496306,
-      "lng": 46.872602
+      "lat": 24.492054,
+      "lng": 46.882702
     },
     {
       "plot_no": "RF-B02-018",
@@ -6032,8 +6032,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.490149,
-      "lng": 46.87323
+      "lat": 24.496386,
+      "lng": 46.874038
     },
     {
       "plot_no": "RF-B02-019",
@@ -6047,8 +6047,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.495414,
-      "lng": 46.8774
+      "lat": 24.496748,
+      "lng": 46.888289
     },
     {
       "plot_no": "RF-B02-020",
@@ -6062,8 +6062,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.478821,
-      "lng": 46.884629
+      "lat": 24.488089,
+      "lng": 46.89003
     },
     {
       "plot_no": "RF-B02-021",
@@ -6077,8 +6077,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.481953,
-      "lng": 46.890535
+      "lat": 24.483236,
+      "lng": 46.871556
     },
     {
       "plot_no": "RF-B03-022",
@@ -6092,8 +6092,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.481648,
-      "lng": 46.884608
+      "lat": 24.492925,
+      "lng": 46.877879
     },
     {
       "plot_no": "RF-B03-023",
@@ -6107,8 +6107,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.477445,
-      "lng": 46.883193
+      "lat": 24.494544,
+      "lng": 46.875692
     },
     {
       "plot_no": "RF-B03-024",
@@ -6122,8 +6122,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.481696,
-      "lng": 46.883443
+      "lat": 24.49468,
+      "lng": 46.890048
     },
     {
       "plot_no": "RF-B03-025",
@@ -6137,8 +6137,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.482168,
-      "lng": 46.884927
+      "lat": 24.490081,
+      "lng": 46.889968
     },
     {
       "plot_no": "RF-B03-026",
@@ -6152,8 +6152,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.491321,
-      "lng": 46.892436
+      "lat": 24.484373,
+      "lng": 46.890262
     },
     {
       "plot_no": "RF-B03-027",
@@ -6167,8 +6167,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.496622,
-      "lng": 46.88154
+      "lat": 24.494696,
+      "lng": 46.879123
     },
     {
       "plot_no": "RF-B03-028",
@@ -6182,8 +6182,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.479318,
-      "lng": 46.885441
+      "lat": 24.481536,
+      "lng": 46.884049
     },
     {
       "plot_no": "RF-B03-029",
@@ -6197,8 +6197,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.492601,
-      "lng": 46.873221
+      "lat": 24.483812,
+      "lng": 46.892478
     },
     {
       "plot_no": "RF-B03-030",
@@ -6212,8 +6212,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.49492,
-      "lng": 46.871071
+      "lat": 24.494044,
+      "lng": 46.880429
     },
     {
       "plot_no": "RF-B03-031",
@@ -6227,8 +6227,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.493253,
-      "lng": 46.884004
+      "lat": 24.497614,
+      "lng": 46.87368
     },
     {
       "plot_no": "RF-B03-032",
@@ -6242,8 +6242,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.494386,
-      "lng": 46.87419
+      "lat": 24.490633,
+      "lng": 46.871035
     },
     {
       "plot_no": "RF-B03-033",
@@ -6257,8 +6257,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.496639,
-      "lng": 46.875393
+      "lat": 24.489054,
+      "lng": 46.874636
     },
     {
       "plot_no": "RF-B03-034",
@@ -6272,8 +6272,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.487381,
-      "lng": 46.891176
+      "lat": 24.48238,
+      "lng": 46.888639
     },
     {
       "plot_no": "RF-B03-035",
@@ -6287,8 +6287,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.478444,
-      "lng": 46.887346
+      "lat": 24.487941,
+      "lng": 46.873448
     },
     {
       "plot_no": "RF-B03-036",
@@ -6302,8 +6302,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.4964,
-      "lng": 46.882383
+      "lat": 24.492649,
+      "lng": 46.871135
     },
     {
       "plot_no": "RF-B03-037",
@@ -6317,8 +6317,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.493926,
-      "lng": 46.891224
+      "lat": 24.477121,
+      "lng": 46.880283
     },
     {
       "plot_no": "RF-B03-038",
@@ -6332,8 +6332,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.484916,
-      "lng": 46.888384
+      "lat": 24.477806,
+      "lng": 46.880601
     },
     {
       "plot_no": "RF-B03-039",
@@ -6347,8 +6347,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.491984,
-      "lng": 46.883825
+      "lat": 24.484534,
+      "lng": 46.892596
     },
     {
       "plot_no": "RF-B03-040",
@@ -6362,8 +6362,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.490838,
-      "lng": 46.873199
+      "lat": 24.489564,
+      "lng": 46.876198
     },
     {
       "plot_no": "RF-B03-041",
@@ -6377,8 +6377,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.487176,
-      "lng": 46.882758
+      "lat": 24.482208,
+      "lng": 46.871399
     },
     {
       "plot_no": "RF-B04-042",
@@ -6392,8 +6392,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.491777,
-      "lng": 46.87895
+      "lat": 24.491647,
+      "lng": 46.893435
     },
     {
       "plot_no": "RF-B04-043",
@@ -6407,8 +6407,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.481293,
-      "lng": 46.884628
+      "lat": 24.481369,
+      "lng": 46.871485
     },
     {
       "plot_no": "RF-B04-044",
@@ -6422,8 +6422,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.478885,
-      "lng": 46.88263
+      "lat": 24.478035,
+      "lng": 46.880778
     },
     {
       "plot_no": "RF-B04-045",
@@ -6437,8 +6437,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.498718,
-      "lng": 46.875372
+      "lat": 24.479622,
+      "lng": 46.874811
     },
     {
       "plot_no": "RF-B04-046",
@@ -6452,8 +6452,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.478665,
-      "lng": 46.887772
+      "lat": 24.489624,
+      "lng": 46.87131
     },
     {
       "plot_no": "RF-B04-047",
@@ -6467,8 +6467,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.480422,
-      "lng": 46.882592
+      "lat": 24.482272,
+      "lng": 46.874365
     },
     {
       "plot_no": "RF-B04-048",
@@ -6482,8 +6482,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.499464,
-      "lng": 46.876315
+      "lat": 24.499003,
+      "lng": 46.877092
     },
     {
       "plot_no": "RF-B04-049",
@@ -6497,8 +6497,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.48104,
-      "lng": 46.873718
+      "lat": 24.486735,
+      "lng": 46.891737
     },
     {
       "plot_no": "RF-B04-050",
@@ -6512,8 +6512,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.478364,
-      "lng": 46.880304
+      "lat": 24.486932,
+      "lng": 46.873118
     },
     {
       "plot_no": "RF-B04-051",
@@ -6527,8 +6527,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.4887,
-      "lng": 46.872813
+      "lat": 24.486816,
+      "lng": 46.873346
     },
     {
       "plot_no": "RF-B04-052",
@@ -6542,8 +6542,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.495254,
-      "lng": 46.881322
+      "lat": 24.491724,
+      "lng": 46.873926
     },
     {
       "plot_no": "RF-B04-053",
@@ -6557,8 +6557,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.49426,
-      "lng": 46.887081
+      "lat": 24.482196,
+      "lng": 46.872537
     },
     {
       "plot_no": "RF-B04-054",
@@ -6572,8 +6572,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.482064,
-      "lng": 46.878121
+      "lat": 24.491662,
+      "lng": 46.872504
     },
     {
       "plot_no": "RF-B04-055",
@@ -6587,8 +6587,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.499334,
-      "lng": 46.881443
+      "lat": 24.477452,
+      "lng": 46.884036
     },
     {
       "plot_no": "RF-B05-056",
@@ -6602,8 +6602,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.478649,
-      "lng": 46.887805
+      "lat": 24.479589,
+      "lng": 46.885268
     },
     {
       "plot_no": "RF-B05-057",
@@ -6617,8 +6617,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.478044,
-      "lng": 46.884521
+      "lat": 24.480359,
+      "lng": 46.885566
     },
     {
       "plot_no": "RF-B05-058",
@@ -6632,8 +6632,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.48351,
-      "lng": 46.886374
+      "lat": 24.491145,
+      "lng": 46.885255
     },
     {
       "plot_no": "RF-B05-059",
@@ -6647,8 +6647,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.494451,
-      "lng": 46.874455
+      "lat": 24.488126,
+      "lng": 46.868466
     },
     {
       "plot_no": "RF-B05-060",
@@ -6662,8 +6662,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.490571,
-      "lng": 46.872982
+      "lat": 24.491188,
+      "lng": 46.892812
     },
     {
       "plot_no": "RF-B05-061",
@@ -6677,8 +6677,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.490472,
-      "lng": 46.890937
+      "lat": 24.482988,
+      "lng": 46.875969
     },
     {
       "plot_no": "RF-B05-062",
@@ -6692,8 +6692,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.485367,
-      "lng": 46.881306
+      "lat": 24.481983,
+      "lng": 46.872278
     },
     {
       "plot_no": "RF-B05-063",
@@ -6707,8 +6707,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.496492,
-      "lng": 46.871765
+      "lat": 24.496613,
+      "lng": 46.872578
     },
     {
       "plot_no": "RF-B05-064",
@@ -6722,8 +6722,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.498741,
-      "lng": 46.881368
+      "lat": 24.492886,
+      "lng": 46.882422
     },
     {
       "plot_no": "RF-B05-065",
@@ -6737,8 +6737,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.486705,
-      "lng": 46.879622
+      "lat": 24.491816,
+      "lng": 46.88278
     },
     {
       "plot_no": "RF-B05-066",
@@ -6752,8 +6752,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.481453,
-      "lng": 46.87624
+      "lat": 24.49278,
+      "lng": 46.875785
     },
     {
       "plot_no": "RF-B05-067",
@@ -6767,8 +6767,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.477511,
-      "lng": 46.882055
+      "lat": 24.494297,
+      "lng": 46.892236
     },
     {
       "plot_no": "RF-B05-068",
@@ -6782,8 +6782,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.490974,
-      "lng": 46.888119
+      "lat": 24.487698,
+      "lng": 46.870118
     },
     {
       "plot_no": "RF-B05-069",
@@ -6797,8 +6797,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.485343,
-      "lng": 46.871467
+      "lat": 24.490815,
+      "lng": 46.880341
     },
     {
       "plot_no": "RF-B05-070",
@@ -6812,8 +6812,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.494349,
-      "lng": 46.873471
+      "lat": 24.495694,
+      "lng": 46.887055
     },
     {
       "plot_no": "RF-B05-071",
@@ -6827,8 +6827,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.489699,
-      "lng": 46.88665
+      "lat": 24.493205,
+      "lng": 46.890912
     },
     {
       "plot_no": "RF-B06-072",
@@ -6842,8 +6842,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.4797,
-      "lng": 46.874312
+      "lat": 24.497671,
+      "lng": 46.885562
     },
     {
       "plot_no": "RF-B06-073",
@@ -6857,8 +6857,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.482881,
-      "lng": 46.889042
+      "lat": 24.495751,
+      "lng": 46.887739
     },
     {
       "plot_no": "RF-B06-074",
@@ -6872,8 +6872,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.495134,
-      "lng": 46.877063
+      "lat": 24.482222,
+      "lng": 46.883025
     },
     {
       "plot_no": "RF-B06-075",
@@ -6887,8 +6887,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.494995,
-      "lng": 46.87318
+      "lat": 24.482617,
+      "lng": 46.886178
     },
     {
       "plot_no": "RF-B06-076",
@@ -6902,8 +6902,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.489221,
-      "lng": 46.878985
+      "lat": 24.485391,
+      "lng": 46.889571
     },
     {
       "plot_no": "RF-B06-077",
@@ -6917,8 +6917,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.482627,
-      "lng": 46.887164
+      "lat": 24.488021,
+      "lng": 46.886552
     },
     {
       "plot_no": "RF-B06-078",
@@ -6932,8 +6932,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.48157,
-      "lng": 46.882934
+      "lat": 24.484709,
+      "lng": 46.874559
     },
     {
       "plot_no": "RF-B06-079",
@@ -6947,8 +6947,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.492652,
-      "lng": 46.869616
+      "lat": 24.48935,
+      "lng": 46.871406
     },
     {
       "plot_no": "RF-B06-080",
@@ -6962,8 +6962,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.484139,
-      "lng": 46.884221
+      "lat": 24.480547,
+      "lng": 46.885108
     },
     {
       "plot_no": "RF-B06-081",
@@ -6977,8 +6977,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.491305,
-      "lng": 46.873601
+      "lat": 24.499111,
+      "lng": 46.881985
     },
     {
       "plot_no": "RF-B06-082",
@@ -6992,8 +6992,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.477871,
-      "lng": 46.881592
+      "lat": 24.497388,
+      "lng": 46.874444
     },
     {
       "plot_no": "RF-B06-083",
@@ -7007,8 +7007,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.488387,
-      "lng": 46.872348
+      "lat": 24.484946,
+      "lng": 46.870798
     },
     {
       "plot_no": "RF-B06-084",
@@ -7022,8 +7022,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.490365,
-      "lng": 46.873151
+      "lat": 24.499223,
+      "lng": 46.882135
     },
     {
       "plot_no": "RF-B06-085",
@@ -7037,8 +7037,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.486615,
-      "lng": 46.885006
+      "lat": 24.486121,
+      "lng": 46.872494
     },
     {
       "plot_no": "RF-B06-086",
@@ -7052,8 +7052,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.490245,
-      "lng": 46.878874
+      "lat": 24.483935,
+      "lng": 46.871576
     },
     {
       "plot_no": "RF-B06-087",
@@ -7067,8 +7067,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.487065,
-      "lng": 46.884147
+      "lat": 24.481218,
+      "lng": 46.872638
     },
     {
       "plot_no": "RF-B07-088",
@@ -7082,8 +7082,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.491731,
-      "lng": 46.88459
+      "lat": 24.481951,
+      "lng": 46.87738
     },
     {
       "plot_no": "RF-B07-089",
@@ -7097,8 +7097,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.489874,
-      "lng": 46.89176
+      "lat": 24.484805,
+      "lng": 46.884344
     },
     {
       "plot_no": "RF-B07-090",
@@ -7112,8 +7112,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.494937,
-      "lng": 46.885155
+      "lat": 24.48134,
+      "lng": 46.87934
     },
     {
       "plot_no": "RF-B07-091",
@@ -7127,8 +7127,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.486077,
-      "lng": 46.886334
+      "lat": 24.496254,
+      "lng": 46.890018
     },
     {
       "plot_no": "RF-B07-092",
@@ -7142,8 +7142,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.493502,
-      "lng": 46.87499
+      "lat": 24.497202,
+      "lng": 46.882133
     },
     {
       "plot_no": "RF-B07-093",
@@ -7157,8 +7157,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.490342,
-      "lng": 46.89274
+      "lat": 24.483275,
+      "lng": 46.876619
     },
     {
       "plot_no": "RF-B07-094",
@@ -7172,8 +7172,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.481512,
-      "lng": 46.887742
+      "lat": 24.482859,
+      "lng": 46.890267
     },
     {
       "plot_no": "RF-B07-095",
@@ -7187,8 +7187,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.494917,
-      "lng": 46.880859
+      "lat": 24.487441,
+      "lng": 46.872164
     },
     {
       "plot_no": "RF-B07-096",
@@ -7202,8 +7202,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.492108,
-      "lng": 46.874807
+      "lat": 24.489556,
+      "lng": 46.883249
     },
     {
       "plot_no": "RF-B07-097",
@@ -7217,8 +7217,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.483749,
-      "lng": 46.875443
+      "lat": 24.498457,
+      "lng": 46.883951
     },
     {
       "plot_no": "RF-B07-098",
@@ -7232,8 +7232,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.477594,
-      "lng": 46.878382
+      "lat": 24.479538,
+      "lng": 46.889157
     },
     {
       "plot_no": "RF-B07-099",
@@ -7247,8 +7247,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.48756,
-      "lng": 46.889317
+      "lat": 24.498312,
+      "lng": 46.886079
     },
     {
       "plot_no": "RF-B07-100",
@@ -7262,8 +7262,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.489165,
-      "lng": 46.893187
+      "lat": 24.482353,
+      "lng": 46.890887
     },
     {
       "plot_no": "RF-B07-101",
@@ -7277,8 +7277,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.493855,
-      "lng": 46.876534
+      "lat": 24.496691,
+      "lng": 46.88547
     },
     {
       "plot_no": "RF-B07-102",
@@ -7292,8 +7292,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.477936,
-      "lng": 46.883259
+      "lat": 24.484229,
+      "lng": 46.870954
     },
     {
       "plot_no": "RF-B07-103",
@@ -7307,8 +7307,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.49424,
-      "lng": 46.878635
+      "lat": 24.481863,
+      "lng": 46.885213
     },
     {
       "plot_no": "RF-B07-104",
@@ -7322,8 +7322,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.499446,
-      "lng": 46.880502
+      "lat": 24.494834,
+      "lng": 46.872581
     },
     {
       "plot_no": "RF-B07-105",
@@ -7337,8 +7337,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.482716,
-      "lng": 46.877746
+      "lat": 24.487843,
+      "lng": 46.870743
     },
     {
       "plot_no": "RF-B07-106",
@@ -7352,8 +7352,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.485998,
-      "lng": 46.881186
+      "lat": 24.494066,
+      "lng": 46.879717
     },
     {
       "plot_no": "RF-B07-107",
@@ -7367,8 +7367,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.497164,
-      "lng": 46.878741
+      "lat": 24.486804,
+      "lng": 46.875058
     },
     {
       "plot_no": "RF-B07-108",
@@ -7382,8 +7382,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.48535,
-      "lng": 46.870325
+      "lat": 24.486787,
+      "lng": 46.88808
     },
     {
       "plot_no": "RF-B07-109",
@@ -7397,8 +7397,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.48677,
-      "lng": 46.873255
+      "lat": 24.495385,
+      "lng": 46.881876
     },
     {
       "plot_no": "RF-B07-110",
@@ -7412,8 +7412,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.478309,
-      "lng": 46.882054
+      "lat": 24.494262,
+      "lng": 46.873492
     },
     {
       "plot_no": "RF-B07-111",
@@ -7427,8 +7427,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.485847,
-      "lng": 46.8755
+      "lat": 24.483954,
+      "lng": 46.874639
     },
     {
       "plot_no": "RF-B07-112",
@@ -7442,8 +7442,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.487113,
-      "lng": 46.877366
+      "lat": 24.491726,
+      "lng": 46.885481
     },
     {
       "plot_no": "RF-B07-113",
@@ -7457,8 +7457,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.492851,
-      "lng": 46.871657
+      "lat": 24.496816,
+      "lng": 46.874362
     },
     {
       "plot_no": "RF-B07-114",
@@ -7472,8 +7472,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.483534,
-      "lng": 46.890738
+      "lat": 24.498902,
+      "lng": 46.884644
     },
     {
       "plot_no": "RF-B08-115",
@@ -7487,8 +7487,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.491268,
-      "lng": 46.884749
+      "lat": 24.496179,
+      "lng": 46.880068
     },
     {
       "plot_no": "RF-B08-116",
@@ -7502,8 +7502,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.480754,
-      "lng": 46.876085
+      "lat": 24.490381,
+      "lng": 46.8775
     },
     {
       "plot_no": "RF-B08-117",
@@ -7517,8 +7517,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.488402,
-      "lng": 46.88776
+      "lat": 24.488041,
+      "lng": 46.889276
     },
     {
       "plot_no": "RF-B08-118",
@@ -7532,8 +7532,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.484527,
-      "lng": 46.887102
+      "lat": 24.493519,
+      "lng": 46.884386
     },
     {
       "plot_no": "RF-B08-119",
@@ -7547,8 +7547,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.497084,
-      "lng": 46.885367
+      "lat": 24.493326,
+      "lng": 46.889437
     },
     {
       "plot_no": "RF-B08-121",
@@ -7562,8 +7562,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.488311,
-      "lng": 46.873971
+      "lat": 24.492416,
+      "lng": 46.889934
     },
     {
       "plot_no": "RF-B08-122",
@@ -7577,8 +7577,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.481434,
-      "lng": 46.881484
+      "lat": 24.479027,
+      "lng": 46.882314
     },
     {
       "plot_no": "RF-B08-123",
@@ -7592,8 +7592,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.481257,
-      "lng": 46.89096
+      "lat": 24.492488,
+      "lng": 46.87488
     },
     {
       "plot_no": "RF-B08-124",
@@ -7607,8 +7607,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.498902,
-      "lng": 46.885273
+      "lat": 24.496542,
+      "lng": 46.886812
     },
     {
       "plot_no": "RF-B08-125",
@@ -7622,8 +7622,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.488174,
-      "lng": 46.893054
+      "lat": 24.488689,
+      "lng": 46.88924
     },
     {
       "plot_no": "RF-B08-126",
@@ -7637,8 +7637,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.49573,
-      "lng": 46.890063
+      "lat": 24.481406,
+      "lng": 46.888861
     },
     {
       "plot_no": "RF-B08-127",
@@ -7652,8 +7652,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.483575,
-      "lng": 46.88009
+      "lat": 24.48285,
+      "lng": 46.879794
     },
     {
       "plot_no": "RF-B08-128",
@@ -7667,8 +7667,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.481991,
-      "lng": 46.872937
+      "lat": 24.478758,
+      "lng": 46.881551
     },
     {
       "plot_no": "RF-B08-129",
@@ -7682,8 +7682,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.497096,
-      "lng": 46.882194
+      "lat": 24.485504,
+      "lng": 46.885046
     },
     {
       "plot_no": "RF-B08-130",
@@ -7697,8 +7697,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.496306,
-      "lng": 46.877236
+      "lat": 24.484469,
+      "lng": 46.890862
     },
     {
       "plot_no": "RF-B08-131",
@@ -7712,8 +7712,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.491556,
-      "lng": 46.875934
+      "lat": 24.494679,
+      "lng": 46.887575
     },
     {
       "plot_no": "RF-B08-132",
@@ -7727,8 +7727,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.492854,
-      "lng": 46.870085
+      "lat": 24.481367,
+      "lng": 46.877977
     },
     {
       "plot_no": "RF-B08-133",
@@ -7742,8 +7742,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.482382,
-      "lng": 46.871012
+      "lat": 24.483708,
+      "lng": 46.880564
     },
     {
       "plot_no": "RF-B08-134",
@@ -7757,8 +7757,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.491333,
-      "lng": 46.889085
+      "lat": 24.490148,
+      "lng": 46.870461
     },
     {
       "plot_no": "RF-B08-135",
@@ -7772,8 +7772,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.489839,
-      "lng": 46.890408
+      "lat": 24.486333,
+      "lng": 46.888639
     },
     {
       "plot_no": "RF-B08-136",
@@ -7787,8 +7787,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.491603,
-      "lng": 46.869909
+      "lat": 24.477988,
+      "lng": 46.881481
     },
     {
       "plot_no": "RF-B08-137",
@@ -7802,8 +7802,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.49502,
-      "lng": 46.873199
+      "lat": 24.485699,
+      "lng": 46.887493
     },
     {
       "plot_no": "RF-B09-138",
@@ -7817,8 +7817,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.495554,
-      "lng": 46.886151
+      "lat": 24.489689,
+      "lng": 46.886318
     },
     {
       "plot_no": "RF-B09-139",
@@ -7832,8 +7832,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.495778,
-      "lng": 46.871581
+      "lat": 24.48626,
+      "lng": 46.885326
     },
     {
       "plot_no": "RF-B09-140",
@@ -7847,8 +7847,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.496058,
-      "lng": 46.877476
+      "lat": 24.483962,
+      "lng": 46.87412
     },
     {
       "plot_no": "RF-B09-141",
@@ -7862,8 +7862,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.49779,
-      "lng": 46.883033
+      "lat": 24.487802,
+      "lng": 46.872873
     },
     {
       "plot_no": "RF-B09-142",
@@ -7877,8 +7877,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.487559,
-      "lng": 46.88299
+      "lat": 24.49582,
+      "lng": 46.877731
     },
     {
       "plot_no": "RF-B09-143",
@@ -7892,8 +7892,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.498751,
-      "lng": 46.88454
+      "lat": 24.481696,
+      "lng": 46.877718
     },
     {
       "plot_no": "RF-B09-144",
@@ -7907,8 +7907,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.481068,
-      "lng": 46.888995
+      "lat": 24.499819,
+      "lng": 46.879983
     },
     {
       "plot_no": "RF-B09-145",
@@ -7922,8 +7922,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.479036,
-      "lng": 46.875832
+      "lat": 24.495054,
+      "lng": 46.872381
     },
     {
       "plot_no": "RF-B09-146",
@@ -7937,8 +7937,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.490395,
-      "lng": 46.873714
+      "lat": 24.497904,
+      "lng": 46.880927
     },
     {
       "plot_no": "RF-B09-147",
@@ -7952,8 +7952,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.482016,
-      "lng": 46.873727
+      "lat": 24.498618,
+      "lng": 46.877494
     },
     {
       "plot_no": "RF-B09-148",
@@ -7967,8 +7967,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.481829,
-      "lng": 46.883949
+      "lat": 24.486669,
+      "lng": 46.882398
     },
     {
       "plot_no": "RF-B09-149",
@@ -7982,8 +7982,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.495124,
-      "lng": 46.875721
+      "lat": 24.49345,
+      "lng": 46.877973
     },
     {
       "plot_no": "RF-B09-150",
@@ -7997,8 +7997,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.493226,
-      "lng": 46.886787
+      "lat": 24.482949,
+      "lng": 46.875832
     },
     {
       "plot_no": "RF-B09-151",
@@ -8012,8 +8012,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.488685,
-      "lng": 46.883906
+      "lat": 24.489139,
+      "lng": 46.892522
     },
     {
       "plot_no": "RF-B09-152",
@@ -8027,8 +8027,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.495277,
-      "lng": 46.872411
+      "lat": 24.484401,
+      "lng": 46.892462
     },
     {
       "plot_no": "RF-B09-153",
@@ -8042,8 +8042,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.495174,
-      "lng": 46.877539
+      "lat": 24.481723,
+      "lng": 46.873022
     },
     {
       "plot_no": "RF-B09-154",
@@ -8057,8 +8057,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.489597,
-      "lng": 46.873506
+      "lat": 24.492212,
+      "lng": 46.886944
     },
     {
       "plot_no": "RF-B09-155",
@@ -8072,8 +8072,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.483119,
-      "lng": 46.880265
+      "lat": 24.486744,
+      "lng": 46.890352
     },
     {
       "plot_no": "RF-B09-156",
@@ -8087,8 +8087,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.495469,
-      "lng": 46.880786
+      "lat": 24.498675,
+      "lng": 46.878679
     },
     {
       "plot_no": "RF-B10-157",
@@ -8102,8 +8102,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.495548,
-      "lng": 46.87612
+      "lat": 24.478783,
+      "lng": 46.881083
     },
     {
       "plot_no": "RF-B10-158",
@@ -8117,8 +8117,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.49313,
-      "lng": 46.876622
+      "lat": 24.490358,
+      "lng": 46.885246
     },
     {
       "plot_no": "RF-B10-159",
@@ -8132,8 +8132,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.487382,
-      "lng": 46.876603
+      "lat": 24.494005,
+      "lng": 46.879991
     },
     {
       "plot_no": "RF-B10-160",
@@ -8147,8 +8147,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.480267,
-      "lng": 46.880674
+      "lat": 24.499023,
+      "lng": 46.877044
     },
     {
       "plot_no": "RF-B10-161",
@@ -8162,8 +8162,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.481405,
-      "lng": 46.89116
+      "lat": 24.494809,
+      "lng": 46.873247
     },
     {
       "plot_no": "RF-B10-162",
@@ -8177,8 +8177,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.496147,
-      "lng": 46.881576
+      "lat": 24.487758,
+      "lng": 46.878936
     },
     {
       "plot_no": "RF-B10-163",
@@ -8192,8 +8192,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.497191,
-      "lng": 46.888838
+      "lat": 24.482892,
+      "lng": 46.870578
     },
     {
       "plot_no": "RF-B10-164",
@@ -8207,8 +8207,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.487729,
-      "lng": 46.875313
+      "lat": 24.495751,
+      "lng": 46.875443
     },
     {
       "plot_no": "RF-B10-165",
@@ -8222,8 +8222,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.482862,
-      "lng": 46.883033
+      "lat": 24.481244,
+      "lng": 46.877562
     },
     {
       "plot_no": "RF-B10-166",
@@ -8237,8 +8237,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.495126,
-      "lng": 46.890945
+      "lat": 24.480584,
+      "lng": 46.884429
     },
     {
       "plot_no": "RF-B10-167",
@@ -8252,8 +8252,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.477524,
-      "lng": 46.883083
+      "lat": 24.479153,
+      "lng": 46.876514
     },
     {
       "plot_no": "RF-B10-168",
@@ -8267,8 +8267,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.494839,
-      "lng": 46.87388
+      "lat": 24.486923,
+      "lng": 46.873295
     },
     {
       "plot_no": "RF-B10-169",
@@ -8282,8 +8282,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.482477,
-      "lng": 46.875309
+      "lat": 24.484986,
+      "lng": 46.874985
     },
     {
       "plot_no": "RF-B10-170",
@@ -8297,8 +8297,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.478264,
-      "lng": 46.887006
+      "lat": 24.493079,
+      "lng": 46.869783
     },
     {
       "plot_no": "RF-B10-171",
@@ -8312,8 +8312,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 2200,
-      "lat": 24.495525,
-      "lng": 46.889373
+      "lat": 24.48182,
+      "lng": 46.875419
     },
     {
       "plot_no": "WR-B48-554",
@@ -8327,8 +8327,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.485669,
-      "lng": 46.887695
+      "lat": 24.483149,
+      "lng": 46.873679
     },
     {
       "plot_no": "WR-B49-555",
@@ -8342,8 +8342,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.486826,
-      "lng": 46.893499
+      "lat": 24.492541,
+      "lng": 46.889315
     },
     {
       "plot_no": "WR-B50-556",
@@ -8357,8 +8357,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.490783,
-      "lng": 46.889573
+      "lat": 24.492805,
+      "lng": 46.89253
     },
     {
       "plot_no": "WR-B50-557",
@@ -8372,8 +8372,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.496453,
-      "lng": 46.886196
+      "lat": 24.494188,
+      "lng": 46.870382
     },
     {
       "plot_no": "WR-B50-558",
@@ -8387,8 +8387,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.490159,
-      "lng": 46.882298
+      "lat": 24.486038,
+      "lng": 46.878591
     },
     {
       "plot_no": "WR-B50-559",
@@ -8402,8 +8402,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.489941,
-      "lng": 46.882279
+      "lat": 24.497183,
+      "lng": 46.876944
     },
     {
       "plot_no": "WR-B51-560",
@@ -8417,8 +8417,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.493961,
-      "lng": 46.890587
+      "lat": 24.485326,
+      "lng": 46.878295
     },
     {
       "plot_no": "WR-B51-561",
@@ -8432,8 +8432,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.488665,
-      "lng": 46.893835
+      "lat": 24.48218,
+      "lng": 46.882771
     },
     {
       "plot_no": "WR-B51-562",
@@ -8447,8 +8447,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.484721,
-      "lng": 46.881253
+      "lat": 24.480375,
+      "lng": 46.887848
     },
     {
       "plot_no": "WR-B51-563",
@@ -8462,8 +8462,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.480113,
-      "lng": 46.87293
+      "lat": 24.477459,
+      "lng": 46.882021
     },
     {
       "plot_no": "WR-B52-564",
@@ -8477,8 +8477,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.486332,
-      "lng": 46.875906
+      "lat": 24.486012,
+      "lng": 46.88976
     },
     {
       "plot_no": "WR-B52-565",
@@ -8492,8 +8492,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.486171,
-      "lng": 46.881682
+      "lat": 24.487763,
+      "lng": 46.893258
     },
     {
       "plot_no": "WR-B52-566",
@@ -8507,8 +8507,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.499608,
-      "lng": 46.877115
+      "lat": 24.491499,
+      "lng": 46.87806
     },
     {
       "plot_no": "WR-B52-567",
@@ -8522,8 +8522,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.495526,
-      "lng": 46.88775
+      "lat": 24.490966,
+      "lng": 46.889508
     },
     {
       "plot_no": "WR-B52-568",
@@ -8537,8 +8537,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.480744,
-      "lng": 46.873254
+      "lat": 24.489541,
+      "lng": 46.869956
     },
     {
       "plot_no": "WR-B52-569",
@@ -8552,8 +8552,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.496126,
-      "lng": 46.88781
+      "lat": 24.480742,
+      "lng": 46.872392
     },
     {
       "plot_no": "WR-B52-570",
@@ -8567,8 +8567,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.489663,
-      "lng": 46.889272
+      "lat": 24.480678,
+      "lng": 46.880541
     },
     {
       "plot_no": "WR-B52-571",
@@ -8582,8 +8582,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.482446,
-      "lng": 46.87381
+      "lat": 24.486056,
+      "lng": 46.884091
     },
     {
       "plot_no": "WR-B52-572",
@@ -8597,8 +8597,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.494303,
-      "lng": 46.871099
+      "lat": 24.498653,
+      "lng": 46.883844
     },
     {
       "plot_no": "WR-B52-573",
@@ -8612,8 +8612,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.481863,
-      "lng": 46.883554
+      "lat": 24.481858,
+      "lng": 46.887745
     },
     {
       "plot_no": "WR-B52-574",
@@ -8627,8 +8627,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.484711,
-      "lng": 46.878709
+      "lat": 24.48677,
+      "lng": 46.875314
     },
     {
       "plot_no": "WR-B53-575",
@@ -8642,8 +8642,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.48263,
-      "lng": 46.881116
+      "lat": 24.481594,
+      "lng": 46.889836
     },
     {
       "plot_no": "WR-B53-576",
@@ -8657,8 +8657,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.497217,
-      "lng": 46.885709
+      "lat": 24.485496,
+      "lng": 46.875851
     },
     {
       "plot_no": "WR-B53-577",
@@ -8672,8 +8672,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.499819,
-      "lng": 46.883497
+      "lat": 24.478868,
+      "lng": 46.880836
     },
     {
       "plot_no": "WR-B53-578",
@@ -8687,8 +8687,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.495371,
-      "lng": 46.873879
+      "lat": 24.497845,
+      "lng": 46.874428
     },
     {
       "plot_no": "WR-B53-579",
@@ -8702,8 +8702,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.490194,
-      "lng": 46.893817
+      "lat": 24.48426,
+      "lng": 46.890295
     },
     {
       "plot_no": "WR-B53-580",
@@ -8717,8 +8717,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.491078,
-      "lng": 46.87901
+      "lat": 24.482686,
+      "lng": 46.887553
     },
     {
       "plot_no": "WR-B54-581",
@@ -8732,8 +8732,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.487819,
-      "lng": 46.891789
+      "lat": 24.495235,
+      "lng": 46.874163
     },
     {
       "plot_no": "WR-B54-582",
@@ -8747,8 +8747,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.495418,
-      "lng": 46.876202
+      "lat": 24.480047,
+      "lng": 46.877378
     },
     {
       "plot_no": "WR-B54-583",
@@ -8762,8 +8762,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.48249,
-      "lng": 46.882679
+      "lat": 24.48539,
+      "lng": 46.886909
     },
     {
       "plot_no": "WR-B54-584",
@@ -8777,8 +8777,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.49183,
-      "lng": 46.889714
+      "lat": 24.489386,
+      "lng": 46.887258
     },
     {
       "plot_no": "WR-B54-585",
@@ -8792,8 +8792,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.48627,
-      "lng": 46.891246
+      "lat": 24.478623,
+      "lng": 46.878327
     },
     {
       "plot_no": "WR-B54-586",
@@ -8807,8 +8807,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.497437,
-      "lng": 46.884293
+      "lat": 24.486576,
+      "lng": 46.880806
     },
     {
       "plot_no": "WR-B54-587",
@@ -8822,8 +8822,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.478038,
-      "lng": 46.878019
+      "lat": 24.499872,
+      "lng": 46.880659
     },
     {
       "plot_no": "WR-B54-588",
@@ -8837,8 +8837,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.498082,
-      "lng": 46.874157
+      "lat": 24.491656,
+      "lng": 46.882242
     },
     {
       "plot_no": "WR-B54-589",
@@ -8852,8 +8852,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.488904,
-      "lng": 46.878548
+      "lat": 24.495277,
+      "lng": 46.881344
     },
     {
       "plot_no": "WR-B55-590",
@@ -8867,8 +8867,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.492472,
-      "lng": 46.884033
+      "lat": 24.493418,
+      "lng": 46.871
     },
     {
       "plot_no": "WR-B55-591",
@@ -8882,8 +8882,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.486417,
-      "lng": 46.87618
+      "lat": 24.484699,
+      "lng": 46.883082
     },
     {
       "plot_no": "WR-B55-592",
@@ -8897,8 +8897,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.493607,
-      "lng": 46.886659
+      "lat": 24.487917,
+      "lng": 46.873754
     },
     {
       "plot_no": "WR-B55-593",
@@ -8912,8 +8912,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.48818,
-      "lng": 46.888584
+      "lat": 24.480472,
+      "lng": 46.880424
     },
     {
       "plot_no": "WR-B55-594",
@@ -8927,8 +8927,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.486846,
-      "lng": 46.880982
+      "lat": 24.497102,
+      "lng": 46.887551
     },
     {
       "plot_no": "WR-B55-595",
@@ -8942,8 +8942,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.492265,
-      "lng": 46.879455
+      "lat": 24.479496,
+      "lng": 46.877074
     },
     {
       "plot_no": "WR-B55-596",
@@ -8957,8 +8957,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.479668,
-      "lng": 46.882555
+      "lat": 24.492296,
+      "lng": 46.869756
     },
     {
       "plot_no": "WR-B55-597",
@@ -8972,8 +8972,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.488764,
-      "lng": 46.892775
+      "lat": 24.479616,
+      "lng": 46.877917
     },
     {
       "plot_no": "WR-B55-598",
@@ -8987,8 +8987,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.494048,
-      "lng": 46.887645
+      "lat": 24.492487,
+      "lng": 46.890496
     },
     {
       "plot_no": "WR-B55-599",
@@ -9002,8 +9002,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.478249,
-      "lng": 46.876789
+      "lat": 24.490606,
+      "lng": 46.872884
     },
     {
       "plot_no": "WR-B55-600",
@@ -9017,8 +9017,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.486178,
-      "lng": 46.887501
+      "lat": 24.478051,
+      "lng": 46.880689
     },
     {
       "plot_no": "WR-B55-601",
@@ -9032,8 +9032,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.477252,
-      "lng": 46.883206
+      "lat": 24.482196,
+      "lng": 46.880195
     },
     {
       "plot_no": "WR-B56-602",
@@ -9047,8 +9047,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.497352,
-      "lng": 46.872996
+      "lat": 24.487215,
+      "lng": 46.892076
     },
     {
       "plot_no": "WR-B56-603",
@@ -9062,8 +9062,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.491359,
-      "lng": 46.891494
+      "lat": 24.496499,
+      "lng": 46.888854
     },
     {
       "plot_no": "WR-B56-604",
@@ -9077,8 +9077,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.491588,
-      "lng": 46.891263
+      "lat": 24.481561,
+      "lng": 46.879926
     },
     {
       "plot_no": "WR-B56-605",
@@ -9092,8 +9092,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.482618,
-      "lng": 46.875867
+      "lat": 24.492986,
+      "lng": 46.880393
     },
     {
       "plot_no": "WR-B56-606",
@@ -9107,8 +9107,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.490507,
-      "lng": 46.889227
+      "lat": 24.486072,
+      "lng": 46.893801
     },
     {
       "plot_no": "WR-B56-607",
@@ -9122,8 +9122,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.496181,
-      "lng": 46.888046
+      "lat": 24.485471,
+      "lng": 46.892681
     },
     {
       "plot_no": "WR-B56-608",
@@ -9137,8 +9137,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.494453,
-      "lng": 46.870862
+      "lat": 24.486791,
+      "lng": 46.874307
     },
     {
       "plot_no": "WR-B56-609",
@@ -9152,8 +9152,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.497223,
-      "lng": 46.887031
+      "lat": 24.483598,
+      "lng": 46.871578
     },
     {
       "plot_no": "WR-B56-610",
@@ -9167,8 +9167,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.482992,
-      "lng": 46.880082
+      "lat": 24.488891,
+      "lng": 46.879166
     },
     {
       "plot_no": "WR-B56-611",
@@ -9182,8 +9182,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.491454,
-      "lng": 46.887525
+      "lat": 24.491227,
+      "lng": 46.871614
     },
     {
       "plot_no": "WR-B56-612",
@@ -9197,8 +9197,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.481492,
-      "lng": 46.888435
+      "lat": 24.495481,
+      "lng": 46.872609
     },
     {
       "plot_no": "WR-B56-613",
@@ -9212,8 +9212,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.49472,
-      "lng": 46.879415
+      "lat": 24.488372,
+      "lng": 46.874393
     },
     {
       "plot_no": "WR-B56-614",
@@ -9227,8 +9227,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.492176,
-      "lng": 46.874582
+      "lat": 24.492329,
+      "lng": 46.883843
     },
     {
       "plot_no": "WR-B57-615",
@@ -9242,8 +9242,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.48853,
-      "lng": 46.885637
+      "lat": 24.485072,
+      "lng": 46.891635
     },
     {
       "plot_no": "WR-B57-616",
@@ -9257,8 +9257,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.496166,
-      "lng": 46.880555
+      "lat": 24.49154,
+      "lng": 46.882811
     },
     {
       "plot_no": "WR-B57-617",
@@ -9272,8 +9272,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.479211,
-      "lng": 46.880434
+      "lat": 24.490695,
+      "lng": 46.874928
     },
     {
       "plot_no": "WR-B57-618",
@@ -9287,8 +9287,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.477133,
-      "lng": 46.880636
+      "lat": 24.492394,
+      "lng": 46.884196
     },
     {
       "plot_no": "WR-B57-619",
@@ -9302,8 +9302,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.495158,
-      "lng": 46.881344
+      "lat": 24.47874,
+      "lng": 46.882565
     },
     {
       "plot_no": "WR-B57-620",
@@ -9317,8 +9317,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.493225,
-      "lng": 46.885616
+      "lat": 24.497865,
+      "lng": 46.888913
     },
     {
       "plot_no": "WR-B57-621",
@@ -9332,8 +9332,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.488426,
-      "lng": 46.875529
+      "lat": 24.491914,
+      "lng": 46.87306
     },
     {
       "plot_no": "WR-B57-622",
@@ -9347,8 +9347,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.492974,
-      "lng": 46.876102
+      "lat": 24.48197,
+      "lng": 46.88788
     },
     {
       "plot_no": "WR-B57-623",
@@ -9362,8 +9362,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.494731,
-      "lng": 46.881575
+      "lat": 24.478771,
+      "lng": 46.877283
     },
     {
       "plot_no": "WR-B57-624",
@@ -9377,8 +9377,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.495694,
-      "lng": 46.891274
+      "lat": 24.488753,
+      "lng": 46.871765
     },
     {
       "plot_no": "WR-B58-625",
@@ -9392,8 +9392,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.491476,
-      "lng": 46.874558
+      "lat": 24.491285,
+      "lng": 46.892495
     },
     {
       "plot_no": "WR-B58-626",
@@ -9407,8 +9407,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.490536,
-      "lng": 46.872628
+      "lat": 24.483313,
+      "lng": 46.8809
     },
     {
       "plot_no": "WR-B58-627",
@@ -9422,8 +9422,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.486762,
-      "lng": 46.869762
+      "lat": 24.482277,
+      "lng": 46.883102
     },
     {
       "plot_no": "WR-B58-628",
@@ -9437,8 +9437,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.491238,
-      "lng": 46.887889
+      "lat": 24.492454,
+      "lng": 46.872612
     },
     {
       "plot_no": "WR-B58-629",
@@ -9452,8 +9452,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.498121,
-      "lng": 46.884148
+      "lat": 24.486539,
+      "lng": 46.876875
     },
     {
       "plot_no": "WR-B58-630",
@@ -9467,8 +9467,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.486454,
-      "lng": 46.869461
+      "lat": 24.485877,
+      "lng": 46.888356
     },
     {
       "plot_no": "WR-B58-631",
@@ -9482,8 +9482,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.4845,
-      "lng": 46.884879
+      "lat": 24.486108,
+      "lng": 46.879208
     },
     {
       "plot_no": "WR-B59-632",
@@ -9497,8 +9497,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.489963,
-      "lng": 46.875496
+      "lat": 24.495629,
+      "lng": 46.891181
     },
     {
       "plot_no": "WR-B59-633",
@@ -9512,8 +9512,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.495324,
-      "lng": 46.891051
+      "lat": 24.485899,
+      "lng": 46.889243
     },
     {
       "plot_no": "WR-B59-634",
@@ -9527,8 +9527,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.478598,
-      "lng": 46.882686
+      "lat": 24.492065,
+      "lng": 46.892155
     },
     {
       "plot_no": "WR-B59-635",
@@ -9542,8 +9542,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.48978,
-      "lng": 46.889051
+      "lat": 24.490355,
+      "lng": 46.890902
     },
     {
       "plot_no": "WR-B59-636",
@@ -9557,8 +9557,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.499092,
-      "lng": 46.877817
+      "lat": 24.477388,
+      "lng": 46.882717
     },
     {
       "plot_no": "WR-B59-637",
@@ -9572,8 +9572,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.485349,
-      "lng": 46.88381
+      "lat": 24.48708,
+      "lng": 46.87276
     },
     {
       "plot_no": "WR-B59-638",
@@ -9587,8 +9587,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.482204,
-      "lng": 46.875799
+      "lat": 24.480085,
+      "lng": 46.878269
     },
     {
       "plot_no": "WR-B59-639",
@@ -9602,8 +9602,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.493738,
-      "lng": 46.884914
+      "lat": 24.481176,
+      "lng": 46.890766
     },
     {
       "plot_no": "WR-B59-640",
@@ -9617,8 +9617,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.488165,
-      "lng": 46.871964
+      "lat": 24.482564,
+      "lng": 46.882195
     },
     {
       "plot_no": "WR-B59-641",
@@ -9632,8 +9632,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.492355,
-      "lng": 46.878499
+      "lat": 24.488244,
+      "lng": 46.877076
     },
     {
       "plot_no": "WR-B60-642",
@@ -9647,8 +9647,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.480957,
-      "lng": 46.890402
+      "lat": 24.494671,
+      "lng": 46.890896
     },
     {
       "plot_no": "WR-B60-643",
@@ -9662,8 +9662,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.483949,
-      "lng": 46.886766
+      "lat": 24.483954,
+      "lng": 46.884855
     },
     {
       "plot_no": "WR-B60-644",
@@ -9677,8 +9677,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.478276,
-      "lng": 46.879403
+      "lat": 24.48123,
+      "lng": 46.883329
     },
     {
       "plot_no": "WR-B60-645",
@@ -9692,8 +9692,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.48397,
-      "lng": 46.87132
+      "lat": 24.487246,
+      "lng": 46.868662
     },
     {
       "plot_no": "WR-B60-646",
@@ -9707,8 +9707,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.482216,
-      "lng": 46.890845
+      "lat": 24.481637,
+      "lng": 46.879744
     },
     {
       "plot_no": "WR-B60-647",
@@ -9722,8 +9722,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.488209,
-      "lng": 46.886606
+      "lat": 24.485245,
+      "lng": 46.889489
     },
     {
       "plot_no": "WR-B60-648",
@@ -9737,8 +9737,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.479465,
-      "lng": 46.874676
+      "lat": 24.479005,
+      "lng": 46.886259
     },
     {
       "plot_no": "WR-B60-649",
@@ -9752,8 +9752,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.486496,
-      "lng": 46.887753
+      "lat": 24.498405,
+      "lng": 46.879059
     },
     {
       "plot_no": "WR-B60-650",
@@ -9767,8 +9767,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.489488,
-      "lng": 46.891354
+      "lat": 24.499043,
+      "lng": 46.886317
     },
     {
       "plot_no": "WR-B60-651",
@@ -9782,8 +9782,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.494018,
-      "lng": 46.884152
+      "lat": 24.491251,
+      "lng": 46.890541
     },
     {
       "plot_no": "CM-B61-662",
@@ -9797,8 +9797,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.49005,
-      "lng": 46.880513
+      "lat": 24.496535,
+      "lng": 46.877872
     },
     {
       "plot_no": "CM-B61-663",
@@ -9812,8 +9812,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.47792,
-      "lng": 46.88028
+      "lat": 24.483478,
+      "lng": 46.873636
     },
     {
       "plot_no": "CM-B61-664",
@@ -9827,8 +9827,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.489294,
-      "lng": 46.868789
+      "lat": 24.480754,
+      "lng": 46.880277
     },
     {
       "plot_no": "CM-B61-665",
@@ -9842,8 +9842,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.483611,
-      "lng": 46.878075
+      "lat": 24.487031,
+      "lng": 46.879957
     },
     {
       "plot_no": "CM-B61-666",
@@ -9857,8 +9857,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.499205,
-      "lng": 46.883948
+      "lat": 24.49102,
+      "lng": 46.869523
     },
     {
       "plot_no": "CM-B61-667",
@@ -9872,8 +9872,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.484514,
-      "lng": 46.886359
+      "lat": 24.485984,
+      "lng": 46.88398
     },
     {
       "plot_no": "CM-B61-668",
@@ -9887,8 +9887,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.477163,
-      "lng": 46.880599
+      "lat": 24.487003,
+      "lng": 46.873707
     },
     {
       "plot_no": "WR-B61-652",
@@ -9902,8 +9902,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.482875,
-      "lng": 46.877841
+      "lat": 24.495479,
+      "lng": 46.891122
     },
     {
       "plot_no": "WR-B61-653",
@@ -9917,8 +9917,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.496209,
-      "lng": 46.878769
+      "lat": 24.48861,
+      "lng": 46.890495
     },
     {
       "plot_no": "WR-B61-654",
@@ -9932,8 +9932,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.497517,
-      "lng": 46.888371
+      "lat": 24.485419,
+      "lng": 46.877717
     },
     {
       "plot_no": "WR-B61-655",
@@ -9947,8 +9947,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.493359,
-      "lng": 46.87618
+      "lat": 24.496255,
+      "lng": 46.875789
     },
     {
       "plot_no": "WR-B61-656",
@@ -9962,8 +9962,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.492498,
-      "lng": 46.892634
+      "lat": 24.493304,
+      "lng": 46.887464
     },
     {
       "plot_no": "WR-B61-657",
@@ -9977,8 +9977,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.490001,
-      "lng": 46.876103
+      "lat": 24.484833,
+      "lng": 46.882132
     },
     {
       "plot_no": "WR-B61-658",
@@ -9992,8 +9992,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.49156,
-      "lng": 46.873189
+      "lat": 24.489538,
+      "lng": 46.890794
     },
     {
       "plot_no": "WR-B61-659",
@@ -10007,8 +10007,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 1800,
-      "lat": 24.478434,
-      "lng": 46.887065
+      "lat": 24.486549,
+      "lng": 46.876161
     },
     {
       "plot_no": "CM-B62-660",
@@ -10022,8 +10022,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.487839,
-      "lng": 46.889274
+      "lat": 24.4905,
+      "lng": 46.887857
     },
     {
       "plot_no": "CM-B63-661",
@@ -10037,8 +10037,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.497691,
-      "lng": 46.884397
+      "lat": 24.48599,
+      "lng": 46.874978
     },
     {
       "plot_no": "CM-B64-669",
@@ -10052,8 +10052,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.495308,
-      "lng": 46.871966
+      "lat": 24.497895,
+      "lng": 46.886098
     },
     {
       "plot_no": "CM-B64-670",
@@ -10067,8 +10067,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.493899,
-      "lng": 46.883483
+      "lat": 24.491327,
+      "lng": 46.873781
     },
     {
       "plot_no": "CM-B64-671",
@@ -10082,8 +10082,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.489842,
-      "lng": 46.889175
+      "lat": 24.480978,
+      "lng": 46.890955
     },
     {
       "plot_no": "CM-B64-672",
@@ -10097,8 +10097,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.482084,
-      "lng": 46.887629
+      "lat": 24.482891,
+      "lng": 46.888564
     },
     {
       "plot_no": "CM-B64-673",
@@ -10112,8 +10112,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.489259,
-      "lng": 46.871779
+      "lat": 24.493935,
+      "lng": 46.884285
     },
     {
       "plot_no": "CM-B65-674",
@@ -10127,8 +10127,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.483034,
-      "lng": 46.881224
+      "lat": 24.49035,
+      "lng": 46.879063
     },
     {
       "plot_no": "CM-B66-675",
@@ -10142,8 +10142,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.480779,
-      "lng": 46.88702
+      "lat": 24.490541,
+      "lng": 46.885664
     },
     {
       "plot_no": "CM-B66-676",
@@ -10157,8 +10157,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.482558,
-      "lng": 46.878943
+      "lat": 24.481952,
+      "lng": 46.88752
     },
     {
       "plot_no": "CM-B66-677",
@@ -10172,8 +10172,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.481443,
-      "lng": 46.878196
+      "lat": 24.495852,
+      "lng": 46.882913
     },
     {
       "plot_no": "CM-B66-678",
@@ -10187,8 +10187,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.482646,
-      "lng": 46.887595
+      "lat": 24.493798,
+      "lng": 46.890582
     },
     {
       "plot_no": "CM-B66-679",
@@ -10202,8 +10202,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.486258,
-      "lng": 46.888622
+      "lat": 24.497087,
+      "lng": 46.87926
     },
     {
       "plot_no": "CM-B66-680",
@@ -10217,8 +10217,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.492296,
-      "lng": 46.892672
+      "lat": 24.495111,
+      "lng": 46.876042
     },
     {
       "plot_no": "CM-B66-681",
@@ -10232,8 +10232,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.484927,
-      "lng": 46.882345
+      "lat": 24.49477,
+      "lng": 46.884709
     },
     {
       "plot_no": "CM-B66-682",
@@ -10247,8 +10247,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.489425,
-      "lng": 46.868656
+      "lat": 24.496532,
+      "lng": 46.885468
     },
     {
       "plot_no": "CM-B67-683",
@@ -10262,8 +10262,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.491352,
-      "lng": 46.886443
+      "lat": 24.479362,
+      "lng": 46.874143
     },
     {
       "plot_no": "CM-B68-684",
@@ -10277,8 +10277,8 @@
       "street_width": 30,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.497328,
-      "lng": 46.884192
+      "lat": 24.497298,
+      "lng": 46.874134
     },
     {
       "plot_no": "CM-B69-685",
@@ -10292,8 +10292,8 @@
       "street_width": 20,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.493455,
-      "lng": 46.870718
+      "lat": 24.483781,
+      "lng": 46.892774
     },
     {
       "plot_no": "CM-B70-686",
@@ -10307,8 +10307,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.497453,
-      "lng": 46.879919
+      "lat": 24.481969,
+      "lng": 46.890341
     },
     {
       "plot_no": "CM-B70-687",
@@ -10322,8 +10322,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.483271,
-      "lng": 46.871242
+      "lat": 24.48183,
+      "lng": 46.87887
     },
     {
       "plot_no": "CM-B70-688",
@@ -10337,8 +10337,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.494502,
-      "lng": 46.890778
+      "lat": 24.48789,
+      "lng": 46.891109
     },
     {
       "plot_no": "CM-B70-689",
@@ -10352,8 +10352,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.493003,
-      "lng": 46.886816
+      "lat": 24.496385,
+      "lng": 46.876168
     },
     {
       "plot_no": "CM-B70-690",
@@ -10367,8 +10367,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.494294,
-      "lng": 46.883769
+      "lat": 24.483507,
+      "lng": 46.886634
     },
     {
       "plot_no": "CM-B70-691",
@@ -10382,8 +10382,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.487866,
-      "lng": 46.871021
+      "lat": 24.484187,
+      "lng": 46.870732
     },
     {
       "plot_no": "CM-B70-692",
@@ -10397,8 +10397,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.483165,
-      "lng": 46.882355
+      "lat": 24.479724,
+      "lng": 46.888383
     },
     {
       "plot_no": "CM-B70-693",
@@ -10412,8 +10412,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.482191,
-      "lng": 46.879648
+      "lat": 24.479768,
+      "lng": 46.882465
     },
     {
       "plot_no": "CM-B70-694",
@@ -10427,8 +10427,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.488568,
-      "lng": 46.890748
+      "lat": 24.484136,
+      "lng": 46.871412
     },
     {
       "plot_no": "CM-B70-695",
@@ -10442,8 +10442,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.498421,
-      "lng": 46.87757
+      "lat": 24.486307,
+      "lng": 46.872584
     },
     {
       "plot_no": "CM-B70-696",
@@ -10457,8 +10457,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.495976,
-      "lng": 46.883044
+      "lat": 24.495117,
+      "lng": 46.882725
     },
     {
       "plot_no": "CM-B70-697",
@@ -10472,8 +10472,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.493941,
-      "lng": 46.873254
+      "lat": 24.492177,
+      "lng": 46.890728
     },
     {
       "plot_no": "CM-B70-698",
@@ -10487,8 +10487,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.47974,
-      "lng": 46.877026
+      "lat": 24.482236,
+      "lng": 46.876362
     },
     {
       "plot_no": "CM-B70-699",
@@ -10502,8 +10502,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.480374,
-      "lng": 46.877899
+      "lat": 24.492494,
+      "lng": 46.87759
     },
     {
       "plot_no": "CM-B70-700",
@@ -10517,8 +10517,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.499357,
-      "lng": 46.88547
+      "lat": 24.487715,
+      "lng": 46.883238
     },
     {
       "plot_no": "CM-B70-701",
@@ -10532,8 +10532,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.48597,
-      "lng": 46.878656
+      "lat": 24.492808,
+      "lng": 46.870989
     },
     {
       "plot_no": "CM-B70-702",
@@ -10547,8 +10547,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.48086,
-      "lng": 46.878744
+      "lat": 24.484571,
+      "lng": 46.886037
     },
     {
       "plot_no": "CM-B70-703",
@@ -10562,8 +10562,8 @@
       "street_width": 60,
       "status": "available",
       "asking_price": 3000,
-      "lat": 24.484387,
-      "lng": 46.871474
+      "lat": 24.483991,
+      "lng": 46.887972
     },
     {
       "plot_no": "RE-B71-704",
@@ -10577,8 +10577,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.486423,
-      "lng": 46.881984
+      "lat": 24.491185,
+      "lng": 46.877778
     },
     {
       "plot_no": "RE-B71-705",
@@ -10592,8 +10592,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.484319,
-      "lng": 46.891202
+      "lat": 24.485564,
+      "lng": 46.881099
     },
     {
       "plot_no": "RE-B71-706",
@@ -10607,8 +10607,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.497445,
-      "lng": 46.883644
+      "lat": 24.49327,
+      "lng": 46.885085
     },
     {
       "plot_no": "RE-B71-707",
@@ -10622,8 +10622,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.498764,
-      "lng": 46.876111
+      "lat": 24.495346,
+      "lng": 46.883651
     },
     {
       "plot_no": "RE-B71-708",
@@ -10637,8 +10637,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.483433,
-      "lng": 46.875907
+      "lat": 24.490027,
+      "lng": 46.886796
     },
     {
       "plot_no": "RE-B71-709",
@@ -10652,8 +10652,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.486569,
-      "lng": 46.88433
+      "lat": 24.48188,
+      "lng": 46.888795
     },
     {
       "plot_no": "RE-B71-710",
@@ -10667,8 +10667,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.485396,
-      "lng": 46.871487
+      "lat": 24.487142,
+      "lng": 46.874723
     },
     {
       "plot_no": "RE-B71-711",
@@ -10682,8 +10682,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.49122,
-      "lng": 46.888381
+      "lat": 24.484042,
+      "lng": 46.881915
     },
     {
       "plot_no": "RE-B71-712",
@@ -10697,8 +10697,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.497028,
-      "lng": 46.888087
+      "lat": 24.479688,
+      "lng": 46.889427
     },
     {
       "plot_no": "RE-B71-713",
@@ -10712,8 +10712,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.482379,
-      "lng": 46.887872
+      "lat": 24.480496,
+      "lng": 46.877221
     },
     {
       "plot_no": "RE-B71-714",
@@ -10727,8 +10727,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.489139,
-      "lng": 46.886048
+      "lat": 24.477894,
+      "lng": 46.880167
     },
     {
       "plot_no": "RE-B71-715",
@@ -10742,8 +10742,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.487343,
-      "lng": 46.870808
+      "lat": 24.495298,
+      "lng": 46.890769
     },
     {
       "plot_no": "RE-B71-716",
@@ -10757,8 +10757,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.48051,
-      "lng": 46.881798
+      "lat": 24.485095,
+      "lng": 46.877808
     },
     {
       "plot_no": "RE-B71-717",
@@ -10772,8 +10772,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.482605,
-      "lng": 46.882718
+      "lat": 24.477726,
+      "lng": 46.877234
     },
     {
       "plot_no": "RE-B72-718",
@@ -10787,8 +10787,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.480962,
-      "lng": 46.889371
+      "lat": 24.485869,
+      "lng": 46.879805
     },
     {
       "plot_no": "RE-B72-719",
@@ -10802,8 +10802,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.480162,
-      "lng": 46.883077
+      "lat": 24.498973,
+      "lng": 46.887201
     },
     {
       "plot_no": "RE-B72-720",
@@ -10817,8 +10817,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.48451,
-      "lng": 46.882483
+      "lat": 24.483877,
+      "lng": 46.876799
     },
     {
       "plot_no": "RE-B72-721",
@@ -10832,8 +10832,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.477429,
-      "lng": 46.881794
+      "lat": 24.482333,
+      "lng": 46.889044
     },
     {
       "plot_no": "RE-B72-722",
@@ -10847,8 +10847,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.491551,
-      "lng": 46.889275
+      "lat": 24.482465,
+      "lng": 46.870768
     },
     {
       "plot_no": "RE-B73-723",
@@ -10862,8 +10862,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.494171,
-      "lng": 46.879118
+      "lat": 24.493461,
+      "lng": 46.873258
     },
     {
       "plot_no": "RE-B73-724",
@@ -10877,8 +10877,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.48133,
-      "lng": 46.879192
+      "lat": 24.489237,
+      "lng": 46.891972
     },
     {
       "plot_no": "RE-B73-725",
@@ -10892,8 +10892,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.486281,
-      "lng": 46.883799
+      "lat": 24.496373,
+      "lng": 46.886585
     },
     {
       "plot_no": "RE-B73-726",
@@ -10907,8 +10907,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.498036,
-      "lng": 46.879325
+      "lat": 24.492668,
+      "lng": 46.890233
     },
     {
       "plot_no": "RE-B73-727",
@@ -10922,8 +10922,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.492574,
-      "lng": 46.892386
+      "lat": 24.483297,
+      "lng": 46.873789
     },
     {
       "plot_no": "RE-B73-728",
@@ -10937,8 +10937,8 @@
       "street_width": 15,
       "status": "available",
       "asking_price": 1100,
-      "lat": 24.484447,
-      "lng": 46.879851
+      "lat": 24.481284,
+      "lng": 46.888461
     }
   ]
 }
